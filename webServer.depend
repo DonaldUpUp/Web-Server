@@ -1,0 +1,124 @@
+# depslib dependency file v1.0
+1515505054 source:/hlc/webServer/1.c
+	<stdio.h>
+
+1515635867 source:/hlc/webServer/src/GetRequest.cpp
+	"GetRequest.h"
+	"Response.h"
+
+1515596975 /hlc/webServer/include/GetRequest.h
+	"Request.h"
+	<string>
+
+1515596995 /hlc/webServer/include/Request.h
+	<string>
+
+1515637851 /hlc/webServer/include/Response.h
+	<string>
+
+1515748900 source:/hlc/webServer/src/IoReader.cpp
+	"IoReader.h"
+	<cstdio>
+	<cstdlib>
+	<unistd.h>
+	<cstring>
+	<cerrno>
+	<iostream>
+
+1515636050 /hlc/webServer/include/IoReader.h
+	<string>
+	<vector>
+
+1515986922 source:/hlc/webServer/src/IoWriter.cpp
+	"IoWriter.h"
+	<cstdio>
+	<cstdlib>
+	<unistd.h>
+	<cstring>
+	<fcntl.h>
+	<sys/mman.h>
+	<cerrno>
+	<iostream>
+
+1515636242 /hlc/webServer/include/IoWriter.h
+	<string>
+
+1515983302 source:/hlc/webServer/src/NetConnection.cpp
+	"NetConnection.h"
+	<cstdio>
+	<cstdlib>
+	<unistd.h>
+	<cstring>
+	<cerrno>
+	<arpa/inet.h>
+	<sys/socket.h>
+	"errno.h"
+	<unistd.h>
+	<iostream>
+
+1515586182 /hlc/webServer/include/NetConnection.h
+
+1515727852 source:/hlc/webServer/src/Request.cpp
+	"Request.h"
+
+1422801236 source:/hlc/webServer/src/RequestCreater.cpp
+	"RequestCreater.h"
+
+1422801236 /hlc/webServer/include/RequestCreater.h
+	"GetRequest.h"
+
+1515725747 source:/hlc/webServer/src/RequestManager.cpp
+	"RequestManager.h"
+	"Request.h"
+	"RequestCreater.h"
+	"IoReader.h"
+
+1515636549 /hlc/webServer/include/RequestManager.h
+	<string>
+
+1515749954 source:/hlc/webServer/src/DynamicResponsState.cpp
+	"DynamicResponseState.h"
+	"IoWriter.h"
+	<stdexcept>
+	<cstdlib>
+	<unistd.h>
+	<sys/wait.h>
+
+1422801236 /hlc/webServer/include/DynamicResponseState.h
+	"ResponseState.h"
+
+1422801236 /hlc/webServer/include/ResponseState.h
+	<string>
+	<unistd.h>
+	<sys/stat.h>
+	<sstream>
+
+1515637863 source:/hlc/webServer/src/Response.cpp
+	"Response.h"
+	"TinyError.h"
+	"StaticResponseState.h"
+	"DynamicResponseState.h"
+	<stdexcept>
+
+1422801236 /hlc/webServer/include/TinyError.h
+	<string>
+
+1422801236 /hlc/webServer/include/StaticResponseState.h
+	"ResponseState.h"
+
+1516002553 source:/hlc/webServer/src/ResponseState.cpp
+	"ResponseState.h"
+	"TinyError.h"
+	"IoWriter.h"
+
+1515727852 source:/hlc/webServer/src/StaticResponseState.cpp
+	"StaticResponseState.h"
+	"IoWriter.h"
+
+1515725747 source:/hlc/webServer/src/Tiny.cpp
+	"NetConnection.h"
+	"RequestManager.h"
+	<cstdlib>
+	<iostream>
+	<stdlib.h>
+
