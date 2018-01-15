@@ -14,9 +14,9 @@ class RequestManager
         virtual ~RequestManager();
         void run();
     private:
-        Request* getRequestHandle();
-        int fileDescriptor;         //关联的文件描述符
-        Request* request;
+        Request* getRequestHandle();    //根据不同的请求类型，获取不同的请求句柄
+        int fileDescriptor;             //关联的文件描述符
+        Request* request;               //获取的请求句柄
 };
 
 #endif // REQUESTMANAGER_H

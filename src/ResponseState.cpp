@@ -15,10 +15,10 @@ ResponseState::ResponseState(int fd, std::string fName) : fileDescriptor(fd), fi
 
 void ResponseState::preRespond()
 {
-	if (stat(const_cast<char*>(fileName.c_str()), &sbuf) < 0)
+	if (stat(const_cast<char*>(fileName.c_str()), &sbuf) < 0)   //通过文件名filename获取文件信息，并保存在buf所指的结构体stat中
 		throw TinyError("404", "Not found", "Tiny couldn't find this file");
 
-	if (!(S_ISREG(sbuf.st_mode)) || !(S_IRUSR & sbuf.st_mode))
+	if (!(S_ISREG(sbuf.st_mode)) || !(S_IRUSR & sbuf.st_mode))  //不是常规文件或用户无法进行文件读写
 		throw TinyError("403", "Forbidden", buildForbiddenMsg());
 }
 
@@ -74,7 +74,7 @@ const std::string ResponseState::sizeTypeToStr(std::string::size_type sizeType)
 
 const std::string ResponseState::buildRespondHeaders()
 {
-	//return "HTTP/1.0 200 OK\r\n" + std::string("Server: Tiny Web Server\r\n");
+    return "HTTP/1.0 200 OK\r\n" + std::string("Server: Tiny Web Server\r\n");
 	//return "HTTP/1.0 401 Authorization Required\r\n" + std::string("Server: Tiny Web Server\r\n");
 }
 
