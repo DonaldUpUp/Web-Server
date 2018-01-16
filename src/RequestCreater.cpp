@@ -9,6 +9,5 @@ Request* RequestCreater::getRequestHandler(int fd, const std::string name, const
 		getHandle.init(fd, uri);
 		return &getHandle;
 	}
-
 	return 0;
 }
