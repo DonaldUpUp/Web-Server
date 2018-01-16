@@ -2,6 +2,7 @@
 #include "Request.h"
 #include "RequestCreater.h"
 #include "IoReader.h"
+#include <iostream>
 
 namespace {
 //解析客户端的请求数据
@@ -56,6 +57,8 @@ void RequestManager::run(){
 
 Request* RequestManager::getRequestHandle(){
     Parser parser(fileDescriptor);
+//    std::cout<<parser.getMethodName()<<std::endl;
+//    std::cout<<parser.getUri()<<std::endl;
     //使用工厂类（RequestCreater），创造不同的方法实例
     return request=RequestCreater::getRequestHandler(fileDescriptor,parser.getMethodName(),parser.getUri());
 }

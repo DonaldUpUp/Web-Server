@@ -2,11 +2,11 @@
 1515505054 source:/hlc/webServer/1.c
 	<stdio.h>
 
-1515635867 source:/hlc/webServer/src/GetRequest.cpp
+1516073728 source:/hlc/webServer/src/GetRequest.cpp
 	"GetRequest.h"
 	"Response.h"
 
-1515596975 /hlc/webServer/include/GetRequest.h
+1516073634 /hlc/webServer/include/GetRequest.h
 	"Request.h"
 	<string>
 
@@ -64,24 +64,28 @@
 1422801236 source:/hlc/webServer/src/RequestCreater.cpp
 	"RequestCreater.h"
 
-1422801236 /hlc/webServer/include/RequestCreater.h
+1516009282 /hlc/webServer/include/RequestCreater.h
 	"GetRequest.h"
 
-1515725747 source:/hlc/webServer/src/RequestManager.cpp
+1516073787 source:/hlc/webServer/src/RequestManager.cpp
 	"RequestManager.h"
 	"Request.h"
 	"RequestCreater.h"
 	"IoReader.h"
+	<iostream>
 
-1515636549 /hlc/webServer/include/RequestManager.h
+1516008592 /hlc/webServer/include/RequestManager.h
 	<string>
 
-1515749954 source:/hlc/webServer/src/DynamicResponsState.cpp
+1516092096 source:/hlc/webServer/src/DynamicResponsState.cpp
 	"DynamicResponseState.h"
 	"IoWriter.h"
 	<stdexcept>
+	<string>
+	<iostream>
 	<cstdlib>
 	<unistd.h>
+	<vector>
 	<sys/wait.h>
 
 1422801236 /hlc/webServer/include/DynamicResponseState.h
@@ -106,7 +110,7 @@
 1422801236 /hlc/webServer/include/StaticResponseState.h
 	"ResponseState.h"
 
-1516002553 source:/hlc/webServer/src/ResponseState.cpp
+1516023581 source:/hlc/webServer/src/ResponseState.cpp
 	"ResponseState.h"
 	"TinyError.h"
 	"IoWriter.h"

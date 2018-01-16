@@ -32,16 +32,18 @@ bool GetRequest::parseStaticContentUri(std::string& filename){
 }
 
 bool GetRequest::parseDynamicContentUri(std::string& filename,std::string& cgiargs){
-    assignCigArgs(cgiargs);
+    std::string::size_type pos=assignCigArgs(cgiargs);
     filename="."+getUri();
+    filename=filename.substr(0,pos+1);
     return false;
 }
 
-void GetRequest::assignCigArgs(std::string& cgiargs){
+std::string::size_type GetRequest::assignCigArgs(std::string& cgiargs){
     std::string uri=getUri();
     std::string::size_type pos=uri.find_first_of("?");
 
     doAssignCigArgs(pos,cgiargs);
+    return pos;
 }
 
 void GetRequest::doAssignCigArgs(std::string::size_type pos,std::string& cgiargs){

@@ -19,7 +19,7 @@ class GetRequest:public Request
         bool parseStaticContentUri(std::string& filename);
         //处理动态请求的uri和参数的
         bool parseDynamicContentUri(std::string& filename,std::string& cgiargs);
-        void assignCigArgs(std::string& cgiargs);
+        std::string::size_type assignCigArgs(std::string& cgiargs);
         void doAssignCigArgs(std::string::size_type pos,std::string& cgiargs);
 };
 
