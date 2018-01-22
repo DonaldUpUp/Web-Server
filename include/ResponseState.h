@@ -34,7 +34,7 @@ private:
 private:
 	struct stat sbuf;
 	int fileDescriptor;
-	std::string fileName;
+std::string fileName;
 };
 
 #endif

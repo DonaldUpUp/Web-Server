@@ -1,0 +1,1924 @@
+Log file created at: 2018/01/19 10:53:40
+Running on machine: houlichao-virtual-machine
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0119 10:53:40.390431  5852 Thread.cpp:27] tid 140271432709888 is waiting the mutex
+I0119 10:53:40.390759  5852 Thread.cpp:29] tid 140271432709888 get the mutex
+I0119 10:53:40.390808  5844 Thread.cpp:27] tid 140271499851520 is waiting the mutex
+I0119 10:53:40.390817  5844 Thread.cpp:29] tid 140271499851520 get the mutex
+I0119 10:53:40.390852  5845 Thread.cpp:27] tid 140271491458816 is waiting the mutex
+I0119 10:53:40.390861  5845 Thread.cpp:29] tid 140271491458816 get the mutex
+I0119 10:53:40.390898  5849 Thread.cpp:27] tid 140271457888000 is waiting the mutex
+I0119 10:53:40.390907  5849 Thread.cpp:29] tid 140271457888000 get the mutex
+I0119 10:53:40.390939  5846 Thread.cpp:27] tid 140271483066112 is waiting the mutex
+I0119 10:53:40.390947  5846 Thread.cpp:29] tid 140271483066112 get the mutex
+I0119 10:53:40.390985  5847 Thread.cpp:27] tid 140271474673408 is waiting the mutex
+I0119 10:53:40.390993  5847 Thread.cpp:29] tid 140271474673408 get the mutex
+I0119 10:53:40.391026  5848 Thread.cpp:27] tid 140271466280704 is waiting the mutex
+I0119 10:53:40.391036  5848 Thread.cpp:29] tid 140271466280704 get the mutex
+I0119 10:53:40.391072  5850 Thread.cpp:27] tid 140271449495296 is waiting the mutex
+I0119 10:53:40.391082  5850 Thread.cpp:29] tid 140271449495296 get the mutex
+I0119 10:53:40.391131  5851 Thread.cpp:27] tid 140271441102592 is waiting the mutex
+I0119 10:53:40.391140  5851 Thread.cpp:29] tid 140271441102592 get the mutex
+I0119 10:53:40.391156  5843 Thread.cpp:27] tid 140271508244224 is waiting the mutex
+I0119 10:53:40.391165  5843 Thread.cpp:29] tid 140271508244224 get the mutex
+I0119 10:53:44.877230  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /index.html HTTP/1.1
+
+I0119 10:53:44.877285  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/index.html version=HTTP/1.1
+I0119 10:53:44.877297  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:44.877902  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/index.html successed!
+I0119 10:53:44.900146  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /css/book.css HTTP/1.1
+
+I0119 10:53:44.900177  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/css/book.css version=HTTP/1.1
+I0119 10:53:44.900200  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:44.900944  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/css/book.css successed!
+I0119 10:53:44.902866  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/introduction.gif HTTP/1.1
+
+I0119 10:53:44.902899  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/introduction.gif version=HTTP/1.1
+I0119 10:53:44.902909  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:44.908555  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/introduction.gif successed!
+I0119 10:53:44.924772  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/White-vented.gif HTTP/1.1
+
+I0119 10:53:44.924808  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/White-vented.gif version=HTTP/1.1
+I0119 10:53:44.924816  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:44.925710  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/White-vented.gif successed!
+I0119 10:53:44.928786  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/Eutoxeres.gif HTTP/1.1
+1
+
+I0119 10:53:44.928819  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/Eutoxeres.gif version=HTTP/1.1
+I0119 10:53:44.928829  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:44.929543  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/Eutoxeres.gif successed!
+I0119 10:53:44.932240  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/Mountain.jpg HTTP/1.1
+
+1
+
+I0119 10:53:44.932273  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/Mountain.jpg version=HTTP/1.1
+I0119 10:53:44.932282  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:44.933035  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/Mountain.jpg successed!
+I0119 10:53:44.935549  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/Hook.jpg HTTP/1.1
+.1
+
+1
+
+I0119 10:53:44.935578  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/Hook.jpg version=HTTP/1.1
+I0119 10:53:44.935587  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:44.936295  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/Hook.jpg successed!
+I0119 10:53:44.945144  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/pencil.gif HTTP/1.1
+
+
+1
+
+I0119 10:53:44.945184  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/pencil.gif version=HTTP/1.1
+I0119 10:53:44.945195  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:44.945927  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/pencil.gif successed!
+I0119 10:53:44.950212  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/go.gif HTTP/1.1
+.1
+
+
+1
+
+I0119 10:53:44.950242  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/go.gif version=HTTP/1.1
+I0119 10:53:44.950251  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:44.950583  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/go.gif successed!
+I0119 10:53:45.480109  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/background.gif HTTP/1.1
+
+
+I0119 10:53:45.480145  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/background.gif version=HTTP/1.1
+I0119 10:53:45.480155  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:45.481124  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/background.gif successed!
+I0119 10:53:45.481909  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/header.gif HTTP/1.1
+.1
+
+
+I0119 10:53:45.481930  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/header.gif version=HTTP/1.1
+I0119 10:53:45.481938  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:45.482689  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/header.gif successed!
+I0119 10:53:45.483180  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/diags.gif HTTP/1.1
+
+.1
+
+
+I0119 10:53:45.483197  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/diags.gif version=HTTP/1.1
+I0119 10:53:45.483206  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:45.483609  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/diags.gif successed!
+I0119 10:53:45.484155  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/external.gif HTTP/1.1
+
+
+
+I0119 10:53:45.484174  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/external.gif version=HTTP/1.1
+I0119 10:53:45.484181  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:45.484437  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/external.gif successed!
+I0119 10:53:45.484920  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/ticks.gif HTTP/1.1
+1
+
+
+
+I0119 10:53:45.484936  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/ticks.gif version=HTTP/1.1
+I0119 10:53:45.484944  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:45.485194  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/ticks.gif successed!
+I0119 10:53:45.487629  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/footer.gif HTTP/1.1
+
+
+
+
+I0119 10:53:45.487658  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/footer.gif version=HTTP/1.1
+I0119 10:53:45.487668  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:45.488628  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/footer.gif successed!
+I0119 10:53:50.606676  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /html/origin.html HTTP/1.1
+
+
+
+
+
+I0119 10:53:50.606711  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/html/origin.html version=HTTP/1.1
+I0119 10:53:50.606721  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:50.607491  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/html/origin.html successed!
+I0119 10:53:50.628566  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /css/book.css HTTP/1.1
+.1
+
+
+
+
+
+I0119 10:53:50.628598  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/css/book.css version=HTTP/1.1
+I0119 10:53:50.628608  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:50.629207  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/css/book.css successed!
+I0119 10:53:50.634382  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/pencil.gif HTTP/1.1
+
+
+
+
+I0119 10:53:50.634413  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/pencil.gif version=HTTP/1.1
+I0119 10:53:50.634423  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:50.634889  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/pencil.gif successed!
+I0119 10:53:50.643923  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/fossil.gif HTTP/1.1
+
+
+
+
+I0119 10:53:50.643959  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/fossil.gif version=HTTP/1.1
+I0119 10:53:50.643968  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:50.646615  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/fossil.gif successed!
+I0119 10:53:51.249733  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/background.gif HTTP/1.1
+
+
+I0119 10:53:51.249768  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/background.gif version=HTTP/1.1
+I0119 10:53:51.249778  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:51.252281  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/background.gif successed!
+I0119 10:53:51.269196  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/header.gif HTTP/1.1
+.1
+
+
+I0119 10:53:51.269237  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/header.gif version=HTTP/1.1
+I0119 10:53:51.269248  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:51.270052  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/header.gif successed!
+I0119 10:53:51.270792  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/diags.gif HTTP/1.1
+
+.1
+
+
+I0119 10:53:51.270815  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/diags.gif version=HTTP/1.1
+I0119 10:53:51.270823  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:51.271647  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/diags.gif successed!
+I0119 10:53:51.273048  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/footer.gif HTTP/1.1
+.1
+
+
+I0119 10:53:51.273075  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/footer.gif version=HTTP/1.1
+I0119 10:53:51.273084  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:51.273809  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/footer.gif successed!
+I0119 10:53:51.886044  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /html/form.html HTTP/1.1
+1
+.1
+
+
+I0119 10:53:51.886080  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/html/form.html version=HTTP/1.1
+I0119 10:53:51.886088  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:51.886932  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/html/form.html successed!
+I0119 10:53:51.911056  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /css/book.css HTTP/1.1
+
+1
+.1
+
+
+I0119 10:53:51.911092  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/css/book.css version=HTTP/1.1
+I0119 10:53:51.911100  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:51.912278  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/css/book.css successed!
+I0119 10:53:51.917789  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/pencil.gif HTTP/1.1
+.1
+
+
+I0119 10:53:51.917824  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/pencil.gif version=HTTP/1.1
+I0119 10:53:51.917832  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:51.918670  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/pencil.gif successed!
+I0119 10:53:51.925452  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/form.gif HTTP/1.1
+
+.1
+
+
+I0119 10:53:51.925489  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/form.gif version=HTTP/1.1
+I0119 10:53:51.925499  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:51.927222  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/form.gif successed!
+I0119 10:53:52.512091  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/background.gif HTTP/1.1
+
+
+I0119 10:53:52.512132  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/background.gif version=HTTP/1.1
+I0119 10:53:52.512142  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:52.513924  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/background.gif successed!
+I0119 10:53:52.514946  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/header.gif HTTP/1.1
+.1
+
+
+I0119 10:53:52.514973  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/header.gif version=HTTP/1.1
+I0119 10:53:52.514982  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:52.519837  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/header.gif successed!
+I0119 10:53:52.520417  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/diags.gif HTTP/1.1
+
+.1
+
+
+I0119 10:53:52.520437  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/diags.gif version=HTTP/1.1
+I0119 10:53:52.520447  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:52.521318  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/diags.gif successed!
+I0119 10:53:52.525197  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/footer.gif HTTP/1.1
+.1
+
+
+I0119 10:53:52.525228  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/footer.gif version=HTTP/1.1
+I0119 10:53:52.525235  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:52.536324  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/footer.gif successed!
+I0119 10:53:53.268944  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /html/area.html HTTP/1.1
+1
+.1
+
+
+I0119 10:53:53.268978  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/html/area.html version=HTTP/1.1
+I0119 10:53:53.268987  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:53.269608  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/html/area.html successed!
+I0119 10:53:53.288725  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /css/book.css HTTP/1.1
+
+1
+.1
+
+
+I0119 10:53:53.288758  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/css/book.css version=HTTP/1.1
+I0119 10:53:53.288767  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:53.289746  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/css/book.css successed!
+I0119 10:53:53.290334  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/pencil.gif HTTP/1.1
+.1
+
+
+I0119 10:53:53.290352  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/pencil.gif version=HTTP/1.1
+I0119 10:53:53.290360  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:53.290935  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/pencil.gif successed!
+I0119 10:53:53.874222  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/background.gif HTTP/1.1
+
+
+I0119 10:53:53.874255  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/background.gif version=HTTP/1.1
+I0119 10:53:53.874264  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:53.874822  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/background.gif successed!
+I0119 10:53:53.879092  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/header.gif HTTP/1.1
+.1
+
+
+I0119 10:53:53.879127  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/header.gif version=HTTP/1.1
+I0119 10:53:53.879135  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:53.879828  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/header.gif successed!
+I0119 10:53:53.883293  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/diags.gif HTTP/1.1
+
+.1
+
+
+I0119 10:53:53.883325  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/diags.gif version=HTTP/1.1
+I0119 10:53:53.883334  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:53.883816  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/diags.gif successed!
+I0119 10:53:53.886657  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/footer.gif HTTP/1.1
+.1
+
+
+I0119 10:53:53.886685  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/footer.gif version=HTTP/1.1
+I0119 10:53:53.886693  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:53.887408  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/footer.gif successed!
+I0119 10:53:54.560408  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /html/life.html HTTP/1.1
+1
+.1
+
+
+I0119 10:53:54.560439  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/html/life.html version=HTTP/1.1
+I0119 10:53:54.560448  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:54.561105  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/html/life.html successed!
+I0119 10:53:54.587509  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /css/book.css HTTP/1.1
+
+1
+.1
+
+
+I0119 10:53:54.587544  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/css/book.css version=HTTP/1.1
+I0119 10:53:54.587554  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:54.588266  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/css/book.css successed!
+I0119 10:53:54.591766  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/pencil.gif HTTP/1.1
+.1
+
+
+I0119 10:53:54.591802  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/pencil.gif version=HTTP/1.1
+I0119 10:53:54.591812  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:54.592572  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/pencil.gif successed!
+I0119 10:53:55.195772  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/background.gif HTTP/1.1
+
+
+I0119 10:53:55.195807  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/background.gif version=HTTP/1.1
+I0119 10:53:55.195817  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:55.196918  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/background.gif successed!
+I0119 10:53:55.198398  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/header.gif HTTP/1.1
+.1
+
+
+I0119 10:53:55.198474  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/header.gif version=HTTP/1.1
+I0119 10:53:55.198498  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:55.199229  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/header.gif successed!
+I0119 10:53:55.200013  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/diags.gif HTTP/1.1
+
+.1
+
+
+I0119 10:53:55.200032  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/diags.gif version=HTTP/1.1
+I0119 10:53:55.200042  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:55.201745  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/diags.gif successed!
+I0119 10:53:55.202739  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/footer.gif HTTP/1.1
+.1
+
+
+I0119 10:53:55.202759  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/footer.gif version=HTTP/1.1
+I0119 10:53:55.202769  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:55.203529  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/footer.gif successed!
+I0119 10:53:55.742619  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /html/skill.html HTTP/1.1
+
+.1
+
+
+I0119 10:53:55.742686  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/html/skill.html version=HTTP/1.1
+I0119 10:53:55.742697  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:55.743567  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/html/skill.html successed!
+I0119 10:53:55.765835  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /css/book.css HTTP/1.1
+1
+
+.1
+
+
+I0119 10:53:55.765869  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/css/book.css version=HTTP/1.1
+I0119 10:53:55.765878  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:55.766863  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/css/book.css successed!
+I0119 10:53:55.767443  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/pencil.gif HTTP/1.1
+.1
+
+
+I0119 10:53:55.767462  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/pencil.gif version=HTTP/1.1
+I0119 10:53:55.767472  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:55.768357  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/pencil.gif successed!
+I0119 10:53:56.359925  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/background.gif HTTP/1.1
+
+
+I0119 10:53:56.359962  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/background.gif version=HTTP/1.1
+I0119 10:53:56.359972  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:56.360914  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/background.gif successed!
+I0119 10:53:56.361407  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/header.gif HTTP/1.1
+.1
+
+
+I0119 10:53:56.361428  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/header.gif version=HTTP/1.1
+I0119 10:53:56.361436  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:56.362249  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/header.gif successed!
+I0119 10:53:56.363106  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/diags.gif HTTP/1.1
+
+.1
+
+
+I0119 10:53:56.363126  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/diags.gif version=HTTP/1.1
+I0119 10:53:56.363137  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:56.363421  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/diags.gif successed!
+I0119 10:53:56.364006  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/footer.gif HTTP/1.1
+.1
+
+
+I0119 10:53:56.364066  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/footer.gif version=HTTP/1.1
+I0119 10:53:56.364076  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:56.364744  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/footer.gif successed!
+I0119 10:53:56.942128  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /html/form.html HTTP/1.1
+1
+.1
+
+
+I0119 10:53:56.942162  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/html/form.html version=HTTP/1.1
+I0119 10:53:56.942173  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:56.942852  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/html/form.html successed!
+I0119 10:53:56.965034  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /css/book.css HTTP/1.1
+
+1
+.1
+
+
+I0119 10:53:56.965067  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/css/book.css version=HTTP/1.1
+I0119 10:53:56.965077  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:56.966192  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/css/book.css successed!
+I0119 10:53:56.966811  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/pencil.gif HTTP/1.1
+.1
+
+
+I0119 10:53:56.966830  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/pencil.gif version=HTTP/1.1
+I0119 10:53:56.966838  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:56.967382  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/pencil.gif successed!
+I0119 10:53:56.981272  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/form.gif HTTP/1.1
+
+.1
+
+
+I0119 10:53:56.981312  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/form.gif version=HTTP/1.1
+I0119 10:53:56.981322  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:56.983170  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/form.gif successed!
+I0119 10:53:57.550546  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/background.gif HTTP/1.1
+
+
+I0119 10:53:57.550582  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/background.gif version=HTTP/1.1
+I0119 10:53:57.550591  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:57.551296  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/background.gif successed!
+I0119 10:53:57.555734  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/header.gif HTTP/1.1
+.1
+
+
+I0119 10:53:57.555769  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/header.gif version=HTTP/1.1
+I0119 10:53:57.555778  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:57.556502  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/header.gif successed!
+I0119 10:53:57.558894  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/diags.gif HTTP/1.1
+
+.1
+
+
+I0119 10:53:57.558923  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/diags.gif version=HTTP/1.1
+I0119 10:53:57.558931  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:57.559298  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/diags.gif successed!
+I0119 10:53:57.559739  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/footer.gif HTTP/1.1
+.1
+
+
+I0119 10:53:57.559756  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/footer.gif version=HTTP/1.1
+I0119 10:53:57.559764  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:57.563642  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/footer.gif successed!
+I0119 10:53:58.052830  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /html/area.html HTTP/1.1
+1
+.1
+
+
+I0119 10:53:58.052911  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/html/area.html version=HTTP/1.1
+I0119 10:53:58.052922  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:58.053586  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/html/area.html successed!
+I0119 10:53:58.094298  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /css/book.css HTTP/1.1
+
+1
+.1
+
+
+I0119 10:53:58.094331  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/css/book.css version=HTTP/1.1
+I0119 10:53:58.094339  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:58.095111  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/css/book.css successed!
+I0119 10:53:58.098740  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/pencil.gif HTTP/1.1
+.1
+
+
+I0119 10:53:58.098774  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/pencil.gif version=HTTP/1.1
+I0119 10:53:58.098784  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:58.099315  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/pencil.gif successed!
+I0119 10:53:58.710594  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/background.gif HTTP/1.1
+
+
+I0119 10:53:58.710629  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/background.gif version=HTTP/1.1
+I0119 10:53:58.710639  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:58.711495  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/background.gif successed!
+I0119 10:53:58.711938  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/header.gif HTTP/1.1
+.1
+
+
+I0119 10:53:58.711957  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/header.gif version=HTTP/1.1
+I0119 10:53:58.711966  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:58.713182  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/header.gif successed!
+I0119 10:53:58.713629  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/diags.gif HTTP/1.1
+
+.1
+
+
+I0119 10:53:58.713646  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/diags.gif version=HTTP/1.1
+I0119 10:53:58.713655  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:58.713910  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/diags.gif successed!
+I0119 10:53:58.714341  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/footer.gif HTTP/1.1
+.1
+
+
+I0119 10:53:58.714357  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/footer.gif version=HTTP/1.1
+I0119 10:53:58.714365  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:58.715196  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/footer.gif successed!
+I0119 10:53:59.300652  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /html/life.html HTTP/1.1
+1
+.1
+
+
+I0119 10:53:59.300686  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/html/life.html version=HTTP/1.1
+I0119 10:53:59.300696  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:59.301364  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/html/life.html successed!
+I0119 10:53:59.321077  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /css/book.css HTTP/1.1
+
+1
+.1
+
+
+I0119 10:53:59.321283  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/css/book.css version=HTTP/1.1
+I0119 10:53:59.321298  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:59.322273  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/css/book.css successed!
+I0119 10:53:59.322921  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/pencil.gif HTTP/1.1
+.1
+
+
+I0119 10:53:59.322938  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/pencil.gif version=HTTP/1.1
+I0119 10:53:59.322989  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:59.323757  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/pencil.gif successed!
+I0119 10:53:59.870718  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/background.gif HTTP/1.1
+
+
+I0119 10:53:59.870754  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/background.gif version=HTTP/1.1
+I0119 10:53:59.870764  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:59.871366  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/background.gif successed!
+I0119 10:53:59.873265  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/header.gif HTTP/1.1
+.1
+
+
+I0119 10:53:59.873292  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/header.gif version=HTTP/1.1
+I0119 10:53:59.873414  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:59.875133  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/header.gif successed!
+I0119 10:53:59.877049  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/diags.gif HTTP/1.1
+
+.1
+
+
+I0119 10:53:59.877079  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/diags.gif version=HTTP/1.1
+I0119 10:53:59.877089  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:59.877374  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/diags.gif successed!
+I0119 10:53:59.879320  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/footer.gif HTTP/1.1
+.1
+
+
+I0119 10:53:59.879348  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/footer.gif version=HTTP/1.1
+I0119 10:53:59.879356  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:53:59.880013  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/footer.gif successed!
+I0119 10:54:00.492614  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /html/skill.html HTTP/1.1
+
+.1
+
+
+I0119 10:54:00.492650  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/html/skill.html version=HTTP/1.1
+I0119 10:54:00.492658  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:00.493177  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/html/skill.html successed!
+I0119 10:54:00.513631  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /css/book.css HTTP/1.1
+1
+
+.1
+
+
+I0119 10:54:00.513664  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/css/book.css version=HTTP/1.1
+I0119 10:54:00.513672  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:00.514379  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/css/book.css successed!
+I0119 10:54:00.516862  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/pencil.gif HTTP/1.1
+.1
+
+
+I0119 10:54:00.516894  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/pencil.gif version=HTTP/1.1
+I0119 10:54:00.516903  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:00.517408  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/pencil.gif successed!
+I0119 10:54:01.114293  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/background.gif HTTP/1.1
+
+
+I0119 10:54:01.114328  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/background.gif version=HTTP/1.1
+I0119 10:54:01.114338  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:01.114990  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/background.gif successed!
+I0119 10:54:01.115697  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/header.gif HTTP/1.1
+.1
+
+
+I0119 10:54:01.115717  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/header.gif version=HTTP/1.1
+I0119 10:54:01.115768  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:01.116425  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/header.gif successed!
+I0119 10:54:01.117050  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/diags.gif HTTP/1.1
+
+.1
+
+
+I0119 10:54:01.117069  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/diags.gif version=HTTP/1.1
+I0119 10:54:01.117076  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:01.117437  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/diags.gif successed!
+I0119 10:54:01.119961  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/footer.gif HTTP/1.1
+.1
+
+
+I0119 10:54:01.119992  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/footer.gif version=HTTP/1.1
+I0119 10:54:01.120002  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:01.120707  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/footer.gif successed!
+I0119 10:54:01.541728  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /html/form.html HTTP/1.1
+1
+.1
+
+
+I0119 10:54:01.541765  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/html/form.html version=HTTP/1.1
+I0119 10:54:01.541775  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:01.542757  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/html/form.html successed!
+I0119 10:54:01.588469  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /css/book.css HTTP/1.1
+
+1
+.1
+
+
+I0119 10:54:01.588510  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/css/book.css version=HTTP/1.1
+I0119 10:54:01.588520  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:01.589375  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/css/book.css successed!
+I0119 10:54:01.589810  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/pencil.gif HTTP/1.1
+.1
+
+
+I0119 10:54:01.589829  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/pencil.gif version=HTTP/1.1
+I0119 10:54:01.589838  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:01.590322  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/pencil.gif successed!
+I0119 10:54:01.592950  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/form.gif HTTP/1.1
+
+.1
+
+
+I0119 10:54:01.592984  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/form.gif version=HTTP/1.1
+I0119 10:54:01.592994  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:01.594660  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/form.gif successed!
+I0119 10:54:02.196883  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/background.gif HTTP/1.1
+
+
+I0119 10:54:02.196920  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/background.gif version=HTTP/1.1
+I0119 10:54:02.196930  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:02.197768  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/background.gif successed!
+I0119 10:54:02.198247  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/header.gif HTTP/1.1
+.1
+
+
+I0119 10:54:02.198266  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/header.gif version=HTTP/1.1
+I0119 10:54:02.198276  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:02.199169  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/header.gif successed!
+I0119 10:54:02.199844  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/diags.gif HTTP/1.1
+
+.1
+
+
+I0119 10:54:02.199865  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/diags.gif version=HTTP/1.1
+I0119 10:54:02.199925  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:02.200212  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/diags.gif successed!
+I0119 10:54:02.200680  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/footer.gif HTTP/1.1
+.1
+
+
+I0119 10:54:02.200697  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/footer.gif version=HTTP/1.1
+I0119 10:54:02.200706  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:02.201463  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/footer.gif successed!
+I0119 10:54:02.682849  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /html/origin.html HTTP/1.1
+
+.1
+
+
+I0119 10:54:02.682886  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/html/origin.html version=HTTP/1.1
+I0119 10:54:02.682895  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:02.683351  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/html/origin.html successed!
+I0119 10:54:02.715252  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /css/book.css HTTP/1.1
+.1
+
+.1
+
+
+I0119 10:54:02.715293  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/css/book.css version=HTTP/1.1
+I0119 10:54:02.715303  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:02.716233  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/css/book.css successed!
+I0119 10:54:02.716980  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/pencil.gif HTTP/1.1
+.1
+
+
+I0119 10:54:02.717002  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/pencil.gif version=HTTP/1.1
+I0119 10:54:02.717011  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:02.719205  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/pencil.gif successed!
+I0119 10:54:02.725039  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/fossil.gif HTTP/1.1
+.1
+
+
+I0119 10:54:02.725073  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/fossil.gif version=HTTP/1.1
+I0119 10:54:02.725083  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:02.726660  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/fossil.gif successed!
+I0119 10:54:03.334810  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/background.gif HTTP/1.1
+
+
+I0119 10:54:03.334844  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/background.gif version=HTTP/1.1
+I0119 10:54:03.334854  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:03.337014  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/background.gif successed!
+I0119 10:54:03.337528  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/header.gif HTTP/1.1
+.1
+
+
+I0119 10:54:03.337546  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/header.gif version=HTTP/1.1
+I0119 10:54:03.337555  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:03.338915  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/header.gif successed!
+I0119 10:54:03.340551  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/diags.gif HTTP/1.1
+
+.1
+
+
+I0119 10:54:03.340576  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/diags.gif version=HTTP/1.1
+I0119 10:54:03.340610  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:03.342713  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/diags.gif successed!
+I0119 10:54:03.352208  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/footer.gif HTTP/1.1
+.1
+
+
+I0119 10:54:03.352241  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/footer.gif version=HTTP/1.1
+I0119 10:54:03.352250  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:03.357170  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/footer.gif successed!
+I0119 10:54:03.813724  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /index.html HTTP/1.1
+P/1.1
+.1
+
+
+I0119 10:54:03.813758  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/index.html version=HTTP/1.1
+I0119 10:54:03.813768  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:03.814312  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/index.html successed!
+I0119 10:54:03.855732  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /css/book.css HTTP/1.1
+1.1
+.1
+
+
+I0119 10:54:03.855768  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/css/book.css version=HTTP/1.1
+I0119 10:54:03.855777  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:03.856436  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/css/book.css successed!
+I0119 10:54:03.856742  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/introduction.gif HTTP/1.1
+
+I0119 10:54:03.856760  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/introduction.gif version=HTTP/1.1
+I0119 10:54:03.856770  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:03.857499  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/introduction.gif successed!
+I0119 10:54:03.861117  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/White-vented.gif HTTP/1.1
+
+I0119 10:54:03.861153  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/White-vented.gif version=HTTP/1.1
+I0119 10:54:03.861162  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:03.861891  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/White-vented.gif successed!
+I0119 10:54:03.864989  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/Eutoxeres.gif HTTP/1.1
+1
+
+I0119 10:54:03.865061  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/Eutoxeres.gif version=HTTP/1.1
+I0119 10:54:03.865072  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:03.866080  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/Eutoxeres.gif successed!
+I0119 10:54:03.868435  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/Mountain.jpg HTTP/1.1
+
+1
+
+I0119 10:54:03.868468  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/Mountain.jpg version=HTTP/1.1
+I0119 10:54:03.868476  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:03.869222  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/Mountain.jpg successed!
+I0119 10:54:03.871444  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/Hook.jpg HTTP/1.1
+.1
+
+1
+
+I0119 10:54:03.871474  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/Hook.jpg version=HTTP/1.1
+I0119 10:54:03.871484  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:03.872151  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/Hook.jpg successed!
+I0119 10:54:03.879532  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/pencil.gif HTTP/1.1
+
+
+1
+
+I0119 10:54:03.881150  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/pencil.gif version=HTTP/1.1
+I0119 10:54:03.881162  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:03.881819  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/pencil.gif successed!
+I0119 10:54:03.884481  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/go.gif HTTP/1.1
+.1
+
+
+1
+
+I0119 10:54:03.884516  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/go.gif version=HTTP/1.1
+I0119 10:54:03.884526  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:03.884902  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/go.gif successed!
+I0119 10:54:04.445698  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/background.gif HTTP/1.1
+
+
+I0119 10:54:04.445734  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/background.gif version=HTTP/1.1
+I0119 10:54:04.445742  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:04.446511  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/background.gif successed!
+I0119 10:54:04.447232  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/header.gif HTTP/1.1
+.1
+
+
+I0119 10:54:04.447253  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/header.gif version=HTTP/1.1
+I0119 10:54:04.447263  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:04.447965  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/header.gif successed!
+I0119 10:54:04.451148  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/diags.gif HTTP/1.1
+
+.1
+
+
+I0119 10:54:04.451180  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/diags.gif version=HTTP/1.1
+I0119 10:54:04.451189  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:04.451545  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/diags.gif successed!
+I0119 10:54:04.451970  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/external.gif HTTP/1.1
+
+
+
+I0119 10:54:04.451987  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/external.gif version=HTTP/1.1
+I0119 10:54:04.451994  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:04.452328  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/external.gif successed!
+I0119 10:54:04.454845  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/ticks.gif HTTP/1.1
+1
+
+
+
+I0119 10:54:04.454875  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/ticks.gif version=HTTP/1.1
+I0119 10:54:04.454885  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:04.455173  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/ticks.gif successed!
+I0119 10:54:04.459401  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/footer.gif HTTP/1.1
+
+
+
+
+I0119 10:54:04.459430  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/footer.gif version=HTTP/1.1
+I0119 10:54:04.459439  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:04.461786  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/footer.gif successed!
+I0119 10:54:05.024673  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /html/area.html HTTP/1.1
+1
+
+
+
+
+I0119 10:54:05.024713  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/html/area.html version=HTTP/1.1
+I0119 10:54:05.024724  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:05.025712  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/html/area.html successed!
+I0119 10:54:05.102763  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /css/book.css HTTP/1.1
+
+1
+
+
+
+
+I0119 10:54:05.102798  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/css/book.css version=HTTP/1.1
+I0119 10:54:05.102808  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:05.103763  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/css/book.css successed!
+I0119 10:54:05.104087  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/pencil.gif HTTP/1.1
+
+
+
+
+I0119 10:54:05.104105  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/pencil.gif version=HTTP/1.1
+I0119 10:54:05.104115  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:05.104565  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/pencil.gif successed!
+I0119 10:54:05.688163  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/background.gif HTTP/1.1
+
+
+I0119 10:54:05.688196  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/background.gif version=HTTP/1.1
+I0119 10:54:05.688205  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:05.690560  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/background.gif successed!
+I0119 10:54:05.691200  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/header.gif HTTP/1.1
+.1
+
+
+I0119 10:54:05.691220  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/header.gif version=HTTP/1.1
+I0119 10:54:05.691252  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:05.693063  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/header.gif successed!
+I0119 10:54:05.693588  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/diags.gif HTTP/1.1
+
+.1
+
+
+I0119 10:54:05.693606  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/diags.gif version=HTTP/1.1
+I0119 10:54:05.693615  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:05.694386  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/diags.gif successed!
+I0119 10:54:05.695643  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/footer.gif HTTP/1.1
+.1
+
+
+I0119 10:54:05.695670  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/footer.gif version=HTTP/1.1
+I0119 10:54:05.695679  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:05.697374  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/footer.gif successed!
+I0119 10:54:06.176578  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /html/life.html HTTP/1.1
+1
+.1
+
+
+I0119 10:54:06.176614  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/html/life.html version=HTTP/1.1
+I0119 10:54:06.176625  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:06.181249  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/html/life.html successed!
+I0119 10:54:06.227952  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /css/book.css HTTP/1.1
+
+1
+.1
+
+
+I0119 10:54:06.227986  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/css/book.css version=HTTP/1.1
+I0119 10:54:06.227996  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:06.228716  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/css/book.css successed!
+I0119 10:54:06.229284  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/pencil.gif HTTP/1.1
+.1
+
+
+I0119 10:54:06.229302  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/pencil.gif version=HTTP/1.1
+I0119 10:54:06.229311  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:06.229809  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/pencil.gif successed!
+I0119 10:54:06.859570  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/background.gif HTTP/1.1
+
+
+I0119 10:54:06.859612  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/background.gif version=HTTP/1.1
+I0119 10:54:06.859622  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:06.860695  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/background.gif successed!
+I0119 10:54:06.861389  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/header.gif HTTP/1.1
+.1
+
+
+I0119 10:54:06.861410  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/header.gif version=HTTP/1.1
+I0119 10:54:06.861420  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:06.862128  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/header.gif successed!
+I0119 10:54:06.862779  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/diags.gif HTTP/1.1
+
+.1
+
+
+I0119 10:54:06.862798  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/diags.gif version=HTTP/1.1
+I0119 10:54:06.862808  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:06.863104  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/diags.gif successed!
+I0119 10:54:06.863812  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/footer.gif HTTP/1.1
+.1
+
+
+I0119 10:54:06.863843  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/footer.gif version=HTTP/1.1
+I0119 10:54:06.863853  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:06.864488  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/footer.gif successed!
+I0119 10:54:07.389088  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /html/skill.html HTTP/1.1
+
+.1
+
+
+I0119 10:54:07.389122  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/html/skill.html version=HTTP/1.1
+I0119 10:54:07.389132  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:07.389741  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/html/skill.html successed!
+I0119 10:54:07.411046  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /css/book.css HTTP/1.1
+1
+
+.1
+
+
+I0119 10:54:07.411079  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/css/book.css version=HTTP/1.1
+I0119 10:54:07.411088  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:07.411765  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/css/book.css successed!
+I0119 10:54:07.418843  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/pencil.gif HTTP/1.1
+.1
+
+
+I0119 10:54:07.418874  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/pencil.gif version=HTTP/1.1
+I0119 10:54:07.418936  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:07.419420  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/pencil.gif successed!
+I0119 10:54:08.034373  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/background.gif HTTP/1.1
+
+
+I0119 10:54:08.034427  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/background.gif version=HTTP/1.1
+I0119 10:54:08.034440  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:08.042207  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/background.gif successed!
+I0119 10:54:08.042841  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/header.gif HTTP/1.1
+.1
+
+
+I0119 10:54:08.042860  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/header.gif version=HTTP/1.1
+I0119 10:54:08.042870  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:08.043534  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/header.gif successed!
+I0119 10:54:08.048439  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/diags.gif HTTP/1.1
+
+.1
+
+
+I0119 10:54:08.048475  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/diags.gif version=HTTP/1.1
+I0119 10:54:08.048483  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:08.049499  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/diags.gif successed!
+I0119 10:54:08.050081  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/footer.gif HTTP/1.1
+.1
+
+
+I0119 10:54:08.050101  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/footer.gif version=HTTP/1.1
+I0119 10:54:08.050109  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:08.050909  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/footer.gif successed!
+I0119 10:54:08.506980  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /html/form.html HTTP/1.1
+1
+.1
+
+
+I0119 10:54:08.507032  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/html/form.html version=HTTP/1.1
+I0119 10:54:08.507079  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:08.510061  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/html/form.html successed!
+I0119 10:54:08.532115  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /css/book.css HTTP/1.1
+
+1
+.1
+
+
+I0119 10:54:08.532150  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/css/book.css version=HTTP/1.1
+I0119 10:54:08.532160  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:08.532783  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/css/book.css successed!
+I0119 10:54:08.535676  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/pencil.gif HTTP/1.1
+.1
+
+
+I0119 10:54:08.535711  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/pencil.gif version=HTTP/1.1
+I0119 10:54:08.535720  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:08.536367  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/pencil.gif successed!
+I0119 10:54:08.544469  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/form.gif HTTP/1.1
+
+.1
+
+
+I0119 10:54:08.544505  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/form.gif version=HTTP/1.1
+I0119 10:54:08.544515  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:08.546293  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/form.gif successed!
+I0119 10:54:09.124665  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/background.gif HTTP/1.1
+
+
+I0119 10:54:09.124701  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/background.gif version=HTTP/1.1
+I0119 10:54:09.124711  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:09.126596  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/background.gif successed!
+I0119 10:54:09.128229  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/header.gif HTTP/1.1
+.1
+
+
+I0119 10:54:09.128259  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/header.gif version=HTTP/1.1
+I0119 10:54:09.128269  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:09.133368  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/header.gif successed!
+I0119 10:54:09.133955  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/diags.gif HTTP/1.1
+
+.1
+
+
+I0119 10:54:09.133975  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/diags.gif version=HTTP/1.1
+I0119 10:54:09.133985  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:09.139194  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/diags.gif successed!
+I0119 10:54:09.142401  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/footer.gif HTTP/1.1
+.1
+
+
+I0119 10:54:09.142434  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/footer.gif version=HTTP/1.1
+I0119 10:54:09.142443  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:09.145478  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/footer.gif successed!
+I0119 10:54:09.620376  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /html/area.html HTTP/1.1
+1
+.1
+
+
+I0119 10:54:09.620411  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/html/area.html version=HTTP/1.1
+I0119 10:54:09.620421  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:09.620870  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/html/area.html successed!
+I0119 10:54:09.644368  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /css/book.css HTTP/1.1
+
+1
+.1
+
+
+I0119 10:54:09.644405  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/css/book.css version=HTTP/1.1
+I0119 10:54:09.644415  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:09.645350  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/css/book.css successed!
+I0119 10:54:09.645910  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/pencil.gif HTTP/1.1
+.1
+
+
+I0119 10:54:09.645929  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/pencil.gif version=HTTP/1.1
+I0119 10:54:09.645938  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:09.646447  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/pencil.gif successed!
+I0119 10:54:10.232549  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/background.gif HTTP/1.1
+
+
+I0119 10:54:10.232584  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/background.gif version=HTTP/1.1
+I0119 10:54:10.232594  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:10.233402  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/background.gif successed!
+I0119 10:54:10.234009  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/header.gif HTTP/1.1
+.1
+
+
+I0119 10:54:10.234028  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/header.gif version=HTTP/1.1
+I0119 10:54:10.234038  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:10.234853  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/header.gif successed!
+I0119 10:54:10.235414  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/diags.gif HTTP/1.1
+
+.1
+
+
+I0119 10:54:10.235432  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/diags.gif version=HTTP/1.1
+I0119 10:54:10.235440  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:10.235718  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/diags.gif successed!
+I0119 10:54:10.236311  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/footer.gif HTTP/1.1
+.1
+
+
+I0119 10:54:10.236330  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/footer.gif version=HTTP/1.1
+I0119 10:54:10.236340  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:10.237022  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/footer.gif successed!
+I0119 10:54:10.778666  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /html/life.html HTTP/1.1
+1
+.1
+
+
+I0119 10:54:10.779023  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/html/life.html version=HTTP/1.1
+I0119 10:54:10.779036  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:10.779700  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/html/life.html successed!
+I0119 10:54:10.799762  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /css/book.css HTTP/1.1
+
+1
+.1
+
+
+I0119 10:54:10.799796  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/css/book.css version=HTTP/1.1
+I0119 10:54:10.799805  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:10.800719  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/css/book.css successed!
+I0119 10:54:10.801291  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/pencil.gif HTTP/1.1
+.1
+
+
+I0119 10:54:10.801309  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/pencil.gif version=HTTP/1.1
+I0119 10:54:10.801318  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:10.801818  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/pencil.gif successed!
+I0119 10:54:11.392128  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/background.gif HTTP/1.1
+
+
+I0119 10:54:11.392164  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/background.gif version=HTTP/1.1
+I0119 10:54:11.392174  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:11.392791  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/background.gif successed!
+I0119 10:54:11.396783  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/header.gif HTTP/1.1
+.1
+
+
+I0119 10:54:11.396834  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/header.gif version=HTTP/1.1
+I0119 10:54:11.396898  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:11.397708  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/header.gif successed!
+I0119 10:54:11.399046  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/diags.gif HTTP/1.1
+
+.1
+
+
+I0119 10:54:11.399072  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/diags.gif version=HTTP/1.1
+I0119 10:54:11.399082  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:11.399660  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/diags.gif successed!
+I0119 10:54:11.401676  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/footer.gif HTTP/1.1
+.1
+
+
+I0119 10:54:11.401705  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/footer.gif version=HTTP/1.1
+I0119 10:54:11.401715  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:11.404911  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/footer.gif successed!
+I0119 10:54:11.790882  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /html/skill.html HTTP/1.1
+
+.1
+
+
+I0119 10:54:11.790921  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/html/skill.html version=HTTP/1.1
+I0119 10:54:11.790931  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:11.791765  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/html/skill.html successed!
+I0119 10:54:11.877948  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /css/book.css HTTP/1.1
+1
+
+.1
+
+
+I0119 10:54:11.877981  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/css/book.css version=HTTP/1.1
+I0119 10:54:11.877991  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:11.878706  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/css/book.css successed!
+I0119 10:54:11.878911  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/pencil.gif HTTP/1.1
+.1
+
+
+I0119 10:54:11.878927  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/pencil.gif version=HTTP/1.1
+I0119 10:54:11.878978  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:11.879472  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/pencil.gif successed!
+I0119 10:54:12.509263  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/background.gif HTTP/1.1
+
+
+I0119 10:54:12.509299  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/background.gif version=HTTP/1.1
+I0119 10:54:12.509310  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:12.509974  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/background.gif successed!
+I0119 10:54:12.510644  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/header.gif HTTP/1.1
+.1
+
+
+I0119 10:54:12.510665  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/header.gif version=HTTP/1.1
+I0119 10:54:12.510674  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:12.511513  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/header.gif successed!
+I0119 10:54:12.512192  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/diags.gif HTTP/1.1
+
+.1
+
+
+I0119 10:54:12.512210  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/diags.gif version=HTTP/1.1
+I0119 10:54:12.512219  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:12.512580  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/diags.gif successed!
+I0119 10:54:12.516233  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/footer.gif HTTP/1.1
+.1
+
+
+I0119 10:54:12.516268  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/footer.gif version=HTTP/1.1
+I0119 10:54:12.516278  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:12.516988  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/footer.gif successed!
+I0119 10:54:13.025357  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /html/origin.html HTTP/1.1
+
+.1
+
+
+I0119 10:54:13.025393  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/html/origin.html version=HTTP/1.1
+I0119 10:54:13.025404  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:13.025888  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/html/origin.html successed!
+I0119 10:54:13.101001  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /css/book.css HTTP/1.1
+.1
+
+.1
+
+
+I0119 10:54:13.101034  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/css/book.css version=HTTP/1.1
+I0119 10:54:13.101043  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:13.101613  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/css/book.css successed!
+I0119 10:54:13.114269  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/pencil.gif HTTP/1.1
+.1
+
+
+I0119 10:54:13.114302  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/pencil.gif version=HTTP/1.1
+I0119 10:54:13.114311  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:13.114914  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/pencil.gif successed!
+I0119 10:54:13.118029  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/fossil.gif HTTP/1.1
+.1
+
+
+I0119 10:54:13.118070  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/fossil.gif version=HTTP/1.1
+I0119 10:54:13.118080  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:13.119817  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/fossil.gif successed!
+I0119 10:54:13.733180  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/background.gif HTTP/1.1
+
+
+I0119 10:54:13.733219  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/background.gif version=HTTP/1.1
+I0119 10:54:13.750201  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:13.760926  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/background.gif successed!
+I0119 10:54:13.761569  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/header.gif HTTP/1.1
+.1
+
+
+I0119 10:54:13.761590  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/header.gif version=HTTP/1.1
+I0119 10:54:13.761598  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:13.763906  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/header.gif successed!
+I0119 10:54:13.764472  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/diags.gif HTTP/1.1
+
+.1
+
+
+I0119 10:54:13.764504  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/diags.gif version=HTTP/1.1
+I0119 10:54:13.764514  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:13.764816  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/diags.gif successed!
+I0119 10:54:13.773653  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/footer.gif HTTP/1.1
+.1
+
+
+I0119 10:54:13.773686  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/footer.gif version=HTTP/1.1
+I0119 10:54:13.773695  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:13.777922  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/footer.gif successed!
+I0119 10:54:14.718462  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /index.html HTTP/1.1
+P/1.1
+.1
+
+
+I0119 10:54:14.718495  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/index.html version=HTTP/1.1
+I0119 10:54:14.718504  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:14.719264  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/index.html successed!
+I0119 10:54:14.744122  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /css/book.css HTTP/1.1
+1.1
+.1
+
+
+I0119 10:54:14.744156  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/css/book.css version=HTTP/1.1
+I0119 10:54:14.744165  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:14.745409  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/css/book.css successed!
+I0119 10:54:14.750553  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/introduction.gif HTTP/1.1
+
+I0119 10:54:14.750639  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/introduction.gif version=HTTP/1.1
+I0119 10:54:14.750650  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:14.753784  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/introduction.gif successed!
+I0119 10:54:14.765069  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/White-vented.gif HTTP/1.1
+
+I0119 10:54:14.765180  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/White-vented.gif version=HTTP/1.1
+I0119 10:54:14.765194  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:14.766018  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/White-vented.gif successed!
+I0119 10:54:14.768548  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/Eutoxeres.gif HTTP/1.1
+1
+
+I0119 10:54:14.768594  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/Eutoxeres.gif version=HTTP/1.1
+I0119 10:54:14.768605  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:14.769309  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/Eutoxeres.gif successed!
+I0119 10:54:14.790208  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/Mountain.jpg HTTP/1.1
+
+1
+
+I0119 10:54:14.790242  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/Mountain.jpg version=HTTP/1.1
+I0119 10:54:14.790298  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:14.792778  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/Mountain.jpg successed!
+I0119 10:54:14.797281  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/Hook.jpg HTTP/1.1
+.1
+
+1
+
+I0119 10:54:14.797317  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/Hook.jpg version=HTTP/1.1
+I0119 10:54:14.797327  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:14.800269  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/Hook.jpg successed!
+I0119 10:54:14.803475  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/pencil.gif HTTP/1.1
+
+
+1
+
+I0119 10:54:14.803513  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/pencil.gif version=HTTP/1.1
+I0119 10:54:14.803521  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:14.804463  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/pencil.gif successed!
+I0119 10:54:14.807703  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/go.gif HTTP/1.1
+.1
+
+
+1
+
+I0119 10:54:14.807749  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/go.gif version=HTTP/1.1
+I0119 10:54:14.807760  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:14.808077  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/go.gif successed!
+I0119 10:54:15.345007  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/background.gif HTTP/1.1
+
+
+I0119 10:54:15.345043  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/background.gif version=HTTP/1.1
+I0119 10:54:15.345052  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:15.345690  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/background.gif successed!
+I0119 10:54:15.348837  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/footer.gif HTTP/1.1
+.1
+
+
+I0119 10:54:15.348870  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/footer.gif version=HTTP/1.1
+I0119 10:54:15.348878  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:15.349545  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/footer.gif successed!
+I0119 10:54:15.351047  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/diags.gif HTTP/1.1
+
+.1
+
+
+I0119 10:54:15.351076  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/diags.gif version=HTTP/1.1
+I0119 10:54:15.351085  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:15.351377  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/diags.gif successed!
+I0119 10:54:15.352234  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/ticks.gif HTTP/1.1
+
+.1
+
+
+I0119 10:54:15.352252  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/ticks.gif version=HTTP/1.1
+I0119 10:54:15.352260  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:15.352512  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/ticks.gif successed!
+I0119 10:54:15.357798  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/header.gif HTTP/1.1
+.1
+
+
+I0119 10:54:15.357836  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/header.gif version=HTTP/1.1
+I0119 10:54:15.357846  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:15.360589  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/header.gif successed!
+I0119 10:54:15.361356  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/external.gif HTTP/1.1
+
+
+
+I0119 10:54:15.361377  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/external.gif version=HTTP/1.1
+I0119 10:54:15.361387  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:15.361811  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/external.gif successed!
+I0119 10:54:18.111322  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /html/area.html HTTP/1.1
+1.1
+
+
+
+I0119 10:54:18.111358  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/html/area.html version=HTTP/1.1
+I0119 10:54:18.111367  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:18.111985  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/html/area.html successed!
+I0119 10:54:18.137056  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /css/book.css HTTP/1.1
+
+1.1
+
+
+
+I0119 10:54:18.137091  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/css/book.css version=HTTP/1.1
+I0119 10:54:18.137100  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:18.138438  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/css/book.css successed!
+I0119 10:54:18.143316  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/pencil.gif HTTP/1.1
+
+
+
+
+I0119 10:54:18.143352  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/pencil.gif version=HTTP/1.1
+I0119 10:54:18.143362  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:18.144109  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/pencil.gif successed!
+I0119 10:54:18.722743  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/background.gif HTTP/1.1
+
+
+I0119 10:54:18.722777  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/background.gif version=HTTP/1.1
+I0119 10:54:18.722786  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:18.723543  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/background.gif successed!
+I0119 10:54:18.724330  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/header.gif HTTP/1.1
+.1
+
+
+I0119 10:54:18.724349  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/header.gif version=HTTP/1.1
+I0119 10:54:18.724359  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:18.725162  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/header.gif successed!
+I0119 10:54:18.728574  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/diags.gif HTTP/1.1
+
+.1
+
+
+I0119 10:54:18.728608  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/diags.gif version=HTTP/1.1
+I0119 10:54:18.728617  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:18.729013  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/diags.gif successed!
+I0119 10:54:18.729480  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/footer.gif HTTP/1.1
+.1
+
+
+I0119 10:54:18.729497  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/footer.gif version=HTTP/1.1
+I0119 10:54:18.729506  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:18.730258  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/footer.gif successed!
+I0119 10:54:19.302464  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /html/life.html HTTP/1.1
+1
+.1
+
+
+I0119 10:54:19.302496  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/html/life.html version=HTTP/1.1
+I0119 10:54:19.302505  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:19.303397  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/html/life.html successed!
+I0119 10:54:19.323964  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /css/book.css HTTP/1.1
+
+1
+.1
+
+
+I0119 10:54:19.323997  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/css/book.css version=HTTP/1.1
+I0119 10:54:19.324005  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:19.324849  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/css/book.css successed!
+I0119 10:54:19.327116  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/pencil.gif HTTP/1.1
+.1
+
+
+I0119 10:54:19.327143  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/pencil.gif version=HTTP/1.1
+I0119 10:54:19.327152  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:19.327723  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/pencil.gif successed!
+I0119 10:54:19.896590  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/background.gif HTTP/1.1
+
+
+I0119 10:54:19.896679  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/background.gif version=HTTP/1.1
+I0119 10:54:19.896688  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:19.906491  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/background.gif successed!
+I0119 10:54:19.909567  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/header.gif HTTP/1.1
+.1
+
+
+I0119 10:54:19.909592  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/header.gif version=HTTP/1.1
+I0119 10:54:19.909601  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:19.912132  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/header.gif successed!
+I0119 10:54:19.913393  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/diags.gif HTTP/1.1
+
+.1
+
+
+I0119 10:54:19.913417  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/diags.gif version=HTTP/1.1
+I0119 10:54:19.913426  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:19.930675  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/diags.gif successed!
+I0119 10:54:19.957679  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/footer.gif HTTP/1.1
+.1
+
+
+I0119 10:54:19.957720  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/footer.gif version=HTTP/1.1
+I0119 10:54:19.957728  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:19.963585  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/footer.gif successed!
+I0119 10:54:20.486335  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /html/form.html HTTP/1.1
+1
+.1
+
+
+I0119 10:54:20.486367  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/html/form.html version=HTTP/1.1
+I0119 10:54:20.486376  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:20.487140  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/html/form.html successed!
+I0119 10:54:20.507462  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /css/book.css HTTP/1.1
+
+1
+.1
+
+
+I0119 10:54:20.507496  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/css/book.css version=HTTP/1.1
+I0119 10:54:20.507505  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:20.508276  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/css/book.css successed!
+I0119 10:54:20.509825  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/pencil.gif HTTP/1.1
+.1
+
+
+I0119 10:54:20.509850  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/pencil.gif version=HTTP/1.1
+I0119 10:54:20.509857  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:20.510361  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/pencil.gif successed!
+I0119 10:54:20.518554  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/form.gif HTTP/1.1
+
+.1
+
+
+I0119 10:54:20.518585  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/form.gif version=HTTP/1.1
+I0119 10:54:20.518594  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:20.523030  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/form.gif successed!
+I0119 10:54:21.105813  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/background.gif HTTP/1.1
+
+
+I0119 10:54:21.105849  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/background.gif version=HTTP/1.1
+I0119 10:54:21.105859  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:21.107554  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/background.gif successed!
+I0119 10:54:21.108088  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/header.gif HTTP/1.1
+.1
+
+
+I0119 10:54:21.108104  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/header.gif version=HTTP/1.1
+I0119 10:54:21.108114  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:21.110266  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/header.gif successed!
+I0119 10:54:21.110968  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/diags.gif HTTP/1.1
+
+.1
+
+
+I0119 10:54:21.110988  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/diags.gif version=HTTP/1.1
+I0119 10:54:21.110997  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:21.111591  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/diags.gif successed!
+I0119 10:54:21.112371  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/footer.gif HTTP/1.1
+.1
+
+
+I0119 10:54:21.112390  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/footer.gif version=HTTP/1.1
+I0119 10:54:21.112399  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:21.115049  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/footer.gif successed!
+I0119 10:54:21.678205  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /html/skill.html HTTP/1.1
+
+.1
+
+
+I0119 10:54:21.678252  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/html/skill.html version=HTTP/1.1
+I0119 10:54:21.678263  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:21.678997  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/html/skill.html successed!
+I0119 10:54:21.701459  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /css/book.css HTTP/1.1
+1
+
+.1
+
+
+I0119 10:54:21.701495  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/css/book.css version=HTTP/1.1
+I0119 10:54:21.701505  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:21.702297  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/css/book.css successed!
+I0119 10:54:21.705245  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/pencil.gif HTTP/1.1
+.1
+
+
+I0119 10:54:21.705277  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/pencil.gif version=HTTP/1.1
+I0119 10:54:21.705287  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:21.710281  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/pencil.gif successed!
+I0119 10:54:22.310717  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/background.gif HTTP/1.1
+
+
+I0119 10:54:22.310751  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/background.gif version=HTTP/1.1
+I0119 10:54:22.310761  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:22.311610  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/background.gif successed!
+I0119 10:54:22.312090  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/header.gif HTTP/1.1
+.1
+
+
+I0119 10:54:22.312108  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/header.gif version=HTTP/1.1
+I0119 10:54:22.312117  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:22.312846  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/header.gif successed!
+I0119 10:54:22.313581  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/diags.gif HTTP/1.1
+
+.1
+
+
+I0119 10:54:22.313606  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/diags.gif version=HTTP/1.1
+I0119 10:54:22.313616  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:22.313946  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/diags.gif successed!
+I0119 10:54:22.314430  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/footer.gif HTTP/1.1
+.1
+
+
+I0119 10:54:22.314448  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/footer.gif version=HTTP/1.1
+I0119 10:54:22.314457  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:22.315454  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/footer.gif successed!
+I0119 10:54:23.173508  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /html/origin.html HTTP/1.1
+
+.1
+
+
+I0119 10:54:23.173542  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/html/origin.html version=HTTP/1.1
+I0119 10:54:23.173550  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:23.174453  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/html/origin.html successed!
+I0119 10:54:23.199409  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /css/book.css HTTP/1.1
+.1
+
+.1
+
+
+I0119 10:54:23.199445  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/css/book.css version=HTTP/1.1
+I0119 10:54:23.199455  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:23.200634  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/css/book.css successed!
+I0119 10:54:23.205423  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/pencil.gif HTTP/1.1
+.1
+
+
+I0119 10:54:23.205458  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/pencil.gif version=HTTP/1.1
+I0119 10:54:23.205468  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:23.208282  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/pencil.gif successed!
+I0119 10:54:23.211665  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/fossil.gif HTTP/1.1
+.1
+
+
+I0119 10:54:23.211699  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/fossil.gif version=HTTP/1.1
+I0119 10:54:23.211709  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:23.213263  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/fossil.gif successed!
+I0119 10:54:23.810266  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/header.gif HTTP/1.1
+.1
+
+
+I0119 10:54:23.810315  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/header.gif version=HTTP/1.1
+I0119 10:54:23.810325  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:23.820725  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/header.gif successed!
+I0119 10:54:23.822335  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/diags.gif HTTP/1.1
+
+.1
+
+
+I0119 10:54:23.822360  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/diags.gif version=HTTP/1.1
+I0119 10:54:23.822368  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:23.829777  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/diags.gif successed!
+I0119 10:54:23.830935  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/footer.gif HTTP/1.1
+.1
+
+
+I0119 10:54:23.830958  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/footer.gif version=HTTP/1.1
+I0119 10:54:23.830968  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:23.838618  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/footer.gif successed!
+I0119 10:54:23.842612  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/background.gif HTTP/1.1
+
+
+I0119 10:54:23.842643  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/background.gif version=HTTP/1.1
+I0119 10:54:23.842653  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:23.846803  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/background.gif successed!
+I0119 10:54:24.277858  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /index.html HTTP/1.1
+ HTTP/1.1
+
+
+I0119 10:54:24.277892  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/index.html version=HTTP/1.1
+I0119 10:54:24.277901  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:24.278503  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/index.html successed!
+I0119 10:54:24.309732  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /css/book.css HTTP/1.1
+TTP/1.1
+
+
+I0119 10:54:24.309775  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/css/book.css version=HTTP/1.1
+I0119 10:54:24.309785  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:24.310631  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/css/book.css successed!
+I0119 10:54:24.311473  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/introduction.gif HTTP/1.1
+
+I0119 10:54:24.311512  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/introduction.gif version=HTTP/1.1
+I0119 10:54:24.311522  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:24.314131  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/introduction.gif successed!
+I0119 10:54:24.335145  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/White-vented.gif HTTP/1.1
+
+I0119 10:54:24.335177  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/White-vented.gif version=HTTP/1.1
+I0119 10:54:24.335186  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:24.335902  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/White-vented.gif successed!
+I0119 10:54:24.338407  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/Eutoxeres.gif HTTP/1.1
+1
+
+I0119 10:54:24.338438  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/Eutoxeres.gif version=HTTP/1.1
+I0119 10:54:24.338446  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:24.339133  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/Eutoxeres.gif successed!
+I0119 10:54:24.346830  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/Mountain.jpg HTTP/1.1
+
+1
+
+I0119 10:54:24.346869  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/Mountain.jpg version=HTTP/1.1
+I0119 10:54:24.346879  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:24.349524  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/Mountain.jpg successed!
+I0119 10:54:24.350443  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/Hook.jpg HTTP/1.1
+.1
+
+1
+
+I0119 10:54:24.350466  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/Hook.jpg version=HTTP/1.1
+I0119 10:54:24.350476  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:24.351181  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/Hook.jpg successed!
+I0119 10:54:24.353565  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/pencil.gif HTTP/1.1
+
+
+1
+
+I0119 10:54:24.353596  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/pencil.gif version=HTTP/1.1
+I0119 10:54:24.353606  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:24.354128  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/pencil.gif successed!
+I0119 10:54:24.371639  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/go.gif HTTP/1.1
+.1
+
+
+1
+
+I0119 10:54:24.371692  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/go.gif version=HTTP/1.1
+I0119 10:54:24.371702  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:24.372054  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/go.gif successed!
+I0119 10:54:24.969372  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/background.gif HTTP/1.1
+
+
+I0119 10:54:24.969409  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/background.gif version=HTTP/1.1
+I0119 10:54:24.969419  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:24.970280  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/background.gif successed!
+I0119 10:54:24.970923  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/header.gif HTTP/1.1
+.1
+
+
+I0119 10:54:24.970943  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/header.gif version=HTTP/1.1
+I0119 10:54:24.970952  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:24.971879  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/header.gif successed!
+I0119 10:54:24.972332  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/diags.gif HTTP/1.1
+
+.1
+
+
+I0119 10:54:24.972350  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/diags.gif version=HTTP/1.1
+I0119 10:54:24.972359  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:24.972712  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/diags.gif successed!
+I0119 10:54:24.973160  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/external.gif HTTP/1.1
+
+
+
+I0119 10:54:24.973176  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/external.gif version=HTTP/1.1
+I0119 10:54:24.973186  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:24.973533  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/external.gif successed!
+I0119 10:54:24.976006  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/ticks.gif HTTP/1.1
+1
+
+
+
+I0119 10:54:24.976038  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/ticks.gif version=HTTP/1.1
+I0119 10:54:24.976048  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:24.976351  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/ticks.gif successed!
+I0119 10:54:24.978742  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/footer.gif HTTP/1.1
+
+
+
+
+I0119 10:54:24.978771  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/footer.gif version=HTTP/1.1
+I0119 10:54:24.978781  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:24.981838  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/footer.gif successed!
+I0119 10:54:25.918078  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /html/form.html HTTP/1.1
+1
+
+
+
+
+I0119 10:54:25.918112  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/html/form.html version=HTTP/1.1
+I0119 10:54:25.918120  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:25.918694  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/html/form.html successed!
+I0119 10:54:25.937891  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /css/book.css HTTP/1.1
+
+1
+
+
+
+
+I0119 10:54:25.937924  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/css/book.css version=HTTP/1.1
+I0119 10:54:25.937933  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:25.938845  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/css/book.css successed!
+I0119 10:54:25.942771  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/pencil.gif HTTP/1.1
+
+
+
+
+I0119 10:54:25.942857  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/pencil.gif version=HTTP/1.1
+I0119 10:54:25.942868  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:25.943380  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/pencil.gif successed!
+I0119 10:54:25.949436  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/form.gif HTTP/1.1
+
+
+
+
+
+I0119 10:54:25.949470  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/form.gif version=HTTP/1.1
+I0119 10:54:25.949481  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:25.953258  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/form.gif successed!
+I0119 10:54:26.544891  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/background.gif HTTP/1.1
+
+
+I0119 10:54:26.544927  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/background.gif version=HTTP/1.1
+I0119 10:54:26.544937  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:26.545809  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/background.gif successed!
+I0119 10:54:26.546413  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/header.gif HTTP/1.1
+.1
+
+
+I0119 10:54:26.546434  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/header.gif version=HTTP/1.1
+I0119 10:54:26.546443  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:26.547137  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/header.gif successed!
+I0119 10:54:26.552443  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/diags.gif HTTP/1.1
+
+.1
+
+
+I0119 10:54:26.552477  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/diags.gif version=HTTP/1.1
+I0119 10:54:26.552487  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:26.552882  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/diags.gif successed!
+I0119 10:54:26.553386  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/footer.gif HTTP/1.1
+.1
+
+
+I0119 10:54:26.553406  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/footer.gif version=HTTP/1.1
+I0119 10:54:26.553413  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:26.554242  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/footer.gif successed!
+I0119 10:54:27.125907  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /html/area.html HTTP/1.1
+1
+.1
+
+
+I0119 10:54:27.125941  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/html/area.html version=HTTP/1.1
+I0119 10:54:27.125952  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:27.126526  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/html/area.html successed!
+I0119 10:54:27.148809  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /css/book.css HTTP/1.1
+
+1
+.1
+
+
+I0119 10:54:27.148844  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/css/book.css version=HTTP/1.1
+I0119 10:54:27.148852  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:27.149621  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/css/book.css successed!
+I0119 10:54:27.152673  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/pencil.gif HTTP/1.1
+.1
+
+
+I0119 10:54:27.152704  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/pencil.gif version=HTTP/1.1
+I0119 10:54:27.152712  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:27.157796  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/pencil.gif successed!
+I0119 10:54:27.718405  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/background.gif HTTP/1.1
+
+
+I0119 10:54:27.718668  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/background.gif version=HTTP/1.1
+I0119 10:54:27.718683  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:27.719518  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/background.gif successed!
+I0119 10:54:27.720296  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/header.gif HTTP/1.1
+.1
+
+
+I0119 10:54:27.720315  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/header.gif version=HTTP/1.1
+I0119 10:54:27.720324  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:27.724445  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/header.gif successed!
+I0119 10:54:27.725049  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/diags.gif HTTP/1.1
+
+.1
+
+
+I0119 10:54:27.725069  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/diags.gif version=HTTP/1.1
+I0119 10:54:27.725080  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:27.726156  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/diags.gif successed!
+I0119 10:54:27.727404  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/footer.gif HTTP/1.1
+.1
+
+
+I0119 10:54:27.727429  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/footer.gif version=HTTP/1.1
+I0119 10:54:27.727439  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:27.746258  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/footer.gif successed!
+I0119 10:54:28.215591  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /html/life.html HTTP/1.1
+1
+.1
+
+
+I0119 10:54:28.215626  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/html/life.html version=HTTP/1.1
+I0119 10:54:28.215636  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:28.216277  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/html/life.html successed!
+I0119 10:54:28.258564  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /css/book.css HTTP/1.1
+
+1
+.1
+
+
+I0119 10:54:28.258601  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/css/book.css version=HTTP/1.1
+I0119 10:54:28.258611  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:28.259284  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/css/book.css successed!
+I0119 10:54:28.259588  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/pencil.gif HTTP/1.1
+.1
+
+
+I0119 10:54:28.259604  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/pencil.gif version=HTTP/1.1
+I0119 10:54:28.259613  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:28.260080  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/pencil.gif successed!
+I0119 10:54:28.841884  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/background.gif HTTP/1.1
+
+
+I0119 10:54:28.841933  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/background.gif version=HTTP/1.1
+I0119 10:54:28.841944  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:28.842882  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/background.gif successed!
+I0119 10:54:28.843464  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/header.gif HTTP/1.1
+.1
+
+
+I0119 10:54:28.843482  5842 RequestManager.cpp:33] tid=140271525607232 message:method=GET uri=/images/header.gif version=HTTP/1.1
+I0119 10:54:28.843492  5842 RequestCreater.cpp:11] tid 140271525607232 get handle!
+I0119 10:54:28.844168  5842 StaticResponseState.cpp:27] tid=140271525607232 send test-files/images/header.gif successed!
+I0119 10:54:28.844708  5842 IoReader.cpp:110] tid=140271525607232 get message:GET /images/diag

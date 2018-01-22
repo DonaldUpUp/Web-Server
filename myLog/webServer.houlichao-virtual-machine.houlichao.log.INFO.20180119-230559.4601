@@ -1,0 +1,11 @@
+Log file created at: 2018/01/19 23:05:59
+Running on machine: houlichao-virtual-machine
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0119 23:05:59.305325  4605 RequestManager.cpp:13] tid 140737336633088 enter Parser
+I0119 23:05:59.370744  4605 RequestManager.cpp:27] tid 140737336633088 enter parseRequestHandle
+I0119 23:05:59.370796  4605 IoReader.cpp:110] tid=140737336633088 get message:GET /index.html HTTP/1.1
+
+I0119 23:06:37.445248  4605 RequestManager.cpp:31] tid 140737336633088 parse finish
+I0119 23:06:49.341338  4605 RequestManager.cpp:36] tid=140737336633088 message:method=GET uri=/index.html version=HTTP/1.1
+I0119 23:07:08.783486  4605 RequestCreater.cpp:11] tid 140737336633088 get handle!
+I0119 23:08:26.621518  4605 StaticResponseState.cpp:27] tid=140737336633088 send test-files/index.html successed!

@@ -2,19 +2,20 @@
 #define IOWRITER_H
 
 #include <string>
-//è¿™ä¸ªç±»ä¸IoReaderå¯¹åº”ï¼Œæ˜¯å°è£…åº•å±‚IOå†™æ“ä½œçš„ï¼Œå®é™…ä¸Šå°±æ˜¯å‘å®¢æˆ·ç«¯å‘é€æ•°æ®ã€‚å½“è§£æå‡ºå®¢æˆ·ç«¯æƒ³è¦è®¿é—®çš„uriåï¼Œè¿™é‡Œå°±ä¼šå°†ç›¸åº”çš„æ–‡ä»¶å‘é€å›å»ï¼Œè¿™åæµè§ˆå™¨è§£æè¿™ä¸ªæ–‡ä»¶ï¼Œæˆ‘ä»¬å°±èƒ½çœ‹åˆ°ç½‘é¡µäº†
+//Õâ¸öÀàÓëIoReader¶ÔÓ¦£¬ÊÇ·â×°µ×²ãIOĞ´²Ù×÷µÄ£¬Êµ¼ÊÉÏ¾ÍÊÇÏò¿Í»§¶Ë·¢ËÍÊı¾İ¡£µ±½âÎö³ö¿Í»§¶ËÏëÒª·ÃÎÊµÄuriºó£¬ÕâÀï¾Í»á½«ÏàÓ¦µÄÎÄ¼ş·¢ËÍ»ØÈ¥£¬Õâºóä¯ÀÀÆ÷½âÎöÕâ¸öÎÄ¼ş£¬ÎÒÃÇ¾ÍÄÜ¿´µ½ÍøÒ³ÁË
 class IoWriter
 {
     public:
         IoWriter();
         virtual ~IoWriter();
         IoWriter(int fd);
-        void writeString(const std::string& str);   //ä¸»è¦æ˜¯ç”¨äºå‘é€å“åº”æŠ¥å¤´
-        void writeFile(const std::string& filename,int filesSize);  //æŠŠå®¢æˆ·ç«¯æƒ³è¦çš„æ–‡ä»¶è¿”å›
+        void writeString(const std::string& str);   //Ö÷ÒªÊÇÓÃÓÚ·¢ËÍÏìÓ¦±¨Í·
+        void writeFile(const std::string& filename,int filesSize);  //°Ñ¿Í»§¶ËÏëÒªµÄÎÄ¼ş·µ»Ø
     protected:
 
     private:
         int fileDescriptor;
+
 };
 
 #endif // IOWRITER_H

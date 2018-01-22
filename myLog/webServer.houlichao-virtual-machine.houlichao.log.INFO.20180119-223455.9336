@@ -1,0 +1,53 @@
+Log file created at: 2018/01/19 22:34:55
+Running on machine: houlichao-virtual-machine
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0119 22:34:55.048791  9337 RequestManager.cpp:13] tid 139725085128448 enter Parser
+I0119 22:34:55.049171  9337 RequestManager.cpp:27] tid 139725085128448 enter parseRequestHandle
+I0119 22:34:55.049201  9337 IoReader.cpp:110] tid=139725085128448 get message:GET /index.html HTTP/1.1
+
+I0119 22:34:55.049233  9337 RequestManager.cpp:31] tid 139725085128448 parse finish
+I0119 22:34:55.049243  9337 RequestManager.cpp:36] tid=139725085128448 message:method=GET uri=/index.html version=HTTP/1.1
+I0119 22:34:55.049254  9337 RequestCreater.cpp:11] tid 139725085128448 get handle!
+I0119 22:34:55.083155  9337 StaticResponseState.cpp:27] tid=139725085128448 send test-files/index.html successed!
+I0119 22:34:55.204336  9337 RequestManager.cpp:13] tid 139725085128448 enter Parser
+I0119 22:34:55.204371  9337 RequestManager.cpp:27] tid 139725085128448 enter parseRequestHandle
+I0119 22:34:55.204398  9337 IoReader.cpp:110] tid=139725085128448 get message:GET /images/introduction.gif HTTP/1.1
+
+I0119 22:34:55.204411  9337 RequestManager.cpp:31] tid 139725085128448 parse finish
+I0119 22:34:55.204418  9337 RequestManager.cpp:36] tid=139725085128448 message:method=GET uri=/images/introduction.gif version=HTTP/1.1
+I0119 22:34:55.204427  9337 RequestCreater.cpp:11] tid 139725085128448 get handle!
+I0119 22:34:55.244787  9338 RequestManager.cpp:13] tid 139725076735744 enter Parser
+I0119 22:34:55.244818  9338 RequestManager.cpp:27] tid 139725076735744 enter parseRequestHandle
+I0119 22:34:55.244843  9338 IoReader.cpp:110] tid=139725076735744 get message:GET /images/White-vented.gif HTTP/1.1
+
+I0119 22:34:55.244868  9338 RequestManager.cpp:31] tid 139725076735744 parse finish
+I0119 22:34:55.244875  9338 RequestManager.cpp:36] tid=139725076735744 message:method=GET uri=/images/White-vented.gif version=HTTP/1.1
+I0119 22:34:55.244884  9338 RequestCreater.cpp:11] tid 139725076735744 get handle!
+I0119 22:34:55.304230  9339 RequestManager.cpp:13] tid 139725068343040 enter Parser
+I0119 22:34:55.304265  9339 RequestManager.cpp:27] tid 139725068343040 enter parseRequestHandle
+I0119 22:34:55.304297  9339 IoReader.cpp:110] tid=139725068343040 get message:GET /images/Eutoxeres.gif HTTP/1.1
+
+I0119 22:34:55.304324  9339 RequestManager.cpp:31] tid 139725068343040 parse finish
+I0119 22:34:55.304332  9339 RequestManager.cpp:36] tid=139725068343040 message:method=GET uri=/images/Eutoxeres.gif version=HTTP/1.1
+I0119 22:34:55.304342  9339 RequestCreater.cpp:11] tid 139725068343040 get handle!
+I0119 22:34:55.313277  9339 StaticResponseState.cpp:27] tid=139725068343040 send test-files/images/Eutoxeres.gif successed!
+I0119 22:34:55.319316  9338 StaticResponseState.cpp:27] tid=139725076735744 send test-files/images/White-vented.gif successed!
+I0119 22:34:55.452693  9339 RequestManager.cpp:13] tid 139725068343040 enter Parser
+I0119 22:34:55.452728  9339 RequestManager.cpp:27] tid 139725068343040 enter parseRequestHandle
+I0119 22:34:55.452754  9339 IoReader.cpp:110] tid=139725068343040 get message:GET /images/Mountain.jpg HTTP/1.1
+
+
+I0119 22:34:55.452767  9339 RequestManager.cpp:31] tid 139725068343040 parse finish
+I0119 22:34:55.452775  9339 RequestManager.cpp:36] tid=139725068343040 message:method=GET uri=/images/Mountain.jpg version=HTTP/1.1
+I0119 22:34:55.452783  9339 RequestCreater.cpp:11] tid 139725068343040 get handle!
+I0119 22:34:55.459884  9338 RequestManager.cpp:13] tid 139725076735744 enter Parser
+I0119 22:34:55.459910  9338 RequestManager.cpp:27] tid 139725076735744 enter parseRequestHandle
+I0119 22:34:55.459926  9338 IoReader.cpp:110] tid=139725076735744 get message:GET /images/Hook.jpg HTTP/1.1
+TP/1.1
+
+I0119 22:34:55.459939  9338 RequestManager.cpp:31] tid 139725076735744 parse finish
+I0119 22:34:55.459945  9338 RequestManager.cpp:36] tid=139725076735744 message:method=GET uri=/images/Hook.jpg version=HTTP/1.1
+I0119 22:34:55.459954  9338 RequestCreater.cpp:11] tid 139725076735744 get handle!
+I0119 22:34:55.480738  9340 RequestManager.cpp:13] tid 139725059950336 enter Parser
+I0119 22:34:55.480772  9340 RequestManager.cpp:27] tid 139725059950336 enter parseRequestHandle
+I0119 22:34:55.480800  9340 IoReader.cpp:110] tid=139725059950336 get messag

@@ -11,7 +11,7 @@
 namespace{
 void unix_error(char *msg){
     fprintf(stderr,"%s: %s\n",msg,strerror(errno));
-    exit(0);
+    exit(2);
 }
 
 ssize_t rio_writen(int fd,void *usrbuf,size_t n){
@@ -49,7 +49,7 @@ void Close(int fd){
         unix_error("Close error");
 }
 
-//灏嗚祫婧愭枃浠舵槧灏勫埌杩涚▼鐨勫湴鍧�绌洪棿锛岃繑鍥炶鏄犲皠鍖虹殑鎸囬拡
+//将资源文件映射到进程的地址空间，返回被映射区的指针
 void* Mmap(void *addr,size_t len,int prot,int flags,int fd,off_t offset){
     void *ptr;
     if((ptr=mmap(addr,len,prot,flags,fd,offset))==((void *)-1))
@@ -58,14 +58,13 @@ void* Mmap(void *addr,size_t len,int prot,int flags,int fd,off_t offset){
     return (ptr);
 }
 
-//鍙栨秷鍙傛暟start 鎵�鎸囩殑鏄犲皠鍐呭瓨璧峰鍦板潃
+//取消参数start 所指的映射内存起始地址
 void Munmap(void *start,size_t length){
     if(munmap(start,length)<0)
         unix_error("munmap error");
 }
 
 }
-
 
 IoWriter::IoWriter()
 {

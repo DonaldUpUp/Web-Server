@@ -7,6 +7,7 @@
 
 #include "StaticResponseState.h"
 #include "IoWriter.h"
+//#include <glog/logging.h>
 
 StaticResponseState::StaticResponseState(int fd, std::string fName) : ResponseState(fd, fName)
 {
@@ -23,6 +24,7 @@ void StaticResponseState::doRespond()
 	IoWriter writer(getFileDescriptor());
 	writer.writeString(buildRespondHeaders());
 	writer.writeFile(getFileName(), getStat().st_size);
+//	LOG(INFO)<<"tid="<<pthread_self()<<" send "<<getFileName()<<" successed!"<<std::endl;
 }
 
 const std::string StaticResponseState::buildRespondHeaders()
@@ -39,12 +41,14 @@ const std::string StaticResponseState::buildRespondHeaders()
 const std::string StaticResponseState::getFiletype()
 {
 	std::string fileName = getFileName();
-	if (fileName.find(".html"))
+	if (fileName.find(".html")!=std::string::npos)
 		return std::string("text/html");
-	else if (fileName.find(".gif"))
+	else if (fileName.find(".gif")!=std::string::npos)
 		return std::string("image/gif");
-	else if (fileName.find(".jpg"))
+	else if (fileName.find(".jpg")!=std::string::npos)
 		return std::string("image/jpeg");
+    else if(fileName.find(".css")!=std::string::npos)
+        return std::string("text/css");
 	else
 		return std::string("text/plain");
 }

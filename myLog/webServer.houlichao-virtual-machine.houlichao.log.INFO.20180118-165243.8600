@@ -1,0 +1,55 @@
+Log file created at: 2018/01/18 16:52:43
+Running on machine: houlichao-virtual-machine
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0118 16:52:43.240833  8600 Tiny.cpp:81] Connect 4
+I0118 16:52:43.296418  8607 Thread.cpp:49] tid 140024884029184 run
+I0118 16:52:43.296485  8607 RequestManager.cpp:33] tid=140024884029184 need /index.html
+I0118 16:52:43.328043  8607 StaticResponseState.cpp:27] tid=140024884029184 send test-files/index.html successed!
+I0118 16:52:43.348395  8600 Tiny.cpp:81] Connect 6
+I0118 16:52:43.348522  8608 Thread.cpp:49] tid 140024875636480 run
+I0118 16:52:43.349288  8608 RequestManager.cpp:33] tid=140024875636480 need /css/book.css
+I0118 16:52:43.352479  8600 Tiny.cpp:81] Connect 4
+I0118 16:52:43.352567  8609 Thread.cpp:49] tid 140024867243776 run
+I0118 16:52:43.352769  8609 RequestManager.cpp:33] tid=140024867243776 need /images/introduction.gif
+I0118 16:52:43.356582  8608 StaticResponseState.cpp:27] tid=140024875636480 send test-files/css/book.css successed!
+I0118 16:52:43.360690  8609 StaticResponseState.cpp:27] tid=140024867243776 send test-files/images/introduction.gif successed!
+I0118 16:52:43.367107  8600 Tiny.cpp:81] Connect 7
+I0118 16:52:43.367225  8606 Thread.cpp:49] tid 140024892421888 run
+I0118 16:52:43.367503  8606 RequestManager.cpp:33] tid=140024892421888 need /images/White-vented.gif
+I0118 16:52:43.402444  8606 StaticResponseState.cpp:27] tid=140024892421888 send test-files/images/White-vented.gif successed!
+I0118 16:52:43.405565  8600 Tiny.cpp:81] Connect 4
+I0118 16:52:43.405803  8610 Thread.cpp:49] tid 140024858851072 run
+I0118 16:52:43.405848  8610 RequestManager.cpp:33] tid=140024858851072 need /images/Eutoxeres.gif
+I0118 16:52:43.406592  8610 StaticResponseState.cpp:27] tid=140024858851072 send test-files/images/Eutoxeres.gif successed!
+I0118 16:52:43.409626  8600 Tiny.cpp:81] Connect 7
+I0118 16:52:43.409879  8605 Thread.cpp:49] tid 140024900814592 run
+I0118 16:52:43.409922  8605 RequestManager.cpp:33] tid=140024900814592 need /images/Mountain.jpg
+I0118 16:52:43.410996  8605 StaticResponseState.cpp:27] tid=140024900814592 send test-files/images/Mountain.jpg successed!
+I0118 16:52:43.424928  8600 Tiny.cpp:81] Connect 4
+I0118 16:52:43.425037  8604 Thread.cpp:49] tid 140024909207296 run
+I0118 16:52:43.425274  8604 RequestManager.cpp:33] tid=140024909207296 need /images/Hook.jpg
+I0118 16:52:43.425983  8604 StaticResponseState.cpp:27] tid=140024909207296 send test-files/images/Hook.jpg successed!
+I0118 16:52:43.429390  8600 Tiny.cpp:81] Connect 7
+I0118 16:52:43.429507  8603 Thread.cpp:49] tid 140024917600000 run
+I0118 16:52:43.429810  8603 RequestManager.cpp:33] tid=140024917600000 need /images/pencil.gif
+I0118 16:52:43.430460  8603 StaticResponseState.cpp:27] tid=140024917600000 send test-files/images/pencil.gif successed!
+I0118 16:52:43.433545  8600 Tiny.cpp:81] Connect 4
+I0118 16:52:43.433814  8602 Thread.cpp:49] tid 140024925992704 run
+I0118 16:52:43.433857  8602 RequestManager.cpp:33] tid=140024925992704 need /images/go.gif
+I0118 16:52:43.441051  8602 StaticResponseState.cpp:27] tid=140024925992704 send test-files/images/go.gif successed!
+I0118 16:52:45.910842  8600 Tiny.cpp:81] Connect 7
+I0118 16:52:45.910917  8601 Thread.cpp:49] tid 140024934385408 run
+I0118 16:52:45.910964  8601 RequestManager.cpp:33] tid=140024934385408 need /html/origin.html
+I0118 16:52:45.930215  8601 StaticResponseState.cpp:27] tid=140024934385408 send test-files/html/origin.html successed!
+I0118 16:52:45.945214  8600 Tiny.cpp:81] Connect 4
+I0118 16:52:45.945336  8600 Tiny.cpp:81] Connect 7
+I0118 16:52:45.945372  8607 Thread.cpp:49] tid 140024884029184 run
+I0118 16:52:45.945396  8607 RequestManager.cpp:33] tid=140024884029184 need /css/book.css
+I0118 16:52:45.945701  8607 StaticResponseState.cpp:27] tid=140024884029184 send test-files/css/book.css successed!
+I0118 16:52:45.945842  8608 Thread.cpp:49] tid 140024875636480 run
+I0118 16:52:45.953933  8608 RequestManager.cpp:33] tid=140024875636480 need /css/book.css
+I0118 16:52:45.963696  8600 Tiny.cpp:81] Connect 8
+I0118 16:52:45.963768  8609 Thread.cpp:49] tid 140024867243776 run
+I0118 16:52:45.964010  8609 RequestManager.cpp:33] tid=140024867243776 need /images/pencil.gif
+I0118 16:52:45.971822  8600 Tiny.cpp:81] Connect 7
+I0118 16:52:45.

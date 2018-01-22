@@ -2,6 +2,7 @@
 #include "Request.h"
 #include "RequestCreater.h"
 #include "IoReader.h"
+//#include <glog/logging.h>
 #include <iostream>
 
 namespace {
@@ -9,6 +10,7 @@ namespace {
 class Parser {
 public:
     Parser(int connfd) {
+//        LOG(INFO)<<"tid "<<pthread_self()<<" enter Parser"<<std::endl;
         parseRequestHeaders(connfd);
     }
 
@@ -22,13 +24,16 @@ public:
 private:
     //解析请求的数据，用到了IOReader类
     void parseRequestHeaders(int fd) {
+//        LOG(INFO)<<"tid "<<pthread_self()<<" enter parseRequestHandle"<<std::endl;
         IoReader reader(fd);
         std::vector<std::string> header;
         reader.getLineSplitedByBlank(header);
+//        LOG(INFO)<<"tid "<<pthread_self()<<" parse finish"<<std::endl;
         //置为空
         method=header[0];
         uri=header[1];
         version=header[2];
+//        LOG(INFO)<<"tid="<<pthread_self()<<" message:method="<<method<<" uri="<<uri<<" version="<<version<<std::endl;
     }
 
     std::string method;

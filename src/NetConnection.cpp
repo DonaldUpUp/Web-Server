@@ -17,7 +17,7 @@ const int LISTENQ=1024;
 void unix_error(char* msg)
 {
     fprintf(stderr,"%s:%s\n",msg,strerror(errno));
-    exit(0);
+    exit(3);
 }
 //使得套接字处于监听状态，等待连接
 int open_listenfd(int port)

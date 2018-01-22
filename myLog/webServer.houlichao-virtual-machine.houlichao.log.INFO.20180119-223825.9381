@@ -1,0 +1,4 @@
+Log file created at: 2018/01/19 22:38:25
+Running on machine: houlichao-virtual-machine
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0119 22:38:25.722739  9385 RequestManager.cpp:13] tid 140737336633088 enter Parser

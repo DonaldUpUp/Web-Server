@@ -1,0 +1,56 @@
+Log file created at: 2018/01/19 15:02:30
+Running on machine: houlichao-virtual-machine
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0119 15:02:30.338799  8438 Thread.cpp:27] tid 140426749159168 is waiting the mutex
+I0119 15:02:30.340214  8438 Thread.cpp:29] tid 140426749159168 get the mutex
+I0119 15:02:30.340580  8439 Thread.cpp:27] tid 140426740766464 is waiting the mutex
+I0119 15:02:30.340593  8439 Thread.cpp:29] tid 140426740766464 get the mutex
+I0119 15:02:30.342766  8437 Thread.cpp:27] tid 140426757551872 is waiting the mutex
+I0119 15:02:30.342782  8437 Thread.cpp:29] tid 140426757551872 get the mutex
+I0119 15:02:39.656812  8428 Tiny.cpp:94] Connect 4
+I0119 15:02:39.657325  8428 Tiny.cpp:94] Connect 6
+I0119 15:02:39.657501  8434 Thread.cpp:48] tid 140426782729984 release the mutex
+I0119 15:02:39.657515  8434 RequestManager.cpp:13] tid 140426782729984 enter Parser
+I0119 15:02:39.657521  8434 RequestManager.cpp:27] tid 140426782729984 enter parseRequestHandle
+I0119 15:02:46.141445  8434 IoReader.cpp:110] tid=140426782729984 get message:
+I0119 15:02:46.141517  8434 RequestManager.cpp:31] tid 140426782729984 parse finish
+I0119 15:02:46.141533  8434 RequestManager.cpp:36] tid=140426782729984 message:method= uri= version=
+I0119 15:02:46.141777  8434 Thread.cpp:53] tid 140426782729984 run
+I0119 15:02:46.142128  8434 Thread.cpp:27] tid 140426782729984 is waiting the mutex
+I0119 15:02:46.142213  8428 Tiny.cpp:94] Connect 6
+I0119 15:02:46.142261  8432 Thread.cpp:48] tid 140426799515392 release the mutex
+I0119 15:02:46.142273  8432 RequestManager.cpp:13] tid 140426799515392 enter Parser
+I0119 15:02:46.142283  8432 RequestManager.cpp:27] tid 140426799515392 enter parseRequestHandle
+I0119 15:02:46.143108  8432 IoReader.cpp:110] tid=140426799515392 get message:
+I0119 15:02:46.143144  8432 RequestManager.cpp:31] tid 140426799515392 parse finish
+I0119 15:02:46.143155  8432 RequestManager.cpp:36] tid=140426799515392 message:method= uri= version=
+I0119 15:02:46.143357  8432 Thread.cpp:53] tid 140426799515392 run
+I0119 15:02:46.143486  8434 Thread.cpp:29] tid 140426782729984 get the mutex
+I0119 15:02:46.143653  8432 Thread.cpp:27] tid 140426799515392 is waiting the mutex
+I0119 15:02:46.143735  8428 Tiny.cpp:94] Connect 6
+I0119 15:02:46.143781  8431 Thread.cpp:48] tid 140426807908096 release the mutex
+I0119 15:02:46.143795  8431 RequestManager.cpp:13] tid 140426807908096 enter Parser
+I0119 15:02:46.143803  8431 RequestManager.cpp:27] tid 140426807908096 enter parseRequestHandle
+I0119 15:02:46.143829  8431 IoReader.cpp:110] tid=140426807908096 get message:
+I0119 15:02:46.143875  8431 RequestManager.cpp:31] tid 140426807908096 parse finish
+I0119 15:02:46.143887  8431 RequestManager.cpp:36] tid=140426807908096 message:method= uri= version=
+I0119 15:02:46.144094  8431 Thread.cpp:53] tid 140426807908096 run
+I0119 15:02:46.144148  8431 Thread.cpp:27] tid 140426807908096 is waiting the mutex
+I0119 15:02:46.144161  8431 Thread.cpp:29] tid 140426807908096 get the mutex
+I0119 15:02:46.144278  8432 Thread.cpp:29] tid 140426799515392 get the mutex
+I0119 15:02:46.144392  8428 Tiny.cpp:94] Connect 6
+I0119 15:02:46.144440  8433 Thread.cpp:48] tid 140426791122688 release the mutex
+I0119 15:02:46.144454  8433 RequestManager.cpp:13] tid 140426791122688 enter Parser
+I0119 15:02:46.144462  8433 RequestManager.cpp:27] tid 140426791122688 enter parseRequestHandle
+I0119 15:02:46.144989  8433 IoReader.cpp:110] tid=140426791122688 get message:
+I0119 15:02:46.145025  8433 RequestManager.cpp:31] tid 140426791122688 parse finish
+I0119 15:02:46.145036  8433 RequestManager.cpp:36] tid=140426791122688 message:method= uri= version=
+I0119 15:02:46.145251  8433 Thread.cpp:53] tid 140426791122688 run
+I0119 15:02:46.145519  8433 Thread.cpp:27] tid 140426791122688 is waiting the mutex
+I0119 15:02:46.145602  8428 Tiny.cpp:94] Connect 6
+I0119 15:02:46.145648  8430 Thread.cpp:48] tid 140426816300800 release the mutex
+I0119 15:02:46.145660  8430 RequestManager.cpp:13] tid 140426816300800 enter Parser
+I0119 15:02:46.145670  8430 RequestManager.cpp:27] tid 140426816300800 enter parseRequestHandle
+I0119 15:02:46.145696  8430 IoReader.cpp:110] tid=140426816300800 get message:
+I0119 15:02:46.145723  8430 RequestManager.cpp:31] tid 140426816300800 parse finish
+I0119 15:02:46.145735  8430 Requ

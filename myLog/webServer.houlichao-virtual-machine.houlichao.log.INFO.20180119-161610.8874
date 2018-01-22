@@ -1,0 +1,30 @@
+Log file created at: 2018/01/19 16:16:10
+Running on machine: houlichao-virtual-machine
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0119 16:16:10.173342  8887 Thread.cpp:27] tid 140737052129024 is waiting the mutex
+I0119 16:16:10.174542  8887 Thread.cpp:29] tid 140737052129024 get the mutex
+I0119 16:16:11.543113  8874 Tiny.cpp:94] Connect 4
+I0119 16:17:58.454512  8878 Thread.cpp:48] tid 140737336633088 release the mutex
+I0119 16:17:58.454569  8878 Thread.cpp:53] tid 140737336633088 run
+I0119 16:17:58.454578  8878 RequestManager.cpp:13] tid 140737336633088 enter Parser
+I0119 16:17:58.454584  8878 RequestManager.cpp:27] tid 140737336633088 enter parseRequestHandle
+I0119 16:17:58.454612  8878 IoReader.cpp:110] tid=140737336633088 get message:GET /images/fossil.gif HTTP/1.1
+
+I0119 16:17:58.454939  8878 RequestManager.cpp:31] tid 140737336633088 parse finish
+I0119 16:17:58.454953  8878 RequestManager.cpp:36] tid=140737336633088 message:method=GET uri=/images/fossil.gif version=HTTP/1.1
+I0119 16:17:58.454964  8878 RequestCreater.cpp:11] tid 140737336633088 get handle!
+I0119 16:18:03.935264  8878 StaticResponseState.cpp:27] tid=140737336633088 send test-files/images/fossil.gif successed!
+I0119 16:18:03.935359  8878 Thread.cpp:27] tid 140737336633088 is waiting the mutex
+I0119 16:18:03.935374  8878 Thread.cpp:29] tid 140737336633088 get the mutex
+I0119 16:19:05.977160  8874 Tiny.cpp:94] Connect 4
+I0119 16:20:06.234557  8878 Thread.cpp:48] tid 140737336633088 release the mutex
+I0119 16:20:06.235384  8878 Thread.cpp:53] tid 140737336633088 run
+I0119 16:20:06.235397  8878 RequestManager.cpp:13] tid 140737336633088 enter Parser
+I0119 16:20:06.235404  8878 RequestManager.cpp:27] tid 140737336633088 enter parseRequestHandle
+I0119 16:20:06.235421  8878 IoReader.cpp:110] tid=140737336633088 get message:GET /images/book.css HTTP/1.1
+
+
+I0119 16:20:06.235433  8878 RequestManager.cpp:31] tid 140737336633088 parse finish
+I0119 16:20:06.235440  8878 RequestManager.cpp:36] tid=140737336633088 message:method=GET uri=/images/book.css version=HTTP/1.1
+I0119 16:20:06.235448  8878 RequestCreater.cpp:11] tid 140737336633088 get handle!
+I0119 16:20:59.484621  8878 Response.cpp:38] tid 140737336633088 send error 404

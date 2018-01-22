@@ -1,0 +1,660 @@
+Log file created at: 2018/01/18 21:28:44
+Running on machine: houlichao-virtual-machine
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0118 21:28:44.045349  3330 Thread.cpp:27] tid 140478965503744 is waiting the mutex
+I0118 21:28:44.047189  3330 Thread.cpp:29] tid 140478965503744 get the mutex
+I0118 21:28:44.045526  3335 Thread.cpp:27] tid 140478923540224 is waiting the mutex
+I0118 21:28:44.047219  3335 Thread.cpp:29] tid 140478923540224 get the mutex
+I0118 21:28:44.045599  3333 Thread.cpp:27] tid 140478940325632 is waiting the mutex
+I0118 21:28:44.047240  3333 Thread.cpp:29] tid 140478940325632 get the mutex
+I0118 21:28:44.045678  3336 Thread.cpp:27] tid 140478915147520 is waiting the mutex
+I0118 21:28:44.047262  3336 Thread.cpp:29] tid 140478915147520 get the mutex
+I0118 21:28:44.045717  3337 Thread.cpp:27] tid 140478906754816 is waiting the mutex
+I0118 21:28:44.047284  3337 Thread.cpp:29] tid 140478906754816 get the mutex
+I0118 21:28:44.045565  3332 Thread.cpp:27] tid 140478948718336 is waiting the mutex
+I0118 21:28:44.047302  3332 Thread.cpp:29] tid 140478948718336 get the mutex
+I0118 21:28:44.045644  3334 Thread.cpp:27] tid 140478931932928 is waiting the mutex
+I0118 21:28:44.047319  3334 Thread.cpp:29] tid 140478931932928 get the mutex
+I0118 21:28:44.045488  3331 Thread.cpp:27] tid 140478957111040 is waiting the mutex
+I0118 21:28:44.047338  3331 Thread.cpp:29] tid 140478957111040 get the mutex
+I0118 21:28:44.045964  3329 Thread.cpp:27] tid 140478973896448 is waiting the mutex
+I0118 21:28:44.047354  3329 Thread.cpp:29] tid 140478973896448 get the mutex
+I0118 21:28:44.046617  3328 Thread.cpp:27] tid 140478982289152 is waiting the mutex
+I0118 21:28:44.047371  3328 Thread.cpp:29] tid 140478982289152 get the mutex
+I0118 21:28:44.052009  3327 Tiny.cpp:89] Connect 4
+I0118 21:28:44.052177  3330 Thread.cpp:50] tid 140478965503744 release the mutex
+I0118 21:28:44.052189  3330 Thread.cpp:52] tid 140478965503744 run
+I0118 21:28:44.052197  3330 Tiny.cpp:23] tid=140478965503744 get runMutex
+I0118 21:28:44.052276  3330 IoReader.cpp:110] tid=140478965503744 get message:GET /html/life.html HTTP/1.1
+
+I0118 21:28:44.052315  3330 RequestManager.cpp:33] tid=140478965503744 need /html/life.html
+I0118 21:28:44.076421  3330 StaticResponseState.cpp:27] tid=140478965503744 send test-files/html/life.html successed!
+I0118 21:28:44.076529  3330 Tiny.cpp:26] tid=140478965503744 release runMutex
+I0118 21:28:44.077833  3330 Thread.cpp:27] tid 140478965503744 is waiting the mutex
+I0118 21:28:44.077849  3330 Thread.cpp:29] tid 140478965503744 get the mutex
+I0118 21:28:44.099736  3327 Tiny.cpp:89] Connect 6
+I0118 21:28:44.099807  3335 Thread.cpp:50] tid 140478923540224 release the mutex
+I0118 21:28:44.099817  3335 Thread.cpp:52] tid 140478923540224 run
+I0118 21:28:44.099824  3335 Tiny.cpp:23] tid=140478923540224 get runMutex
+I0118 21:28:44.100126  3335 IoReader.cpp:110] tid=140478923540224 get message:GET /html/css/book.css HTTP/1.1
+
+I0118 21:28:44.100163  3335 RequestManager.cpp:33] tid=140478923540224 need /html/css/book.css
+I0118 21:28:44.100832  3335 Tiny.cpp:26] tid=140478923540224 release runMutex
+I0118 21:28:44.100893  3335 Thread.cpp:27] tid 140478923540224 is waiting the mutex
+I0118 21:28:44.101150  3335 Thread.cpp:29] tid 140478923540224 get the mutex
+I0118 21:28:44.101263  3327 Tiny.cpp:89] Connect 4
+I0118 21:28:44.101316  3333 Thread.cpp:50] tid 140478940325632 release the mutex
+I0118 21:28:44.101326  3333 Thread.cpp:52] tid 140478940325632 run
+I0118 21:28:44.101333  3333 Tiny.cpp:23] tid=140478940325632 get runMutex
+I0118 21:28:44.101356  3333 IoReader.cpp:110] tid=140478940325632 get message:GET /css/book.css HTTP/1.1
+
+I0118 21:28:44.101382  3333 RequestManager.cpp:33] tid=140478940325632 need /css/book.css
+I0118 21:28:44.101696  3333 StaticResponseState.cpp:27] tid=140478940325632 send test-files/css/book.css successed!
+I0118 21:28:44.103222  3333 Tiny.cpp:26] tid=140478940325632 release runMutex
+I0118 21:28:44.103292  3333 Thread.cpp:27] tid 140478940325632 is waiting the mutex
+I0118 21:28:44.103302  3333 Thread.cpp:29] tid 140478940325632 get the mutex
+I0118 21:28:44.110806  3327 Tiny.cpp:89] Connect 6
+I0118 21:28:44.111095  3336 Thread.cpp:50] tid 140478915147520 release the mutex
+I0118 21:28:44.111109  3336 Thread.cpp:52] tid 140478915147520 run
+I0118 21:28:44.111163  3336 Tiny.cpp:23] tid=140478915147520 get runMutex
+I0118 21:28:44.111189  3336 IoReader.cpp:110] tid=140478915147520 get message:GET /images/pencil.gif HTTP/1.1
+
+I0118 21:28:44.111217  3336 RequestManager.cpp:33] tid=140478915147520 need /images/pencil.gif
+I0118 21:28:44.111451  3336 StaticResponseState.cpp:27] tid=140478915147520 send test-files/images/pencil.gif successed!
+I0118 21:28:44.111536  3336 Tiny.cpp:26] tid=140478915147520 release runMutex
+I0118 21:28:44.111567  3336 Thread.cpp:27] tid 140478915147520 is waiting the mutex
+I0118 21:28:44.111574  3336 Thread.cpp:29] tid 140478915147520 get the mutex
+I0118 21:28:44.300302  3327 Tiny.cpp:89] Connect 4
+I0118 21:28:44.300379  3337 Thread.cpp:50] tid 140478906754816 release the mutex
+I0118 21:28:44.300401  3337 Thread.cpp:52] tid 140478906754816 run
+I0118 21:28:44.300408  3337 Tiny.cpp:23] tid=140478906754816 get runMutex
+I0118 21:28:45.864253  3337 IoReader.cpp:110] tid=140478906754816 get message:GET /html/skill.html HTTP/1.1
+
+I0118 21:28:45.864325  3337 RequestManager.cpp:33] tid=140478906754816 need /html/skill.html
+I0118 21:28:45.884752  3337 StaticResponseState.cpp:27] tid=140478906754816 send test-files/html/skill.html successed!
+I0118 21:28:45.884902  3337 Tiny.cpp:26] tid=140478906754816 release runMutex
+I0118 21:28:45.885032  3337 Thread.cpp:27] tid 140478906754816 is waiting the mutex
+I0118 21:28:45.885041  3337 Thread.cpp:29] tid 140478906754816 get the mutex
+I0118 21:28:45.898695  3327 Tiny.cpp:89] Connect 6
+I0118 21:28:45.898763  3332 Thread.cpp:50] tid 140478948718336 release the mutex
+I0118 21:28:45.898773  3332 Thread.cpp:52] tid 140478948718336 run
+I0118 21:28:45.898793  3332 Tiny.cpp:23] tid=140478948718336 get runMutex
+I0118 21:28:45.898820  3332 IoReader.cpp:110] tid=140478948718336 get message:GET /html/css/book.css HTTP/1.1
+
+I0118 21:28:45.898847  3332 RequestManager.cpp:33] tid=140478948718336 need /html/css/book.css
+I0118 21:28:45.899036  3332 Tiny.cpp:26] tid=140478948718336 release runMutex
+I0118 21:28:45.899070  3332 Thread.cpp:27] tid 140478948718336 is waiting the mutex
+I0118 21:28:45.899078  3332 Thread.cpp:29] tid 140478948718336 get the mutex
+I0118 21:28:45.902549  3327 Tiny.cpp:89] Connect 4
+I0118 21:28:45.902621  3334 Thread.cpp:50] tid 140478931932928 release the mutex
+I0118 21:28:45.902632  3334 Thread.cpp:52] tid 140478931932928 run
+I0118 21:28:45.902639  3334 Tiny.cpp:23] tid=140478931932928 get runMutex
+I0118 21:28:45.902882  3334 IoReader.cpp:110] tid=140478931932928 get message:GET /css/book.css HTTP/1.1
+
+I0118 21:28:45.902917  3334 RequestManager.cpp:33] tid=140478931932928 need /css/book.css
+I0118 21:28:45.903364  3334 StaticResponseState.cpp:27] tid=140478931932928 send test-files/css/book.css successed!
+I0118 21:28:45.903694  3334 Tiny.cpp:26] tid=140478931932928 release runMutex
+I0118 21:28:45.903731  3334 Thread.cpp:27] tid 140478931932928 is waiting the mutex
+I0118 21:28:45.903740  3334 Thread.cpp:29] tid 140478931932928 get the mutex
+I0118 21:28:45.905587  3327 Tiny.cpp:89] Connect 6
+I0118 21:28:45.905654  3331 Thread.cpp:50] tid 140478957111040 release the mutex
+I0118 21:28:45.905664  3331 Thread.cpp:52] tid 140478957111040 run
+I0118 21:28:45.905670  3331 Tiny.cpp:23] tid=140478957111040 get runMutex
+I0118 21:28:45.905697  3331 IoReader.cpp:110] tid=140478957111040 get message:GET /images/pencil.gif HTTP/1.1
+
+I0118 21:28:45.905722  3331 RequestManager.cpp:33] tid=140478957111040 need /images/pencil.gif
+I0118 21:28:45.905953  3331 StaticResponseState.cpp:27] tid=140478957111040 send test-files/images/pencil.gif successed!
+I0118 21:28:45.906059  3331 Tiny.cpp:26] tid=140478957111040 release runMutex
+I0118 21:28:45.906095  3331 Thread.cpp:27] tid 140478957111040 is waiting the mutex
+I0118 21:28:45.906103  3331 Thread.cpp:29] tid 140478957111040 get the mutex
+I0118 21:28:48.143790  3327 Tiny.cpp:89] Connect 4
+I0118 21:28:48.143862  3329 Thread.cpp:50] tid 140478973896448 release the mutex
+I0118 21:28:48.143872  3329 Thread.cpp:52] tid 140478973896448 run
+I0118 21:28:48.143878  3329 Tiny.cpp:23] tid=140478973896448 get runMutex
+I0118 21:28:48.143954  3329 IoReader.cpp:110] tid=140478973896448 get message:GET /html/life.html HTTP/1.1
+
+I0118 21:28:48.143978  3329 RequestManager.cpp:33] tid=140478973896448 need /html/life.html
+I0118 21:28:48.144348  3329 StaticResponseState.cpp:27] tid=140478973896448 send test-files/html/life.html successed!
+I0118 21:28:48.144433  3329 Tiny.cpp:26] tid=140478973896448 release runMutex
+I0118 21:28:48.144563  3329 Thread.cpp:27] tid 140478973896448 is waiting the mutex
+I0118 21:28:48.144573  3329 Thread.cpp:29] tid 140478973896448 get the mutex
+I0118 21:28:48.162559  3327 Tiny.cpp:89] Connect 6
+I0118 21:28:48.162627  3328 Thread.cpp:50] tid 140478982289152 release the mutex
+I0118 21:28:48.162636  3328 Thread.cpp:52] tid 140478982289152 run
+I0118 21:28:48.162735  3328 Tiny.cpp:23] tid=140478982289152 get runMutex
+I0118 21:28:48.162768  3328 IoReader.cpp:110] tid=140478982289152 get message:GET /html/css/book.css HTTP/1.1
+
+I0118 21:28:48.162792  3328 RequestManager.cpp:33] tid=140478982289152 need /html/css/book.css
+I0118 21:28:48.162964  3328 Tiny.cpp:26] tid=140478982289152 release runMutex
+I0118 21:28:48.162995  3328 Thread.cpp:27] tid 140478982289152 is waiting the mutex
+I0118 21:28:48.163003  3328 Thread.cpp:29] tid 140478982289152 get the mutex
+I0118 21:28:48.164232  3327 Tiny.cpp:89] Connect 4
+I0118 21:28:48.164286  3330 Thread.cpp:50] tid 140478965503744 release the mutex
+I0118 21:28:48.164296  3330 Thread.cpp:52] tid 140478965503744 run
+I0118 21:28:48.164302  3330 Tiny.cpp:23] tid=140478965503744 get runMutex
+I0118 21:28:48.164489  3330 IoReader.cpp:110] tid=140478965503744 get message:GET /css/book.css HTTP/1.1
+
+
+I0118 21:28:48.164507  3330 RequestManager.cpp:33] tid=140478965503744 need /css/book.css
+I0118 21:28:48.164868  3330 StaticResponseState.cpp:27] tid=140478965503744 send test-files/css/book.css successed!
+I0118 21:28:48.164949  3330 Tiny.cpp:26] tid=140478965503744 release runMutex
+I0118 21:28:48.164979  3330 Thread.cpp:27] tid 140478965503744 is waiting the mutex
+I0118 21:28:48.164986  3330 Thread.cpp:29] tid 140478965503744 get the mutex
+I0118 21:28:48.170434  3327 Tiny.cpp:89] Connect 6
+I0118 21:28:48.170505  3335 Thread.cpp:50] tid 140478923540224 release the mutex
+I0118 21:28:48.170514  3335 Thread.cpp:52] tid 140478923540224 run
+I0118 21:28:48.170521  3335 Tiny.cpp:23] tid=140478923540224 get runMutex
+I0118 21:28:48.170806  3335 IoReader.cpp:110] tid=140478923540224 get message:GET /images/pencil.gif HTTP/1.1
+
+I0118 21:28:48.170825  3335 RequestManager.cpp:33] tid=140478923540224 need /images/pencil.gif
+I0118 21:28:48.171044  3335 StaticResponseState.cpp:27] tid=140478923540224 send test-files/images/pencil.gif successed!
+I0118 21:28:48.171124  3335 Tiny.cpp:26] tid=140478923540224 release runMutex
+I0118 21:28:48.171175  3335 Thread.cpp:27] tid 140478923540224 is waiting the mutex
+I0118 21:28:48.171182  3335 Thread.cpp:29] tid 140478923540224 get the mutex
+I0118 21:28:49.519740  3327 Tiny.cpp:89] Connect 4
+I0118 21:28:49.519814  3333 Thread.cpp:50] tid 140478940325632 release the mutex
+I0118 21:28:49.519824  3333 Thread.cpp:52] tid 140478940325632 run
+I0118 21:28:49.519829  3333 Tiny.cpp:23] tid=140478940325632 get runMutex
+I0118 21:28:49.520012  3333 IoReader.cpp:110] tid=140478940325632 get message:GET /html/area.html HTTP/1.1
+
+I0118 21:28:49.520030  3333 RequestManager.cpp:33] tid=140478940325632 need /html/area.html
+I0118 21:28:49.608772  3333 StaticResponseState.cpp:27] tid=140478940325632 send test-files/html/area.html successed!
+I0118 21:28:49.608867  3333 Tiny.cpp:26] tid=140478940325632 release runMutex
+I0118 21:28:49.608996  3333 Thread.cpp:27] tid 140478940325632 is waiting the mutex
+I0118 21:28:49.609006  3333 Thread.cpp:29] tid 140478940325632 get the mutex
+I0118 21:28:49.629441  3327 Tiny.cpp:89] Connect 6
+I0118 21:28:49.629732  3327 Tiny.cpp:89] Connect 4
+I0118 21:28:49.629787  3336 Thread.cpp:50] tid 140478915147520 release the mutex
+I0118 21:28:49.629797  3336 Thread.cpp:52] tid 140478915147520 run
+I0118 21:28:49.629803  3336 Tiny.cpp:23] tid=140478915147520 get runMutex
+I0118 21:28:49.629863  3336 IoReader.cpp:110] tid=140478915147520 get message:GET /css/book.css HTTP/1.1
+1.1
+
+I0118 21:28:49.629878  3336 RequestManager.cpp:33] tid=140478915147520 need /css/book.css
+I0118 21:28:49.630311  3336 StaticResponseState.cpp:27] tid=140478915147520 send test-files/css/book.css successed!
+I0118 21:28:49.630394  3336 Tiny.cpp:26] tid=140478915147520 release runMutex
+I0118 21:28:49.630529  3336 Thread.cpp:27] tid 140478915147520 is waiting the mutex
+I0118 21:28:49.630746  3337 Thread.cpp:50] tid 140478906754816 release the mutex
+I0118 21:28:49.630759  3337 Thread.cpp:52] tid 140478906754816 run
+I0118 21:28:49.630764  3337 Tiny.cpp:23] tid=140478906754816 get runMutex
+I0118 21:28:49.632447  3336 Thread.cpp:29] tid 140478915147520 get the mutex
+I0118 21:28:49.641463  3327 Tiny.cpp:89] Connect 7
+I0118 21:28:49.641527  3332 Thread.cpp:50] tid 140478948718336 release the mutex
+I0118 21:28:49.641536  3332 Thread.cpp:52] tid 140478948718336 run
+I0118 21:28:49.641542  3332 Tiny.cpp:23] tid=140478948718336 get runMutex
+I0118 21:28:49.641666  3332 IoReader.cpp:110] tid=140478948718336 get message:GET /images/pencil.gif HTTP/1.1
+
+I0118 21:28:49.641685  3332 RequestManager.cpp:33] tid=140478948718336 need /images/pencil.gif
+I0118 21:28:49.641904  3332 StaticResponseState.cpp:27] tid=140478948718336 send test-files/images/pencil.gif successed!
+I0118 21:28:49.641983  3332 Tiny.cpp:26] tid=140478948718336 release runMutex
+I0118 21:28:49.642011  3332 Thread.cpp:27] tid 140478948718336 is waiting the mutex
+I0118 21:28:49.642019  3332 Thread.cpp:29] tid 140478948718336 get the mutex
+I0118 21:28:49.646955  3337 IoReader.cpp:110] tid=140478906754816 get message:GET /html/skill.html HTTP/1.1
+
+I0118 21:28:49.646993  3337 RequestManager.cpp:33] tid=140478906754816 need /html/skill.html
+I0118 21:29:25.995143  3327 Tiny.cpp:89] Connect 4
+I0118 21:29:25.995730  3327 Tiny.cpp:89] Connect 7
+I0118 21:29:25.995770  3334 Thread.cpp:50] tid 140478931932928 release the mutex
+I0118 21:29:25.995779  3334 Thread.cpp:52] tid 140478931932928 run
+I0118 21:29:25.995785  3334 Tiny.cpp:23] tid=140478931932928 get runMutex
+I0118 21:29:25.996434  3327 Tiny.cpp:89] Connect 8
+I0118 21:29:25.996474  3331 Thread.cpp:50] tid 140478957111040 release the mutex
+I0118 21:29:25.996484  3331 Thread.cpp:52] tid 140478957111040 run
+I0118 21:29:25.996490  3331 Tiny.cpp:23] tid=140478957111040 get runMutex
+I0118 21:29:25.996750  3327 Tiny.cpp:89] Connect 9
+I0118 21:29:25.996825  3329 Thread.cpp:50] tid 140478973896448 release the mutex
+I0118 21:29:25.996836  3329 Thread.cpp:52] tid 140478973896448 run
+I0118 21:29:25.996843  3329 Tiny.cpp:23] tid=140478973896448 get runMutex
+I0118 21:29:25.997988  3327 Tiny.cpp:89] Connect 10
+I0118 21:29:25.998061  3328 Thread.cpp:50] tid 140478982289152 release the mutex
+I0118 21:29:25.998072  3328 Thread.cpp:52] tid 140478982289152 run
+I0118 21:29:25.998078  3328 Tiny.cpp:23] tid=140478982289152 get runMutex
+I0118 21:29:25.998127  3330 Thread.cpp:50] tid 140478965503744 release the mutex
+I0118 21:29:25.998136  3330 Thread.cpp:52] tid 140478965503744 run
+I0118 21:29:25.998266  3330 Tiny.cpp:23] tid=140478965503744 get runMutex
+I0118 21:29:26.014524  3328 IoReader.cpp:110] tid=140478982289152 get message:GET /html/css/book.css HTTP/1.1
+
+I0118 21:29:26.014566  3328 RequestManager.cpp:33] tid=140478982289152 need /html/css/book.css
+I0118 21:29:26.014717  3328 Tiny.cpp:26] tid=140478982289152 release runMutex
+I0118 21:29:26.015017  3328 Thread.cpp:27] tid 140478982289152 is waiting the mutex
+I0118 21:29:26.015029  3328 Thread.cpp:29] tid 140478982289152 get the mutex
+I0118 21:29:26.016002  3330 IoReader.cpp:110] tid=140478965503744 get message:GET /css/book.css HTTP/1.1
+
+
+I0118 21:29:26.016023  3330 RequestManager.cpp:33] tid=140478965503744 need /css/book.css
+I0118 21:29:27.770819  3329 IoReader.cpp:110] tid=140478973896448 get message:GET /html/origin.html HTTP/1.1
+
+I0118 21:29:27.770856  3329 RequestManager.cpp:33] tid=140478973896448 need /html/origin.html
+I0118 21:29:27.776425  3329 StaticResponseState.cpp:27] tid=140478973896448 send test-files/html/origin.html successed!
+I0118 21:29:27.776455  3329 Tiny.cpp:26] tid=140478973896448 release runMutex
+I0118 21:29:27.776572  3329 Thread.cpp:27] tid 140478973896448 is waiting the mutex
+I0118 21:29:27.776582  3329 Thread.cpp:29] tid 140478973896448 get the mutex
+I0118 21:29:27.791642  3331 IoReader.cpp:110] tid=140478957111040 get message:GET /html/css/book.css HTTP/1.1
+
+I0118 21:29:27.791682  3331 RequestManager.cpp:33] tid=140478957111040 need /html/css/book.css
+I0118 21:29:27.791834  3331 Tiny.cpp:26] tid=140478957111040 release runMutex
+I0118 21:29:27.791921  3334 IoReader.cpp:110] tid=140478931932928 get message:GET /css/book.css HTTP/1.1
+
+I0118 21:29:27.791937  3334 RequestManager.cpp:33] tid=140478931932928 need /css/book.css
+I0118 21:29:27.792044  3331 Thread.cpp:27] tid 140478957111040 is waiting the mutex
+I0118 21:29:27.792055  3331 Thread.cpp:29] tid 140478957111040 get the mutex
+I0118 21:29:27.796176  3334 StaticResponseState.cpp:27] tid=140478931932928 send test-files/css/book.css successed!
+I0118 21:29:27.796206  3334 Tiny.cpp:26] tid=140478931932928 release runMutex
+I0118 21:29:27.796229  3334 Thread.cpp:27] tid 140478931932928 is waiting the mutex
+I0118 21:29:27.796238  3334 Thread.cpp:29] tid 140478931932928 get the mutex
+I0118 21:29:27.970962  3327 Tiny.cpp:89] Connect 11
+I0118 21:29:27.971035  3335 Thread.cpp:50] tid 140478923540224 release the mutex
+I0118 21:29:27.971360  3335 Thread.cpp:52] tid 140478923540224 run
+I0118 21:29:27.971371  3335 Tiny.cpp:23] tid=140478923540224 get runMutex
+I0118 21:29:27.971388  3335 IoReader.cpp:110] tid=140478923540224 get message:GET /images/fossil.gif HTTP/1.1
+
+I0118 21:29:27.971401  3335 RequestManager.cpp:33] tid=140478923540224 need /images/fossil.gif
+I0118 21:29:27.972231  3335 StaticResponseState.cpp:27] tid=140478923540224 send test-files/images/fossil.gif successed!
+I0118 21:29:27.972414  3335 Tiny.cpp:26] tid=140478923540224 release runMutex
+I0118 21:29:27.972561  3335 Thread.cpp:27] tid 140478923540224 is waiting the mutex
+I0118 21:29:27.972573  3335 Thread.cpp:29] tid 140478923540224 get the mutex
+I0118 21:29:28.904947  3327 Tiny.cpp:89] Connect 10
+I0118 21:29:28.905016  3333 Thread.cpp:50] tid 140478940325632 release the mutex
+I0118 21:29:28.905025  3333 Thread.cpp:52] tid 140478940325632 run
+I0118 21:29:28.905031  3333 Tiny.cpp:23] tid=140478940325632 get runMutex
+I0118 21:29:28.905046  3333 IoReader.cpp:110] tid=140478940325632 get message:GET /index.html HTTP/1.1
+.1
+
+I0118 21:29:28.905058  3333 RequestManager.cpp:33] tid=140478940325632 need /index.html
+I0118 21:29:28.905406  3333 StaticResponseState.cpp:27] tid=140478940325632 send test-files/index.html successed!
+I0118 21:29:28.905485  3333 Tiny.cpp:26] tid=140478940325632 release runMutex
+I0118 21:29:28.905606  3333 Thread.cpp:27] tid 140478940325632 is waiting the mutex
+I0118 21:29:28.905619  3333 Thread.cpp:29] tid 140478940325632 get the mutex
+I0118 21:29:28.927956  3327 Tiny.cpp:89] Connect 11
+I0118 21:29:28.928045  3327 Tiny.cpp:89] Connect 10
+I0118 21:29:28.928077  3336 Thread.cpp:50] tid 140478915147520 release the mutex
+I0118 21:29:28.928086  3336 Thread.cpp:52] tid 140478915147520 run
+I0118 21:29:28.928092  3336 Tiny.cpp:23] tid=140478915147520 get runMutex
+I0118 21:29:28.928120  3336 IoReader.cpp:110] tid=140478915147520 get message:GET /images/introduction.gif HTTP/1.1
+
+I0118 21:29:28.928134  3336 RequestManager.cpp:33] tid=140478915147520 need /images/introduction.gif
+I0118 21:29:28.928509  3336 StaticResponseState.cpp:27] tid=140478915147520 send test-files/images/introduction.gif successed!
+I0118 21:29:28.928654  3336 Tiny.cpp:26] tid=140478915147520 release runMutex
+I0118 21:29:28.928761  3336 Thread.cpp:27] tid 140478915147520 is waiting the mutex
+I0118 21:29:28.930476  3332 Thread.cpp:50] tid 140478948718336 release the mutex
+I0118 21:29:28.930500  3332 Thread.cpp:52] tid 140478948718336 run
+I0118 21:29:28.930506  3332 Tiny.cpp:23] tid=140478948718336 get runMutex
+I0118 21:29:28.933028  3336 Thread.cpp:29] tid 140478915147520 get the mutex
+I0118 21:29:28.941195  3327 Tiny.cpp:89] Connect 12
+I0118 21:29:28.941262  3328 Thread.cpp:50] tid 140478982289152 release the mutex
+I0118 21:29:28.941272  3328 Thread.cpp:52] tid 140478982289152 run
+I0118 21:29:28.941277  3328 Tiny.cpp:23] tid=140478982289152 get runMutex
+I0118 21:29:28.941293  3328 IoReader.cpp:110] tid=140478982289152 get message:GET /images/White-vented.gif HTTP/1.1
+
+I0118 21:29:28.941305  3328 RequestManager.cpp:33] tid=140478982289152 need /images/White-vented.gif
+I0118 21:29:28.941658  3328 StaticResponseState.cpp:27] tid=140478982289152 send test-files/images/White-vented.gif successed!
+I0118 21:29:28.941681  3328 Tiny.cpp:26] tid=140478982289152 release runMutex
+I0118 21:29:28.941704  3328 Thread.cpp:27] tid 140478982289152 is waiting the mutex
+I0118 21:29:28.941710  3328 Thread.cpp:29] tid 140478982289152 get the mutex
+I0118 21:29:28.960765  3327 Tiny.cpp:89] Connect 10
+I0118 21:29:28.960837  3329 Thread.cpp:50] tid 140478973896448 release the mutex
+I0118 21:29:28.960846  3329 Thread.cpp:52] tid 140478973896448 run
+I0118 21:29:28.960852  3329 Tiny.cpp:23] tid=140478973896448 get runMutex
+I0118 21:29:28.960867  3329 IoReader.cpp:110] tid=140478973896448 get message:GET /images/Eutoxeres.gif HTTP/1.1
+
+I0118 21:29:28.960880  3329 RequestManager.cpp:33] tid=140478973896448 need /images/Eutoxeres.gif
+I0118 21:29:28.961266  3329 StaticResponseState.cpp:27] tid=140478973896448 send test-files/images/Eutoxeres.gif successed!
+I0118 21:29:28.961518  3329 Tiny.cpp:26] tid=140478973896448 release runMutex
+I0118 21:29:28.961659  3329 Thread.cpp:27] tid 140478973896448 is waiting the mutex
+I0118 21:29:28.961670  3329 Thread.cpp:29] tid 140478973896448 get the mutex
+I0118 21:29:28.966413  3327 Tiny.cpp:89] Connect 12
+I0118 21:29:28.966480  3331 Thread.cpp:50] tid 140478957111040 release the mutex
+I0118 21:29:28.966490  3331 Thread.cpp:52] tid 140478957111040 run
+I0118 21:29:28.966536  3331 Tiny.cpp:23] tid=140478957111040 get runMutex
+I0118 21:29:28.966708  3331 IoReader.cpp:110] tid=140478957111040 get message:GET /images/Mountain.jpg HTTP/1.1
+
+I0118 21:29:28.966727  3331 RequestManager.cpp:33] tid=140478957111040 need /images/Mountain.jpg
+I0118 21:29:28.973155  3331 StaticResponseState.cpp:27] tid=140478957111040 send test-files/images/Mountain.jpg successed!
+I0118 21:29:28.973189  3331 Tiny.cpp:26] tid=140478957111040 release runMutex
+I0118 21:29:28.973307  3331 Thread.cpp:27] tid 140478957111040 is waiting the mutex
+I0118 21:29:28.973316  3331 Thread.cpp:29] tid 140478957111040 get the mutex
+I0118 21:29:28.973846  3332 IoReader.cpp:110] tid=140478948718336 get message:GET /images/pencil.gif HTTP/1.1
+
+I0118 21:29:28.973868  3332 RequestManager.cpp:33] tid=140478948718336 need /images/pencil.gif
+I0118 21:29:28.978425  3327 Tiny.cpp:89] Connect 10
+I0118 21:29:28.978492  3334 Thread.cpp:50] tid 140478931932928 release the mutex
+I0118 21:29:28.978502  3334 Thread.cpp:52] tid 140478931932928 run
+I0118 21:29:28.978508  3334 Tiny.cpp:23] tid=140478931932928 get runMutex
+I0118 21:29:28.978711  3334 IoReader.cpp:110] tid=140478931932928 get message:GET /images/Hook.jpg HTTP/1.1
+
+I0118 21:29:28.978729  3334 RequestManager.cpp:33] tid=140478931932928 need /images/Hook.jpg
+I0118 21:29:28.979226  3334 StaticResponseState.cpp:27] tid=140478931932928 send test-files/images/Hook.jpg successed!
+I0118 21:29:28.979315  3334 Tiny.cpp:26] tid=140478931932928 release runMutex
+I0118 21:29:28.979459  3334 Thread.cpp:27] tid 140478931932928 is waiting the mutex
+I0118 21:29:28.979470  3334 Thread.cpp:29] tid 140478931932928 get the mutex
+I0118 21:29:28.983506  3327 Tiny.cpp:89] Connect 12
+I0118 21:29:28.983573  3335 Thread.cpp:50] tid 140478923540224 release the mutex
+I0118 21:29:28.983583  3335 Thread.cpp:52] tid 140478923540224 run
+I0118 21:29:28.983589  3335 Tiny.cpp:23] tid=140478923540224 get runMutex
+I0118 21:29:28.983701  3335 IoReader.cpp:110] tid=140478923540224 get message:GET /images/pencil.gif HTTP/1.1
+
+I0118 21:29:28.983719  3335 RequestManager.cpp:33] tid=140478923540224 need /images/pencil.gif
+I0118 21:29:28.989593  3335 StaticResponseState.cpp:27] tid=140478923540224 send test-files/images/pencil.gif successed!
+I0118 21:29:28.989711  3335 Tiny.cpp:26] tid=140478923540224 release runMutex
+I0118 21:29:28.989745  3335 Thread.cpp:27] tid 140478923540224 is waiting the mutex
+I0118 21:29:28.989754  3335 Thread.cpp:29] tid 140478923540224 get the mutex
+I0118 21:29:28.996857  3327 Tiny.cpp:89] Connect 10
+I0118 21:29:28.996932  3333 Thread.cpp:50] tid 140478940325632 release the mutex
+I0118 21:29:28.996940  3333 Thread.cpp:52] tid 140478940325632 run
+I0118 21:29:28.996947  3333 Tiny.cpp:23] tid=140478940325632 get runMutex
+I0118 21:29:28.997505  3333 IoReader.cpp:110] tid=140478940325632 get message:GET /images/go.gif HTTP/1.1
+
+
+I0118 21:29:28.997526  3333 RequestManager.cpp:33] tid=140478940325632 need /images/go.gif
+I0118 21:29:28.998525  3333 StaticResponseState.cpp:27] tid=140478940325632 send test-files/images/go.gif successed!
+I0118 21:29:28.998747  3333 Tiny.cpp:26] tid=140478940325632 release runMutex
+I0118 21:29:28.999181  3333 Thread.cpp:27] tid 140478940325632 is waiting the mutex
+I0118 21:29:28.999194  3333 Thread.cpp:29] tid 140478940325632 get the mutex
+I0118 21:29:31.707271  3327 Tiny.cpp:89] Connect 12
+I0118 21:29:31.707455  3327 Tiny.cpp:89] Connect 10
+I0118 21:29:31.707491  3336 Thread.cpp:50] tid 140478915147520 release the mutex
+I0118 21:29:31.707564  3336 Thread.cpp:52] tid 140478915147520 run
+I0118 21:29:31.707576  3336 Tiny.cpp:23] tid=140478915147520 get runMutex
+I0118 21:29:31.707870  3327 Tiny.cpp:89] Connect 13
+I0118 21:29:31.708016  3328 Thread.cpp:50] tid 140478982289152 release the mutex
+I0118 21:29:31.708029  3328 Thread.cpp:52] tid 140478982289152 run
+I0118 21:29:31.708034  3328 Tiny.cpp:23] tid=140478982289152 get runMutex
+I0118 21:29:31.709944  3329 Thread.cpp:50] tid 140478973896448 release the mutex
+I0118 21:29:31.710041  3329 Thread.cpp:52] tid 140478973896448 run
+I0118 21:29:31.713163  3329 Tiny.cpp:23] tid=140478973896448 get runMutex
+I0118 21:29:31.713282  3327 Tiny.cpp:89] Connect 14
+I0118 21:29:31.713452  3331 Thread.cpp:50] tid 140478957111040 release the mutex
+I0118 21:29:31.713467  3331 Thread.cpp:52] tid 140478957111040 run
+I0118 21:29:31.713475  3331 Tiny.cpp:23] tid=140478957111040 get runMutex
+I0118 21:29:31.713542  3327 Tiny.cpp:89] Connect 15
+I0118 21:29:31.714604  3334 Thread.cpp:50] tid 140478931932928 release the mutex
+I0118 21:29:31.714620  3334 Thread.cpp:52] tid 140478931932928 run
+I0118 21:29:31.714627  3334 Tiny.cpp:23] tid=140478931932928 get runMutex
+I0118 21:29:31.734166  3328 IoReader.cpp:110] tid=140478982289152 get message:GET /css/book.css HTTP/1.1
+ HTTP/1.1
+
+I0118 21:29:31.734206  3328 RequestManager.cpp:33] tid=140478982289152 need /css/book.css
+I0118 21:29:31.740209  3328 StaticResponseState.cpp:27] tid=140478982289152 send test-files/css/book.css successed!
+I0118 21:29:31.740245  3328 Tiny.cpp:26] tid=140478982289152 release runMutex
+I0118 21:29:31.740267  3328 Thread.cpp:27] tid 140478982289152 is waiting the mutex
+I0118 21:29:31.740274  3328 Thread.cpp:29] tid 140478982289152 get the mutex
+I0118 21:29:31.742697  3329 IoReader.cpp:110] tid=140478973896448 get message:GET /images/Eutoxeres.gif HTTP/1.1
+
+I0118 21:29:31.742837  3329 RequestManager.cpp:33] tid=140478973896448 need /images/Eutoxeres.gif
+I0118 21:29:31.744035  3329 StaticResponseState.cpp:27] tid=140478973896448 send test-files/images/Eutoxeres.gif successed!
+I0118 21:29:31.744066  3329 Tiny.cpp:26] tid=140478973896448 release runMutex
+I0118 21:29:31.744093  3329 Thread.cpp:27] tid 140478973896448 is waiting the mutex
+I0118 21:29:31.744101  3329 Thread.cpp:29] tid 140478973896448 get the mutex
+I0118 21:29:32.811879  3336 IoReader.cpp:110] tid=140478915147520 get message:GET /index.html HTTP/1.1
+if HTTP/1.1
+
+I0118 21:29:32.811918  3336 RequestManager.cpp:33] tid=140478915147520 need /index.html
+I0118 21:29:32.812348  3336 StaticResponseState.cpp:27] tid=140478915147520 send test-files/index.html successed!
+I0118 21:29:32.812363  3336 Tiny.cpp:26] tid=140478915147520 release runMutex
+I0118 21:29:32.812479  3336 Thread.cpp:27] tid 140478915147520 is waiting the mutex
+I0118 21:29:32.812489  3336 Thread.cpp:29] tid 140478915147520 get the mutex
+I0118 21:29:32.831696  3331 IoReader.cpp:110] tid=140478957111040 get message:GET /images/introduction.gif HTTP/1.1
+
+I0118 21:29:32.831732  3331 RequestManager.cpp:33] tid=140478957111040 need /images/introduction.gif
+I0118 21:29:32.839697  3331 StaticResponseState.cpp:27] tid=140478957111040 send test-files/images/introduction.gif successed!
+I0118 21:29:32.839731  3331 Tiny.cpp:26] tid=140478957111040 release runMutex
+I0118 21:29:32.839807  3331 Thread.cpp:27] tid 140478957111040 is waiting the mutex
+I0118 21:29:32.839821  3331 Thread.cpp:29] tid 140478957111040 get the mutex
+I0118 21:29:32.843897  3334 IoReader.cpp:110] tid=140478931932928 get message:GET /images/White-vented.gif HTTP/1.1
+
+I0118 21:29:32.843936  3334 RequestManager.cpp:33] tid=140478931932928 need /images/White-vented.gif
+I0118 21:29:32.847591  3327 Tiny.cpp:89] Connect 16
+I0118 21:29:32.847663  3335 Thread.cpp:50] tid 140478923540224 release the mutex
+I0118 21:29:32.847673  3335 Thread.cpp:52] tid 140478923540224 run
+I0118 21:29:32.847681  3335 Tiny.cpp:23] tid=140478923540224 get runMutex
+I0118 21:29:32.847697  3335 IoReader.cpp:110] tid=140478923540224 get message:GET /images/White-vented.gif HTTP/1.1
+
+I0118 21:29:32.847712  3335 RequestManager.cpp:33] tid=140478923540224 need /images/White-vented.gif
+I0118 21:29:32.848868  3335 StaticResponseState.cpp:27] tid=140478923540224 send test-files/images/White-vented.gif successed!
+I0118 21:29:32.849167  3335 Tiny.cpp:26] tid=140478923540224 release runMutex
+I0118 21:29:32.849202  3335 Thread.cpp:27] tid 140478923540224 is waiting the mutex
+I0118 21:29:32.849210  3335 Thread.cpp:29] tid 140478923540224 get the mutex
+I0118 21:29:32.855368  3327 Tiny.cpp:89] Connect 15
+I0118 21:29:32.855442  3333 Thread.cpp:50] tid 140478940325632 release the mutex
+I0118 21:29:32.855509  3333 Thread.cpp:52] tid 140478940325632 run
+I0118 21:29:32.855518  3333 Tiny.cpp:23] tid=140478940325632 get runMutex
+I0118 21:29:32.855536  3333 IoReader.cpp:110] tid=140478940325632 get message:GET /images/Eutoxeres.gif HTTP/1.1
+
+I0118 21:29:32.855551  3333 RequestManager.cpp:33] tid=140478940325632 need /images/Eutoxeres.gif
+I0118 21:29:32.855936  3333 StaticResponseState.cpp:27] tid=140478940325632 send test-files/images/Eutoxeres.gif successed!
+I0118 21:29:32.856034  3333 Tiny.cpp:26] tid=140478940325632 release runMutex
+I0118 21:29:32.856066  3333 Thread.cpp:27] tid 140478940325632 is waiting the mutex
+I0118 21:29:32.856075  3333 Thread.cpp:29] tid 140478940325632 get the mutex
+I0118 21:29:32.868578  3327 Tiny.cpp:89] Connect 16
+I0118 21:29:32.868676  3328 Thread.cpp:50] tid 140478982289152 release the mutex
+I0118 21:29:32.868690  3328 Thread.cpp:52] tid 140478982289152 run
+I0118 21:29:32.868696  3328 Tiny.cpp:23] tid=140478982289152 get runMutex
+I0118 21:29:32.868711  3328 IoReader.cpp:110] tid=140478982289152 get message:GET /images/Mountain.jpg HTTP/1.1
+.1
+
+I0118 21:29:32.868724  3328 RequestManager.cpp:33] tid=140478982289152 need /images/Mountain.jpg
+I0118 21:29:32.871011  3328 StaticResponseState.cpp:27] tid=140478982289152 send test-files/images/Mountain.jpg successed!
+I0118 21:29:32.871122  3328 Tiny.cpp:26] tid=140478982289152 release runMutex
+I0118 21:29:32.871253  3328 Thread.cpp:27] tid 140478982289152 is waiting the mutex
+I0118 21:29:32.871263  3328 Thread.cpp:29] tid 140478982289152 get the mutex
+I0118 21:29:32.882952  3327 Tiny.cpp:89] Connect 15
+I0118 21:29:32.883023  3329 Thread.cpp:50] tid 140478973896448 release the mutex
+I0118 21:29:32.883033  3329 Thread.cpp:52] tid 140478973896448 run
+I0118 21:29:32.883039  3329 Tiny.cpp:23] tid=140478973896448 get runMutex
+I0118 21:29:32.884598  3329 IoReader.cpp:110] tid=140478973896448 get message:GET /images/Hook.jpg HTTP/1.1
+1.1
+
+I0118 21:29:32.884618  3329 RequestManager.cpp:33] tid=140478973896448 need /images/Hook.jpg
+I0118 21:29:32.885815  3329 StaticResponseState.cpp:27] tid=140478973896448 send test-files/images/Hook.jpg successed!
+I0118 21:29:32.885932  3329 Tiny.cpp:26] tid=140478973896448 release runMutex
+I0118 21:29:32.886063  3329 Thread.cpp:27] tid 140478973896448 is waiting the mutex
+I0118 21:29:32.886073  3329 Thread.cpp:29] tid 140478973896448 get the mutex
+I0118 21:29:32.900221  3327 Tiny.cpp:89] Connect 16
+I0118 21:29:32.900310  3336 Thread.cpp:50] tid 140478915147520 release the mutex
+I0118 21:29:32.900319  3336 Thread.cpp:52] tid 140478915147520 run
+I0118 21:29:32.900326  3336 Tiny.cpp:23] tid=140478915147520 get runMutex
+I0118 21:29:32.900343  3336 IoReader.cpp:110] tid=140478915147520 get message:GET /images/pencil.gif HTTP/1.1
+/1.1
+
+I0118 21:29:32.900358  3336 RequestManager.cpp:33] tid=140478915147520 need /images/pencil.gif
+I0118 21:29:32.907932  3336 StaticResponseState.cpp:27] tid=140478915147520 send test-files/images/pencil.gif successed!
+I0118 21:29:32.908048  3336 Tiny.cpp:26] tid=140478915147520 release runMutex
+I0118 21:29:32.908180  3336 Thread.cpp:27] tid 140478915147520 is waiting the mutex
+I0118 21:29:32.908190  3336 Thread.cpp:29] tid 140478915147520 get the mutex
+I0118 21:29:32.915906  3327 Tiny.cpp:89] Connect 15
+I0118 21:29:32.915977  3331 Thread.cpp:50] tid 140478957111040 release the mutex
+I0118 21:29:32.915985  3331 Thread.cpp:52] tid 140478957111040 run
+I0118 21:29:32.915992  3331 Tiny.cpp:23] tid=140478957111040 get runMutex
+I0118 21:29:32.916007  3331 IoReader.cpp:110] tid=140478957111040 get message:GET /images/go.gif HTTP/1.1
+HTTP/1.1
+
+I0118 21:29:32.916019  3331 RequestManager.cpp:33] tid=140478957111040 need /images/go.gif
+I0118 21:29:32.916404  3331 StaticResponseState.cpp:27] tid=140478957111040 send test-files/images/go.gif successed!
+I0118 21:29:32.916419  3331 Tiny.cpp:26] tid=140478957111040 release runMutex
+I0118 21:29:32.916507  3331 Thread.cpp:27] tid 140478957111040 is waiting the mutex
+I0118 21:29:32.916827  3331 Thread.cpp:29] tid 140478957111040 get the mutex
+I0118 21:31:13.312760  3327 Tiny.cpp:89] Connect 16
+I0118 21:31:13.313498  3335 Thread.cpp:50] tid 140478923540224 release the mutex
+I0118 21:31:13.313509  3335 Thread.cpp:52] tid 140478923540224 run
+I0118 21:31:13.313516  3335 Tiny.cpp:23] tid=140478923540224 get runMutex
+I0118 21:31:13.313803  3327 Tiny.cpp:89] Connect 15
+I0118 21:31:13.313848  3333 Thread.cpp:50] tid 140478940325632 release the mutex
+I0118 21:31:13.313855  3333 Thread.cpp:52] tid 140478940325632 run
+I0118 21:31:13.313861  3333 Tiny.cpp:23] tid=140478940325632 get runMutex
+I0118 21:31:13.314589  3327 Tiny.cpp:89] Connect 17
+I0118 21:31:13.314869  3328 Thread.cpp:50] tid 140478982289152 release the mutex
+I0118 21:31:13.314882  3328 Thread.cpp:52] tid 140478982289152 run
+I0118 21:31:13.314888  3328 Tiny.cpp:23] tid=140478982289152 get runMutex
+I0118 21:31:13.320044  3327 Tiny.cpp:89] Connect 18
+I0118 21:31:13.320112  3329 Thread.cpp:50] tid 140478973896448 release the mutex
+I0118 21:31:13.320135  3329 Thread.cpp:52] tid 140478973896448 run
+I0118 21:31:13.320144  3329 Tiny.cpp:23] tid=140478973896448 get runMutex
+I0118 21:31:13.337545  3335 IoReader.cpp:110] tid=140478923540224 get message:GET /css/book.css HTTP/1.1
+ HTTP/1.1
+
+I0118 21:31:13.337584  3335 RequestManager.cpp:33] tid=140478923540224 need /css/book.css
+I0118 21:31:13.338387  3335 StaticResponseState.cpp:27] tid=140478923540224 send test-files/css/book.css successed!
+I0118 21:31:13.338405  3335 Tiny.cpp:26] tid=140478923540224 release runMutex
+I0118 21:31:13.338428  3335 Thread.cpp:27] tid 140478923540224 is waiting the mutex
+I0118 21:31:13.338438  3335 Thread.cpp:29] tid 140478923540224 get the mutex
+I0118 21:31:14.964074  3329 IoReader.cpp:110] tid=140478973896448 get message:GET /index.html HTTP/1.1
+1.1
+1.1
+
+I0118 21:31:14.964112  3329 RequestManager.cpp:33] tid=140478973896448 need /index.html
+I0118 21:31:14.966276  3328 IoReader.cpp:110] tid=140478982289152 get message:GET /index.html HTTP/1.1
+TTP/1.1
+.1
+
+I0118 21:31:14.966310  3328 RequestManager.cpp:33] tid=140478982289152 need /index.html
+I0118 21:31:14.976529  3328 StaticResponseState.cpp:27] tid=140478982289152 send test-files/index.html successed!
+I0118 21:31:14.976562  3328 Tiny.cpp:26] tid=140478982289152 release runMutex
+I0118 21:31:14.976776  3328 Thread.cpp:27] tid 140478982289152 is waiting the mutex
+I0118 21:31:14.976788  3328 Thread.cpp:29] tid 140478982289152 get the mutex
+I0118 21:31:14.992103  3333 IoReader.cpp:110] tid=140478940325632 get message:GET /css/book.css HTTP/1.1
+TP/1.1
+
+I0118 21:31:14.992617  3333 RequestManager.cpp:33] tid=140478940325632 need /css/book.css
+I0118 21:31:14.996572  3327 Tiny.cpp:89] Connect 19
+I0118 21:31:14.996644  3336 Thread.cpp:50] tid 140478915147520 release the mutex
+I0118 21:31:14.996652  3336 Thread.cpp:52] tid 140478915147520 run
+I0118 21:31:14.996659  3336 Tiny.cpp:23] tid=140478915147520 get runMutex
+I0118 21:31:14.996676  3336 IoReader.cpp:110] tid=140478915147520 get message:GET /images/introduction.gif HTTP/1.1
+
+I0118 21:31:14.996690  3336 RequestManager.cpp:33] tid=140478915147520 need /images/introduction.gif
+I0118 21:31:15.000011  3333 StaticResponseState.cpp:27] tid=140478940325632 send test-files/css/book.css successed!
+I0118 21:31:15.000151  3333 Tiny.cpp:26] tid=140478940325632 release runMutex
+I0118 21:31:15.000197  3333 Thread.cpp:27] tid 140478940325632 is waiting the mutex
+I0118 21:31:15.000286  3333 Thread.cpp:29] tid 140478940325632 get the mutex
+I0118 21:31:15.013936  3327 Tiny.cpp:89] Connect 18
+I0118 21:31:15.014004  3331 Thread.cpp:50] tid 140478957111040 release the mutex
+I0118 21:31:15.014014  3331 Thread.cpp:52] tid 140478957111040 run
+I0118 21:31:15.014020  3331 Tiny.cpp:23] tid=140478957111040 get runMutex
+I0118 21:31:15.014035  3331 IoReader.cpp:110] tid=140478957111040 get message:GET /images/White-vented.gif HTTP/1.1
+
+I0118 21:31:15.014048  3331 RequestManager.cpp:33] tid=140478957111040 need /images/White-vented.gif
+I0118 21:31:15.016201  3331 StaticResponseState.cpp:27] tid=140478957111040 send test-files/images/White-vented.gif successed!
+I0118 21:31:15.016782  3331 Tiny.cpp:26] tid=140478957111040 release runMutex
+I0118 21:31:15.016993  3331 Thread.cpp:27] tid 140478957111040 is waiting the mutex
+I0118 21:31:15.017004  3331 Thread.cpp:29] tid 140478957111040 get the mutex
+I0118 21:31:15.024921  3327 Tiny.cpp:89] Connect 19
+I0118 21:31:15.024989  3335 Thread.cpp:50] tid 140478923540224 release the mutex
+I0118 21:31:15.024998  3335 Thread.cpp:52] tid 140478923540224 run
+I0118 21:31:15.025004  3335 Tiny.cpp:23] tid=140478923540224 get runMutex
+I0118 21:31:15.025019  3335 IoReader.cpp:110] tid=140478923540224 get message:GET /images/Eutoxeres.gif HTTP/1.1
+1
+
+I0118 21:31:15.025032  3335 RequestManager.cpp:33] tid=140478923540224 need /images/Eutoxeres.gif
+I0118 21:31:15.025317  3335 StaticResponseState.cpp:27] tid=140478923540224 send test-files/images/Eutoxeres.gif successed!
+I0118 21:31:15.025928  3335 Tiny.cpp:26] tid=140478923540224 release runMutex
+I0118 21:31:15.027295  3335 Thread.cpp:27] tid 140478923540224 is waiting the mutex
+I0118 21:31:15.027315  3335 Thread.cpp:29] tid 140478923540224 get the mutex
+I0118 21:31:15.029706  3327 Tiny.cpp:89] Connect 18
+I0118 21:31:15.029772  3328 Thread.cpp:50] tid 140478982289152 release the mutex
+I0118 21:31:15.029781  3328 Thread.cpp:52] tid 140478982289152 run
+I0118 21:31:15.029788  3328 Tiny.cpp:23] tid=140478982289152 get runMutex
+I0118 21:31:15.029803  3328 IoReader.cpp:110] tid=140478982289152 get message:GET /images/Mountain.jpg HTTP/1.1
+.1
+
+I0118 21:31:15.029815  3328 RequestManager.cpp:33] tid=140478982289152 need /images/Mountain.jpg
+I0118 21:31:15.030463  3328 StaticResponseState.cpp:27] tid=140478982289152 send test-files/images/Mountain.jpg successed!
+I0118 21:31:15.030544  3328 Tiny.cpp:26] tid=140478982289152 release runMutex
+I0118 21:31:15.030575  3328 Thread.cpp:27] tid 140478982289152 is waiting the mutex
+I0118 21:31:15.030582  3328 Thread.cpp:29] tid 140478982289152 get the mutex
+I0118 21:31:15.035627  3327 Tiny.cpp:89] Connect 19
+I0118 21:31:15.035701  3333 Thread.cpp:50] tid 140478940325632 release the mutex
+I0118 21:31:15.035712  3333 Thread.cpp:52] tid 140478940325632 run
+I0118 21:31:15.035719  3333 Tiny.cpp:23] tid=140478940325632 get runMutex
+I0118 21:31:15.036478  3333 IoReader.cpp:110] tid=140478940325632 get message:GET /images/Hook.jpg HTTP/1.1
+1.1
+
+I0118 21:31:15.036499  3333 RequestManager.cpp:33] tid=140478940325632 need /images/Hook.jpg
+I0118 21:31:15.036798  3333 StaticResponseState.cpp:27] tid=140478940325632 send test-files/images/Hook.jpg successed!
+I0118 21:31:15.036885  3333 Tiny.cpp:26] tid=140478940325632 release runMutex
+I0118 21:31:15.036916  3333 Thread.cpp:27] tid 140478940325632 is waiting the mutex
+I0118 21:31:15.036924  3333 Thread.cpp:29] tid 140478940325632 get the mutex
+I0118 21:31:15.046278  3327 Tiny.cpp:89] Connect 18
+I0118 21:31:15.046375  3331 Thread.cpp:50] tid 140478957111040 release the mutex
+I0118 21:31:15.046387  3331 Thread.cpp:52] tid 140478957111040 run
+I0118 21:31:15.046394  3331 Tiny.cpp:23] tid=140478957111040 get runMutex
+I0118 21:31:15.046411  3331 IoReader.cpp:110] tid=140478957111040 get message:GET /images/pencil.gif HTTP/1.1
+/1.1
+
+I0118 21:31:15.046425  3331 RequestManager.cpp:33] tid=140478957111040 need /images/pencil.gif
+I0118 21:31:15.046771  3331 StaticResponseState.cpp:27] tid=140478957111040 send test-files/images/pencil.gif successed!
+I0118 21:31:15.046859  3331 Tiny.cpp:26] tid=140478957111040 release runMutex
+I0118 21:31:15.047001  3331 Thread.cpp:27] tid 140478957111040 is waiting the mutex
+I0118 21:31:15.047011  3331 Thread.cpp:29] tid 140478957111040 get the mutex
+I0118 21:31:15.052872  3327 Tiny.cpp:89] Connect 19
+I0118 21:31:15.052976  3335 Thread.cpp:50] tid 140478923540224 release the mutex
+I0118 21:31:15.053014  3335 Thread.cpp:52] tid 140478923540224 run
+I0118 21:31:15.053021  3335 Tiny.cpp:23] tid=140478923540224 get runMutex
+I0118 21:31:15.053040  3335 IoReader.cpp:110] tid=140478923540224 get message:GET /images/go.gif HTTP/1.1
+P/1.1
+1
+
+I0118 21:31:15.053053  3335 RequestManager.cpp:33] tid=140478923540224 need /images/go.gif
+I0118 21:31:15.054180  3335 StaticResponseState.cpp:27] tid=140478923540224 send test-files/images/go.gif successed!
+I0118 21:31:15.054564  3335 Tiny.cpp:26] tid=140478923540224 release runMutex
+I0118 21:31:15.054742  3335 Thread.cpp:27] tid 140478923540224 is waiting the mutex
+I0118 21:31:15.054754  3335 Thread.cpp:29] tid 140478923540224 get the mutex
+I0118 21:31:16.498728  3327 Tiny.cpp:89] Connect 18
+I0118 21:31:16.498811  3328 Thread.cpp:50] tid 140478982289152 release the mutex
+I0118 21:31:16.498821  3328 Thread.cpp:52] tid 140478982289152 run
+I0118 21:31:16.498827  3328 Tiny.cpp:23] tid=140478982289152 get runMutex
+I0118 21:31:16.498845  3328 IoReader.cpp:110] tid=140478982289152 get message:GET /html/form.html HTTP/1.1
+1.1
+.1
+
+I0118 21:31:16.498859  3328 RequestManager.cpp:33] tid=140478982289152 need /html/form.html
+I0118 21:31:16.540355  3328 StaticResponseState.cpp:27] tid=140478982289152 send test-files/html/form.html successed!
+I0118 21:31:16.540391  3328 Tiny.cpp:26] tid=140478982289152 release runMutex
+I0118 21:31:16.540477  3328 Thread.cpp:27] tid 140478982289152 is waiting the mutex
+I0118 21:31:16.540488  3328 Thread.cpp:29] tid 140478982289152 get the mutex
+I0118 21:31:16.557595  3327 Tiny.cpp:89] Connect 19
+I0118 21:31:16.557799  3327 Tiny.cpp:89] Connect 18
+I0118 21:31:16.557840  3333 Thread.cpp:50] tid 140478940325632 release the mutex
+I0118 21:31:16.557849  3333 Thread.cpp:52] tid 140478940325632 run
+I0118 21:31:16.557857  3333 Tiny.cpp:23] tid=140478940325632 get runMutex
+I0118 21:31:16.557909  3331 Thread.cpp:50] tid 140478957111040 release the mutex
+I0118 21:31:16.557919  3331 Thread.cpp:52] tid 140478957111040 run
+I0118 21:31:16.557925  3331 Tiny.cpp:23] tid=140478957111040 get runMutex
+I0118 21:31:16.664487  3331 IoReader.cpp:110] tid=140478957111040 get message:GET /css/book.css HTTP/1.1
+1.1
+/1.1
+
+I0118 21:31:16.664530  3331 RequestManager.cpp:33] tid=140478957111040 need /css/book.css
+I0118 21:31:16.692626  3331 StaticResponseState.cpp:27] tid=140478957111040 send test-files/css/book.css successed!
+I0118 21:31:16.692836  3331 Tiny.cpp:26] tid=140478957111040 release runMutex
+I0118 21:31:16.692867  3331 Thread.cpp:27] tid 140478957111040 is waiting the mutex
+I0118 21:31:16.692875  3331 Thread.cpp:29] tid 140478957111040 get the mutex
+I0118 21:31:16.700284  3327 Tiny.cpp:89] Connect 20
+I0118 21:31:16.700354  3335 Thread.cpp:50] tid 140478923540224 release the mutex
+I0118 21:31:16.700363  3335 Thread.cpp:52] tid 140478923540224 run
+I0118 21:31:16.700371  3335 Tiny.cpp:23] tid=140478923540224 get runMutex
+I0118 21:31:16.700386  3335 IoReader.cpp:110] tid=140478923540224 get message:GET /images/pencil.gif HTTP/1.1
+1
+1
+
+I0118 21:31:16.700398  3335 RequestManager.cpp:33] tid=140478923540224 need /images/pencil.gif
+I0118 21:31:16.700737  3333 IoReader.cpp:110] tid=140478940325632 get message:GET /images/Hook.jpg HTTP/1.1
+1.1
+
+I0118 21:31:16.700754  3333 RequestManager.cpp:33] tid=140478940325632 need /images/Hook.jpg
+I0118 21:31:16.711503  3335 StaticResponseState.cpp:27] tid=140478923540224 send test-files/images/pencil.gif successed!
+I0118 21:31:16.711606  3335 Tiny.cpp:26] tid=140478923540224 release runMutex
+I0118 21:31:16.711635  3335 Thread.cpp:27] tid 140478923540224 is waiting the mutex
+I0118 21:31:16.711643  3335 Thread.cpp:29] tid 140478923540224 get the mutex
+I0118 21:31:16.728493  3327 Tiny.cpp:89] Connect 18
+I0118 21:31:16.728588  3328 Thread.cpp:50] tid 140478982289152 release the mutex
+I0118 21:31:16.728600  3328 Thread.cpp:52] tid 140478982289152 run
+I0118 21:31:16.728607  3328 Tiny.cpp:23] tid=140478982289152 get runMutex
+I0118 21:31:16.728848  3328 IoReader.cpp:110] tid=140478982289152 get message:GET /images/form.gif HTTP/1.1
+.1
+.1
+
+I0118 21:31:16.728873  3328 RequestManager.cpp:33] tid=140478982289152 need /images/form.gif
+I0118 21:31:16.731600  3328 StaticResponseState.cpp:27] tid=140478982289152 send test-files/images/form.gif successed!
+I0118 21:31:16.731647  3328 Tiny.cpp:26] tid=140478982289152 release runMutex
+I0118 21:31:16.732200  3328 Thread.cpp:27] tid 140478982289152 is waiting the mutex
+I011

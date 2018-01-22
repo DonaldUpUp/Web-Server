@@ -3,14 +3,14 @@
 
 #include <string>
 #include <vector>
-//å°è£…åº•å±‚IO
+//·â×°µ×²ãIO
 class IoReader
 {
     public:
         IoReader();
         virtual ~IoReader();
         IoReader(int fd);
-        //è¯»å–httpè¯·æ±‚çš„æŠ¥å¤´ï¼Œè¯»å–ä¸€è¡Œï¼Œå¹¶ä½¿ç”¨â€œ â€åˆ†éš”æˆå¤šä¸ªå­—ç¬¦ä¸²åè¿”å›
+        //¶ÁÈ¡httpÇëÇóµÄ±¨Í·£¬¶ÁÈ¡Ò»ĞĞ£¬²¢Ê¹ÓÃ¡° ¡±·Ö¸ô³É¶à¸ö×Ö·û´®ºó·µ»Ø
         void getLineSplitedByBlank(std::vector<std::string>& buf);
     protected:
 

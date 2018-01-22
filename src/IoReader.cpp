@@ -5,11 +5,12 @@
 #include <cstring>
 #include <cerrno>
 #include <iostream>
+//#include <glog/logging.h>
 using namespace std;
 
 namespace{
 const int MAX_LENGTH=8192;
-//å¤„ç†ä¸è¶³å€¼
+//´¦Àí²»×ãÖµ
 struct rio_t{
     int rio_fd; /* descriptor for this internal buf */
     int rio_cnt; /* unread bytes in internal buf */
@@ -19,7 +20,7 @@ struct rio_t{
 
 void unix_error(char* msg){
     fprintf(stderr,"%s: %s\n",msg,strerror(errno));
-    exit(0);
+    exit(1);
 }
 
 void rio_readinitb(rio_t *rp,int fd){
@@ -31,11 +32,11 @@ void rio_readinitb(rio_t *rp,int fd){
 void Rio_readinitb(rio_t *rp,int fd){
     rio_readinitb(rp,fd);
 }
-//ä»Žå¥—æŽ¥å­—ä¸­è¯»å–ä¸€ä¸ªå­—ç¬¦
+//´ÓÌ×½Ó×ÖÖÐ¶ÁÈ¡Ò»¸ö×Ö·û
 static ssize_t rio_read(rio_t *rp,char *usrbuf,size_t n){
     int cnt;
-    //è¯»å®Œä¸€æ³¢æ•°æ®ä¹‹åŽï¼Œå°±ä¸è¯»äº†ï¼Œç›´åˆ°rp->rio_bufä¸­çš„æ•°æ®å¤„ç†å®Œä¹‹åŽï¼Œå†è¯»ä¸‹ä¸€æ³¢
-    while(rp->rio_cnt<=0){      //è‹¥rio_bufä¸ºç©ºï¼Œåˆ™å¡«å……å®ƒ
+    //¶ÁÍêÒ»²¨Êý¾ÝÖ®ºó£¬¾Í²»¶ÁÁË£¬Ö±µ½rp->rio_bufÖÐµÄÊý¾Ý´¦ÀíÍêÖ®ºó£¬ÔÙ¶ÁÏÂÒ»²¨
+    while(rp->rio_cnt<=0){      //Èôrio_bufÎª¿Õ£¬ÔòÌî³äËü
         rp->rio_cnt=read(rp->rio_fd,rp->rio_buf,sizeof(rp->rio_buf));
         if(rp->rio_cnt<0){
             if(errno!=EINTR)    //interrupted by sig handler return
@@ -43,7 +44,7 @@ static ssize_t rio_read(rio_t *rp,char *usrbuf,size_t n){
         }else if(rp->rio_cnt==0)    //EOF
             return 0;
         else
-            rp->rio_bufptr=rp->rio_buf;     //é‡ç½®bufæŒ‡é’ˆ
+            rp->rio_bufptr=rp->rio_buf;     //ÖØÖÃbufÖ¸Õë
     }
 
     /* Copy min(n, rp->rio_cnt) bytes from internal buf to user buf */
@@ -61,7 +62,7 @@ ssize_t rio_readlineb(rio_t *rp,void *usrbuf,size_t maxlen){
     char c,*bufp=reinterpret_cast<char*>(usrbuf);
 
     for(n=1;n<maxlen;n++){
-        //æŠŠæ¯æ¬¡è¯»å–çš„ä¸€ä¸ªå­—ç¬¦æ”¾å…¥usrbufä¸­
+        //°ÑÃ¿´Î¶ÁÈ¡µÄÒ»¸ö×Ö·û·ÅÈëusrbufÖÐ
         if((rc=rio_read(rp,&c,1))==1){
             *bufp++=c;
             if(c=='\n')
@@ -100,12 +101,13 @@ IoReader::~IoReader()
 {
     //dtor
 }
-//æŠŠå·²ç»åˆ†éš”å¥½çš„å­—ç¬¦ä¸²å®¹å™¨è¿”å›ž
+//°ÑÒÑ¾­·Ö¸ôºÃµÄ×Ö·û´®ÈÝÆ÷·µ»Ø
 void IoReader::getLineSplitedByBlank(std::vector<std::string>&buf){
     char innerBuf[MAX_LENGTH],method[MAX_LENGTH],uri[MAX_LENGTH],version[MAX_LENGTH];
     Rio_readlineb(&rio,innerBuf,MAX_LENGTH);
 //    cout<<innerBuf<<endl;
 //    getchar();
+//    LOG(INFO)<<"tid="<<pthread_self()<<" get message:"<<innerBuf<<endl;
     sscanf(innerBuf,"%s %s %s",method,uri,version);
     buf.push_back(method);
     buf.push_back(uri);

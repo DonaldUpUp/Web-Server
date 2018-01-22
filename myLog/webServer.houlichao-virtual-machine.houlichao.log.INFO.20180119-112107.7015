@@ -1,0 +1,9 @@
+Log file created at: 2018/01/19 11:21:07
+Running on machine: houlichao-virtual-machine
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0119 11:21:07.672260  7028 Thread.cpp:27] tid 140737052129024 is waiting the mutex
+I0119 11:21:07.672479  7028 Thread.cpp:29] tid 140737052129024 get the mutex
+I0119 11:21:12.114969  7015 Tiny.cpp:93] Connect 4
+I0119 11:21:12.115036  7019 Thread.cpp:48] tid 140737336633088 release the mutex
+I0119 11:21:12.115048  7019 Thread.cpp:52] tid 140737336633088 run
+I0119 11:22:03.466271  7015 Tiny.cpp:93] Connect 6

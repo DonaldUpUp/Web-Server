@@ -1,0 +1,4 @@
+Log file created at: 2018/01/18 17:04:52
+Running on machine: houlichao-virtual-machine
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0118 17:04:52.533968  8930 Thread.cpp:27] tid 140500932212480is waiting the mutex

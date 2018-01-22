@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Option use_console_runner="0" />
 				<Compiler>
+					<Add option="-std=c++11" />
 					<Add option="-g" />
 					<Add directory="include" />
 				</Compiler>
@@ -34,6 +35,9 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Linker>
+			<Add library="/usr/local/lib/libglog.a" />
+		</Linker>
 		<Unit filename="include/DynamicResponseState.h" />
 		<Unit filename="include/GetRequest.h" />
 		<Unit filename="include/IoReader.h" />
@@ -45,6 +49,9 @@
 		<Unit filename="include/Response.h" />
 		<Unit filename="include/ResponseState.h" />
 		<Unit filename="include/StaticResponseState.h" />
+		<Unit filename="include/Task.h" />
+		<Unit filename="include/Thread.h" />
+		<Unit filename="include/ThreadPool.h" />
 		<Unit filename="include/TinyError.h" />
 		<Unit filename="src/DynamicResponsState.cpp" />
 		<Unit filename="src/GetRequest.cpp" />
@@ -57,6 +64,9 @@
 		<Unit filename="src/Response.cpp" />
 		<Unit filename="src/ResponseState.cpp" />
 		<Unit filename="src/StaticResponseState.cpp" />
+		<Unit filename="src/Task.cpp" />
+		<Unit filename="src/Thread.cpp" />
+		<Unit filename="src/ThreadPool.cpp" />
 		<Unit filename="src/Tiny.cpp" />
 		<Extensions>
 			<code_completion />

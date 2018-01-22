@@ -1,0 +1,14 @@
+Log file created at: 2018/01/20 09:43:54
+Running on machine: houlichao-virtual-machine
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0120 09:43:54.438089  5571 RequestManager.cpp:13] tid 140737336633088 enter Parser
+I0120 09:43:54.470935  5571 RequestManager.cpp:27] tid 140737336633088 enter parseRequestHandle
+I0120 09:43:54.470968  5571 IoReader.cpp:110] tid=140737336633088 get message:
+I0120 09:43:54.470993  5571 RequestManager.cpp:31] tid 140737336633088 parse finish
+I0120 09:43:54.471002  5571 RequestManager.cpp:36] tid=140737336633088 message:method= uri= version=
+I0120 09:43:54.475332  5573 RequestManager.cpp:13] tid 140737319847680 enter Parser
+I0120 09:43:54.475347  5573 RequestManager.cpp:27] tid 140737319847680 enter parseRequestHandle
+I0120 09:43:54.526195  5573 IoReader.cpp:110] tid=140737319847680 get message:
+I0120 09:43:54.526237  5573 RequestManager.cpp:31] tid 140737319847680 parse finish
+I0120 09:43:54.526247  5573 RequestManager.cpp:36] tid=140737319847680 message:method= uri= version=
+I0120 09:44:28.660682  5572 RequestManager.cpp:13] tid 140737328240384 enter Parser

@@ -1,0 +1,56 @@
+Log file created at: 2018/01/19 15:02:52
+Running on machine: houlichao-virtual-machine
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0119 15:02:52.812537  8459 Thread.cpp:27] tid 140717036398336 is waiting the mutex
+I0119 15:02:52.824352  8459 Thread.cpp:29] tid 140717036398336 get the mutex
+I0119 15:02:52.814867  8451 Thread.cpp:27] tid 140717103539968 is waiting the mutex
+I0119 15:02:52.831581  8451 Thread.cpp:29] tid 140717103539968 get the mutex
+I0119 15:02:52.814944  8456 Thread.cpp:27] tid 140717061576448 is waiting the mutex
+I0119 15:02:52.831611  8456 Thread.cpp:29] tid 140717061576448 get the mutex
+I0119 15:02:52.815021  8454 Thread.cpp:27] tid 140717078361856 is waiting the mutex
+I0119 15:02:52.831635  8454 Thread.cpp:29] tid 140717078361856 get the mutex
+I0119 15:02:52.815059  8455 Thread.cpp:27] tid 140717069969152 is waiting the mutex
+I0119 15:02:52.831660  8455 Thread.cpp:29] tid 140717069969152 get the mutex
+I0119 15:02:52.815130  8458 Thread.cpp:27] tid 140717044791040 is waiting the mutex
+I0119 15:02:52.831678  8458 Thread.cpp:29] tid 140717044791040 get the mutex
+I0119 15:02:52.814985  8453 Thread.cpp:27] tid 140717086754560 is waiting the mutex
+I0119 15:02:52.831697  8453 Thread.cpp:29] tid 140717086754560 get the mutex
+I0119 15:02:52.814906  8452 Thread.cpp:27] tid 140717095147264 is waiting the mutex
+I0119 15:02:52.831715  8452 Thread.cpp:29] tid 140717095147264 get the mutex
+I0119 15:02:52.815109  8457 Thread.cpp:27] tid 140717053183744 is waiting the mutex
+I0119 15:02:52.831734  8457 Thread.cpp:29] tid 140717053183744 get the mutex
+I0119 15:02:52.814824  8460 Thread.cpp:27] tid 140717028005632 is waiting the mutex
+I0119 15:02:52.831751  8460 Thread.cpp:29] tid 140717028005632 get the mutex
+I0119 15:02:57.720569  8450 Tiny.cpp:94] Connect 4
+I0119 15:02:57.720681  8450 Tiny.cpp:94] Connect 6
+I0119 15:02:57.720712  8459 Thread.cpp:48] tid 140717036398336 release the mutex
+I0119 15:02:57.720722  8459 RequestManager.cpp:13] tid 140717036398336 enter Parser
+I0119 15:02:57.720729  8459 RequestManager.cpp:27] tid 140717036398336 enter parseRequestHandle
+I0119 15:03:06.144147  8459 IoReader.cpp:110] tid=140717036398336 get message:
+I0119 15:03:06.144222  8459 RequestManager.cpp:31] tid 140717036398336 parse finish
+I0119 15:03:06.144237  8459 RequestManager.cpp:36] tid=140717036398336 message:method= uri= version=
+I0119 15:03:06.144523  8459 Thread.cpp:53] tid 140717036398336 run
+I0119 15:03:06.144855  8459 Thread.cpp:27] tid 140717036398336 is waiting the mutex
+I0119 15:03:06.144940  8450 Tiny.cpp:94] Connect 6
+I0119 15:03:06.145067  8451 Thread.cpp:48] tid 140717103539968 release the mutex
+I0119 15:03:06.145084  8451 RequestManager.cpp:13] tid 140717103539968 enter Parser
+I0119 15:03:06.145094  8451 RequestManager.cpp:27] tid 140717103539968 enter parseRequestHandle
+I0119 15:03:06.145124  8451 IoReader.cpp:110] tid=140717103539968 get message:
+I0119 15:03:06.145153  8451 RequestManager.cpp:31] tid 140717103539968 parse finish
+I0119 15:03:06.145164  8451 RequestManager.cpp:36] tid=140717103539968 message:method= uri= version=
+I0119 15:03:06.145527  8451 Thread.cpp:53] tid 140717103539968 run
+I0119 15:03:06.145674  8459 Thread.cpp:29] tid 140717036398336 get the mutex
+I0119 15:03:06.145846  8451 Thread.cpp:27] tid 140717103539968 is waiting the mutex
+I0119 15:03:06.145928  8450 Tiny.cpp:94] Connect 6
+I0119 15:03:06.145975  8456 Thread.cpp:48] tid 140717061576448 release the mutex
+I0119 15:03:06.145988  8456 RequestManager.cpp:13] tid 140717061576448 enter Parser
+I0119 15:03:06.145998  8456 RequestManager.cpp:27] tid 140717061576448 enter parseRequestHandle
+I0119 15:03:06.146023  8456 IoReader.cpp:110] tid=140717061576448 get message:
+I0119 15:03:06.146051  8456 RequestManager.cpp:31] tid 140717061576448 parse finish
+I0119 15:03:06.146061  8456 RequestManager.cpp:36] tid=140717061576448 message:method= uri= version=
+I0119 15:03:06.146314  8456 Thread.cpp:53] tid 140717061576448 run
+I0119 15:03:06.146714  8456 Thread.cpp:27] tid 140717061576448 is waiting the mutex
+I0119 15:03:06.146733  8456 Thread.cpp:29] tid 140717061576448 get the mutex
+I0119 15:03:06.146754  8451 Thread.cpp:29] tid 140717103539968 get the mutex
+I0119 15:03:06.146858  8450 Tiny.cpp:94] Connect 6
+I0119 15:03:06.146906  8454 Thread.cpp:48] tid 140717078

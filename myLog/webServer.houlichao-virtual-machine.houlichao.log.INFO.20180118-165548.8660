@@ -1,0 +1,279 @@
+Log file created at: 2018/01/18 16:55:48
+Running on machine: houlichao-virtual-machine
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0118 16:55:48.056102  8660 Tiny.cpp:81] Connect 4
+I0118 16:55:48.057442  8665 Thread.cpp:49] tid 140597820565248 run
+I0118 16:55:48.057519  8665 RequestManager.cpp:33] tid=140597820565248 need /index.html
+I0118 16:55:48.058008  8665 StaticResponseState.cpp:27] tid=140597820565248 send test-files/index.html successed!
+I0118 16:55:48.078744  8660 Tiny.cpp:81] Connect 6
+I0118 16:55:48.078855  8666 Thread.cpp:49] tid 140597812172544 run
+I0118 16:55:48.079103  8666 RequestManager.cpp:33] tid=140597812172544 need /css/book.css
+I0118 16:55:48.079552  8666 StaticResponseState.cpp:27] tid=140597812172544 send test-files/css/book.css successed!
+I0118 16:55:48.080200  8660 Tiny.cpp:81] Connect 4
+I0118 16:55:48.080272  8664 Thread.cpp:49] tid 140597828957952 run
+I0118 16:55:48.080965  8664 RequestManager.cpp:33] tid=140597828957952 need /images/introduction.gif
+I0118 16:55:48.081545  8664 StaticResponseState.cpp:27] tid=140597828957952 send test-files/images/introduction.gif successed!
+I0118 16:55:48.097326  8660 Tiny.cpp:81] Connect 6
+I0118 16:55:48.097462  8667 Thread.cpp:49] tid 140597803779840 run
+I0118 16:55:48.097666  8667 RequestManager.cpp:33] tid=140597803779840 need /images/White-vented.gif
+I0118 16:55:48.098079  8667 StaticResponseState.cpp:27] tid=140597803779840 send test-files/images/White-vented.gif successed!
+I0118 16:55:48.104159  8660 Tiny.cpp:81] Connect 4
+I0118 16:55:48.104267  8668 Thread.cpp:49] tid 140597795387136 run
+I0118 16:55:48.104537  8668 RequestManager.cpp:33] tid=140597795387136 need /images/Eutoxeres.gif
+I0118 16:55:48.105049  8668 StaticResponseState.cpp:27] tid=140597795387136 send test-files/images/Eutoxeres.gif successed!
+I0118 16:55:48.108327  8660 Tiny.cpp:81] Connect 6
+I0118 16:55:48.108440  8669 Thread.cpp:49] tid 140597786994432 run
+I0118 16:55:48.108687  8669 RequestManager.cpp:33] tid=140597786994432 need /images/Mountain.jpg
+I0118 16:55:48.108980  8669 StaticResponseState.cpp:27] tid=140597786994432 send test-files/images/Mountain.jpg successed!
+I0118 16:55:48.112826  8660 Tiny.cpp:81] Connect 4
+I0118 16:55:48.112941  8670 Thread.cpp:49] tid 140597778601728 run
+I0118 16:55:48.112983  8670 RequestManager.cpp:33] tid=140597778601728 need /images/Hook.jpg
+I0118 16:55:48.113351  8670 StaticResponseState.cpp:27] tid=140597778601728 send test-files/images/Hook.jpg successed!
+I0118 16:55:48.116637  8660 Tiny.cpp:81] Connect 6
+I0118 16:55:48.116855  8663 Thread.cpp:49] tid 140597837350656 run
+I0118 16:55:48.116899  8663 RequestManager.cpp:33] tid=140597837350656 need /images/pencil.gif
+I0118 16:55:48.117131  8663 StaticResponseState.cpp:27] tid=140597837350656 send test-files/images/pencil.gif successed!
+I0118 16:55:48.123011  8660 Tiny.cpp:81] Connect 4
+I0118 16:55:48.123121  8671 Thread.cpp:49] tid 140597770209024 run
+I0118 16:55:48.123158  8671 RequestManager.cpp:33] tid=140597770209024 need /images/go.gif
+I0118 16:55:48.123309  8671 StaticResponseState.cpp:27] tid=140597770209024 send test-files/images/go.gif successed!
+I0118 16:55:50.044451  8660 Tiny.cpp:81] Connect 6
+I0118 16:55:50.044524  8672 Thread.cpp:49] tid 140597761816320 run
+I0118 16:55:50.044572  8672 RequestManager.cpp:33] tid=140597761816320 need /html/origin.html
+I0118 16:55:50.044967  8672 StaticResponseState.cpp:27] tid=140597761816320 send test-files/html/origin.html successed!
+I0118 16:55:50.062836  8660 Tiny.cpp:81] Connect 4
+I0118 16:55:50.062911  8673 Thread.cpp:49] tid 140597753423616 run
+I0118 16:55:50.062958  8673 RequestManager.cpp:33] tid=140597753423616 need /html/css/book.css
+I0118 16:55:50.064481  8660 Tiny.cpp:81] Connect 6
+I0118 16:55:50.064538  8662 Thread.cpp:49] tid 140597845743360 run
+I0118 16:55:50.064580  8662 RequestManager.cpp:33] tid=140597845743360 need /css/book.css
+I0118 16:55:50.064885  8662 StaticResponseState.cpp:27] tid=140597845743360 send test-files/css/book.css successed!
+I0118 16:55:50.077044  8660 Tiny.cpp:81] Connect 7
+I0118 16:55:50.077116  8674 Thread.cpp:49] tid 140597745030912 run
+I0118 16:55:50.077369  8674 RequestManager.cpp:33] tid=140597745030912 need /images/pencil.gif
+I0118 16:55:50.077610  8674 StaticResponseState.cpp:27] tid=140597745030912 send test-files/images/pencil.gif successed!
+I0118 16:55:50.082150  8660 Tiny.cpp:81] Connect 6
+I0118 16:55:50.082221  8675 Thread.cpp:49] tid 140597736638208 run
+I0118 16:55:50.082540  8675 RequestManager.cpp:33] tid=140597736638208 need /images/fossil.gif
+I0118 16:55:50.083256  8675 StaticResponseState.cpp:27] tid=140597736638208 send test-files/images/fossil.gif successed!
+I0118 16:55:51.287243  8660 Tiny.cpp:81] Connect 7
+I0118 16:55:51.287317  8676 Thread.cpp:49] tid 140597728245504 run
+I0118 16:55:51.287367  8676 RequestManager.cpp:33] tid=140597728245504 need /html/form.html
+I0118 16:55:51.311343  8676 StaticResponseState.cpp:27] tid=140597728245504 send test-files/html/form.html successed!
+I0118 16:55:51.327663  8660 Tiny.cpp:81] Connect 6
+I0118 16:55:51.327872  8660 Tiny.cpp:81] Connect 7
+I0118 16:55:51.327913  8677 Thread.cpp:49] tid 140597719852800 run
+I0118 16:55:51.327977  8678 Thread.cpp:49] tid 140597711460096 run
+I0118 16:55:51.328265  8677 RequestManager.cpp:33] tid=140597719852800 need /html/css/book.css
+I0118 16:55:51.330797  8678 RequestManager.cpp:33] tid=140597711460096 need 
+I0118 16:55:51.336269  8660 Tiny.cpp:81] Connect 8
+I0118 16:55:51.336336  8679 Thread.cpp:49] tid 140597703067392 run
+I0118 16:55:51.336604  8679 RequestManager.cpp:33] tid=140597703067392 need /images/pencil.gif
+I0118 16:55:51.336940  8679 StaticResponseState.cpp:27] tid=140597703067392 send test-files/images/pencil.gif successed!
+I0118 16:55:51.341435  8660 Tiny.cpp:81] Connect 7
+I0118 16:55:51.341504  8680 Thread.cpp:49] tid 140597694674688 run
+I0118 16:55:51.341565  8680 RequestManager.cpp:33] tid=140597694674688 need /images/form.gif
+I0118 16:55:51.342857  8680 StaticResponseState.cpp:27] tid=140597694674688 send test-files/images/form.gif successed!
+I0118 16:56:07.867192  8660 Tiny.cpp:81] Connect 8
+I0118 16:56:07.867434  8660 Tiny.cpp:81] Connect 7
+I0118 16:56:07.867472  8681 Thread.cpp:49] tid 140597686281984 run
+I0118 16:56:07.867534  8682 Thread.cpp:49] tid 140597677889280 run
+I0118 16:56:12.202054  8660 Tiny.cpp:81] Connect 9
+I0118 16:56:12.202127  8683 Thread.cpp:49] tid 140597669496576 run
+I0118 16:56:12.229357  8681 RequestManager.cpp:33] tid=140597686281984 need /css/book.css
+I0118 16:56:12.229857  8681 StaticResponseState.cpp:27] tid=140597686281984 send test-files/css/book.css successed!
+I0118 16:56:12.233417  8682 RequestManager.cpp:33] tid=140597677889280 need 
+I0118 16:56:12.514189  8683 RequestManager.cpp:33] tid=140597669496576 need 
+I0118 16:56:13.884126  8660 Tiny.cpp:81] Connect 10
+I0118 16:56:13.884196  8701 Thread.cpp:49] tid 140597518427904 run
+I0118 16:56:13.884241  8701 RequestManager.cpp:33] tid=140597518427904 need /html/skill.html
+I0118 16:56:13.908200  8701 StaticResponseState.cpp:27] tid=140597518427904 send test-files/html/skill.html successed!
+I0118 16:56:13.923274  8660 Tiny.cpp:81] Connect 9
+I0118 16:56:13.923348  8690 Thread.cpp:49] tid 140597610747648 run
+I0118 16:56:13.923400  8690 RequestManager.cpp:33] tid=140597610747648 need /html/css/book.css
+I0118 16:56:13.928764  8660 Tiny.cpp:81] Connect 10
+I0118 16:56:13.928836  8692 Thread.cpp:49] tid 140597593962240 run
+I0118 16:56:13.928884  8692 RequestManager.cpp:33] tid=140597593962240 need /css/book.css
+I0118 16:56:13.929373  8692 StaticResponseState.cpp:27] tid=140597593962240 send test-files/css/book.css successed!
+I0118 16:56:13.931748  8660 Tiny.cpp:81] Connect 9
+I0118 16:56:13.931818  8698 Thread.cpp:49] tid 140597543606016 run
+I0118 16:56:13.932065  8698 RequestManager.cpp:33] tid=140597543606016 need /images/pencil.gif
+I0118 16:56:13.932291  8698 StaticResponseState.cpp:27] tid=140597543606016 send test-files/images/pencil.gif successed!
+I0118 16:56:17.023227  8660 Tiny.cpp:81] Connect 10
+I0118 16:56:17.023392  8695 Thread.cpp:49] tid 140597568784128 run
+I0118 16:56:17.023442  8695 RequestManager.cpp:33] tid=140597568784128 need /html/life.html
+I0118 16:56:17.024197  8695 StaticResponseState.cpp:27] tid=140597568784128 send test-files/html/life.html successed!
+I0118 16:56:17.040900  8660 Tiny.cpp:81] Connect 9
+I0118 16:56:17.040987  8660 Tiny.cpp:81] Connect 10
+I0118 16:56:17.041261  8685 Thread.cpp:49] tid 140597652711168 run
+I0118 16:56:17.041306  8685 RequestManager.cpp:33] tid=140597652711168 need /html/css/book.css
+I0118 16:56:17.041548  8686 Thread.cpp:49] tid 140597644318464 run
+I0118 16:56:17.048444  8686 RequestManager.cpp:33] tid=140597644318464 need 
+I0118 16:56:17.048967  8660 Tiny.cpp:81] Connect 10
+I0118 16:56:17.049021  8694 Thread.cpp:49] tid 140597577176832 run
+I0118 16:56:17.049170  8694 RequestManager.cpp:33] tid=140597577176832 need /images/pencil.gif
+I0118 16:56:17.049396  8694 StaticResponseState.cpp:27] tid=140597577176832 send test-files/images/pencil.gif successed!
+I0118 16:56:33.591646  8660 Tiny.cpp:81] Connect 11
+I0118 16:56:33.592070  8696 Thread.cpp:49] tid 140597560391424 run
+I0118 16:56:33.592120  8696 RequestManager.cpp:33] tid=140597560391424 need /css/book.css
+I0118 16:56:33.592749  8696 StaticResponseState.cpp:27] tid=140597560391424 send test-files/css/book.css successed!
+I0118 16:56:35.523494  8660 Tiny.cpp:81] Connect 10
+I0118 16:56:35.523581  8700 Thread.cpp:49] tid 140597526820608 run
+I0118 16:56:35.523636  8700 RequestManager.cpp:33] tid=140597526820608 need /html/origin.html
+I0118 16:56:35.523847  8700 StaticResponseState.cpp:27] tid=140597526820608 send test-files/html/origin.html successed!
+I0118 16:56:35.539633  8660 Tiny.cpp:81] Connect 11
+I0118 16:56:35.539705  8684 Thread.cpp:49] tid 140597661103872 run
+I0118 16:56:35.539750  8684 RequestManager.cpp:33] tid=140597661103872 need /html/css/book.css
+I0118 16:56:35.540829  8660 Tiny.cpp:81] Connect 10
+I0118 16:56:35.540881  8693 Thread.cpp:49] tid 140597585569536 run
+I0118 16:56:35.541173  8693 RequestManager.cpp:33] tid=140597585569536 need /css/book.css
+I0118 16:56:35.541640  8693 StaticResponseState.cpp:27] tid=140597585569536 send test-files/css/book.css successed!
+I0118 16:56:35.549463  8660 Tiny.cpp:81] Connect 11
+I0118 16:56:35.549533  8697 Thread.cpp:49] tid 140597551998720 run
+I0118 16:56:35.549593  8697 RequestManager.cpp:33] tid=140597551998720 need /images/pencil.gif
+I0118 16:56:35.550509  8697 StaticResponseState.cpp:27] tid=140597551998720 send test-files/images/pencil.gif successed!
+I0118 16:56:35.559532  8660 Tiny.cpp:81] Connect 10
+I0118 16:56:35.559711  8687 Thread.cpp:49] tid 140597635925760 run
+I0118 16:56:35.559758  8687 RequestManager.cpp:33] tid=140597635925760 need /images/fossil.gif
+I0118 16:56:35.560196  8687 StaticResponseState.cpp:27] tid=140597635925760 send test-files/images/fossil.gif successed!
+I0118 16:56:36.735342  8660 Tiny.cpp:81] Connect 11
+I0118 16:56:36.735414  8688 Thread.cpp:49] tid 140597627533056 run
+I0118 16:56:36.735682  8688 RequestManager.cpp:33] tid=140597627533056 need /html/form.html
+I0118 16:56:36.735927  8688 StaticResponseState.cpp:27] tid=140597627533056 send test-files/html/form.html successed!
+I0118 16:56:36.752565  8660 Tiny.cpp:81] Connect 10
+I0118 16:56:36.752933  8660 Tiny.cpp:81] Connect 11
+I0118 16:56:36.752974  8689 Thread.cpp:49] tid 140597619140352 run
+I0118 16:56:36.753020  8689 RequestManager.cpp:33] tid=140597619140352 need /css/book.css
+I0118 16:56:36.753449  8689 StaticResponseState.cpp:27] tid=140597619140352 send test-files/css/book.css successed!
+I0118 16:56:36.753679  8691 Thread.cpp:49] tid 140597602354944 run
+I0118 16:56:36.760584  8691 RequestManager.cpp:33] tid=140597602354944 need 
+I0118 16:56:36.769613  8660 Tiny.cpp:81] Connect 12
+I0118 16:56:36.769687  8699 Thread.cpp:49] tid 140597535213312 run
+I0118 16:56:36.769896  8699 RequestManager.cpp:33] tid=140597535213312 need /images/pencil.gif
+I0118 16:56:36.770125  8699 StaticResponseState.cpp:27] tid=140597535213312 send test-files/images/pencil.gif successed!
+I0118 16:56:36.774092  8660 Tiny.cpp:81] Connect 11
+I0118 16:56:36.774163  8661 Thread.cpp:49] tid 140597854136064 run
+I0118 16:56:36.774372  8661 RequestManager.cpp:33] tid=140597854136064 need /images/form.gif
+I0118 16:56:36.774698  8661 StaticResponseState.cpp:27] tid=140597854136064 send test-files/images/form.gif successed!
+I0118 16:57:03.555939  8660 Tiny.cpp:81] Connect 12
+I0118 16:57:03.556017  8702 Thread.cpp:49] tid 140597510035200 run
+I0118 16:57:03.556066  8702 RequestManager.cpp:33] tid=140597510035200 need /html/css/book.css
+I0118 16:57:06.333226  8660 Tiny.cpp:81] Connect 11
+I0118 16:57:06.333833  8703 Thread.cpp:49] tid 140597501642496 run
+I0118 16:57:06.333879  8703 RequestManager.cpp:33] tid=140597501642496 need /html/skill.html
+I0118 16:57:06.334108  8703 StaticResponseState.cpp:27] tid=140597501642496 send test-files/html/skill.html successed!
+I0118 16:57:06.351440  8660 Tiny.cpp:81] Connect 12
+I0118 16:57:06.351523  8660 Tiny.cpp:81] Connect 11
+I0118 16:57:06.351557  8706 Thread.cpp:49] tid 140597476464384 run
+I0118 16:57:06.351616  8709 Thread.cpp:49] tid 140597451286272 run
+I0118 16:57:06.351819  8706 RequestManager.cpp:33] tid=140597476464384 need /css/book.css
+I0118 16:57:06.352108  8706 StaticResponseState.cpp:27] tid=140597476464384 send test-files/css/book.css successed!
+I0118 16:57:06.353807  8709 RequestManager.cpp:33] tid=140597451286272 need 
+I0118 16:57:06.359525  8660 Tiny.cpp:81] Connect 13
+I0118 16:57:06.359596  8704 Thread.cpp:49] tid 140597493249792 run
+I0118 16:57:06.359743  8704 RequestManager.cpp:33] tid=140597493249792 need /images/pencil.gif
+I0118 16:57:06.359967  8704 StaticResponseState.cpp:27] tid=140597493249792 send test-files/images/pencil.gif successed!
+I0118 16:57:19.008015  8660 Tiny.cpp:81] Connect 11
+I0118 16:57:19.008085  8705 Thread.cpp:49] tid 140597484857088 run
+I0118 16:57:19.008133  8705 RequestManager.cpp:33] tid=140597484857088 need /html/css/book.css
+I0118 16:57:20.534503  8660 Tiny.cpp:81] Connect 13
+I0118 16:57:20.534575  8707 Thread.cpp:49] tid 140597468071680 run
+I0118 16:57:20.534801  8707 RequestManager.cpp:33] tid=140597468071680 need /html/origin.html
+I0118 16:57:20.535177  8707 StaticResponseState.cpp:27] tid=140597468071680 send test-files/html/origin.html successed!
+I0118 16:57:20.552587  8660 Tiny.cpp:81] Connect 11
+I0118 16:57:20.552755  8708 Thread.cpp:49] tid 140597459678976 run
+I0118 16:57:20.552804  8708 RequestManager.cpp:33] tid=140597459678976 need /html/css/book.css
+I0118 16:57:20.555367  8660 Tiny.cpp:81] Connect 13
+I0118 16:57:20.555433  8710 Thread.cpp:49] tid 140597442893568 run
+I0118 16:57:20.555676  8710 RequestManager.cpp:33] tid=140597442893568 need /css/book.css
+I0118 16:57:20.555984  8710 StaticResponseState.cpp:27] tid=140597442893568 send test-files/css/book.css successed!
+I0118 16:57:20.558377  8660 Tiny.cpp:81] Connect 11
+I0118 16:57:20.558441  8665 Thread.cpp:49] tid 140597820565248 run
+I0118 16:57:20.558658  8665 RequestManager.cpp:33] tid=140597820565248 need /images/pencil.gif
+I0118 16:57:20.558881  8665 StaticResponseState.cpp:27] tid=140597820565248 send test-files/images/pencil.gif successed!
+I0118 16:57:20.566848  8660 Tiny.cpp:81] Connect 13
+I0118 16:57:20.566918  8666 Thread.cpp:49] tid 140597812172544 run
+I0118 16:57:20.566946  8666 RequestManager.cpp:33] tid=140597812172544 need /images/fossil.gif
+I0118 16:57:20.567332  8666 StaticResponseState.cpp:27] tid=140597812172544 send test-files/images/fossil.gif successed!
+I0118 16:57:24.176550  8660 Tiny.cpp:81] Connect 11
+I0118 16:57:24.176620  8664 Thread.cpp:49] tid 140597828957952 run
+I0118 16:57:24.176643  8664 RequestManager.cpp:33] tid=140597828957952 need /html/area.html
+I0118 16:57:24.200264  8664 StaticResponseState.cpp:27] tid=140597828957952 send test-files/html/area.html successed!
+I0118 16:57:24.220965  8660 Tiny.cpp:81] Connect 13
+I0118 16:57:24.221158  8667 Thread.cpp:49] tid 140597803779840 run
+I0118 16:57:24.221189  8667 RequestManager.cpp:33] tid=140597803779840 need /html/css/book.css
+I0118 16:57:24.221972  8660 Tiny.cpp:81] Connect 11
+I0118 16:57:24.222023  8668 Thread.cpp:49] tid 140597795387136 run
+I0118 16:57:24.222043  8668 RequestManager.cpp:33] tid=140597795387136 need /css/book.css
+I0118 16:57:24.222671  8668 StaticResponseState.cpp:27] tid=140597795387136 send test-files/css/book.css successed!
+I0118 16:57:24.227823  8660 Tiny.cpp:81] Connect 13
+I0118 16:57:24.228024  8669 Thread.cpp:49] tid 140597786994432 run
+I0118 16:57:24.228050  8669 RequestManager.cpp:33] tid=140597786994432 need /images/pencil.gif
+I0118 16:57:24.228278  8669 StaticResponseState.cpp:27] tid=140597786994432 send test-files/images/pencil.gif successed!
+I0118 16:57:26.400781  8660 Tiny.cpp:81] Connect 11
+I0118 16:57:26.401149  8670 Thread.cpp:49] tid 140597778601728 run
+I0118 16:57:26.401177  8670 RequestManager.cpp:33] tid=140597778601728 need /html/life.html
+I0118 16:57:26.401523  8670 StaticResponseState.cpp:27] tid=140597778601728 send test-files/html/life.html successed!
+I0118 16:57:26.417582  8660 Tiny.cpp:81] Connect 13
+I0118 16:57:26.417650  8663 Thread.cpp:49] tid 140597837350656 run
+I0118 16:57:26.418088  8663 RequestManager.cpp:33] tid=140597837350656 need /html/css/book.css
+I0118 16:57:26.418426  8660 Tiny.cpp:81] Connect 11
+I0118 16:57:26.418475  8671 Thread.cpp:49] tid 140597770209024 run
+I0118 16:57:26.418495  8671 RequestManager.cpp:33] tid=140597770209024 need /css/book.css
+I0118 16:57:26.418826  8671 StaticResponseState.cpp:27] tid=140597770209024 send test-files/css/book.css successed!
+I0118 16:57:26.423624  8660 Tiny.cpp:81] Connect 13
+I0118 16:57:26.423693  8672 Thread.cpp:49] tid 140597761816320 run
+I0118 16:57:26.423941  8672 RequestManager.cpp:33] tid=140597761816320 need /images/pencil.gif
+I0118 16:57:26.424204  8672 StaticResponseState.cpp:27] tid=140597761816320 send test-files/images/pencil.gif successed!
+I0118 16:57:27.418371  8660 Tiny.cpp:81] Connect 11
+I0118 16:57:27.418437  8662 Thread.cpp:49] tid 140597845743360 run
+I0118 16:57:27.418665  8662 RequestManager.cpp:33] tid=140597845743360 need /html/skill.html
+I0118 16:57:27.419000  8662 StaticResponseState.cpp:27] tid=140597845743360 send test-files/html/skill.html successed!
+I0118 16:57:27.435430  8660 Tiny.cpp:81] Connect 13
+I0118 16:57:27.435528  8660 Tiny.cpp:81] Connect 11
+I0118 16:57:27.435564  8674 Thread.cpp:49] tid 140597745030912 run
+I0118 16:57:27.435588  8674 RequestManager.cpp:33] tid=140597745030912 need /html/css/book.css
+I0118 16:57:27.435807  8675 Thread.cpp:49] tid 140597736638208 run
+I0118 16:57:27.442875  8675 RequestManager.cpp:33] tid=140597736638208 need /images/fossil.gif
+I0118 16:57:27.463896  8660 Tiny.cpp:81] Connect 11
+I0118 16:57:27.463963  8673 Thread.cpp:49] tid 140597753423616 run
+I0118 16:57:27.464092  8673 RequestManager.cpp:33] tid=140597753423616 need /images/pencil.gif
+I0118 16:57:27.464422  8673 StaticResponseState.cpp:27] tid=140597753423616 send test-files/images/pencil.gif successed!
+I0118 16:57:45.868584  8660 Tiny.cpp:81] Connect 14
+I0118 16:57:45.869705  8676 Thread.cpp:49] tid 140597728245504 run
+I0118 16:57:45.869736  8676 RequestManager.cpp:33] tid=140597728245504 need /css/book.css
+I0118 16:57:45.871536  8676 StaticResponseState.cpp:27] tid=140597728245504 send test-files/css/book.css successed!
+I0118 16:57:47.527647  8660 Tiny.cpp:81] Connect 11
+I0118 16:57:47.527717  8677 Thread.cpp:49] tid 140597719852800 run
+I0118 16:57:47.527743  8677 RequestManager.cpp:33] tid=140597719852800 need /index.html
+I0118 16:57:47.528764  8677 StaticResponseState.cpp:27] tid=140597719852800 send test-files/index.html successed!
+I0118 16:57:47.546345  8660 Tiny.cpp:81] Connect 14
+I0118 16:57:47.546785  8660 Tiny.cpp:81] Connect 11
+I0118 16:57:47.546825  8678 Thread.cpp:49] tid 140597711460096 run
+I0118 16:57:47.546871  8678 RequestManager.cpp:33] tid=140597711460096 need /css/book.css
+I0118 16:57:47.547194  8678 StaticResponseState.cpp:27] tid=140597711460096 send test-files/css/book.css successed!
+I0118 16:57:47.547376  8679 Thread.cpp:49] tid 140597703067392 run
+I0118 16:57:47.583624  8679 RequestManager.cpp:33] tid=140597703067392 need /images/pencil.gif
+I0118 16:57:47.716315  8660 Tiny.cpp:81] Connect 15
+I0118 16:57:47.716550  8660 Tiny.cpp:81] Connect 11
+I0118 16:57:47.716612  8680 Thread.cpp:49] tid 140597694674688 run
+I0118 16:57:47.716645  8680 RequestManager.cpp:33] tid=140597694674688 need /images/Eutoxeres.gif
+I0118 16:57:47.717198  8680 StaticResponseState.cpp:27] tid=140597694674688 send test-files/images/Eutoxeres.gif successed!
+I0118 16:57:47.717459  8681 Thread.cpp:49] tid 140597686281984 run
+I0118 16:57:47.718267  8660 Tiny.cpp:81] Connect 16
+I0118 16:57:47.718340  8660 Tiny.cpp:81] Connect 11
+I0118 16:57:47.718376  8682 Thread.cpp:49] tid 140597677889280 run
+I0118 16:57:47.718441  8682 RequestManager.cpp:33] tid=140597677889280 need /images/Hook.jpg
+I0118 16:57:47.718793  8682 StaticResponseState.cpp:27] tid=140597677889280 send test-files/images/Hook.jpg successed!
+I0118 16:57:47.719002  8683 Thread.cpp:49] tid 140597669496576 run
+I0118 16:57:47.721809  8660 Tiny.cpp:81] Connect 17
+I0118 16:57:47.722126  8701 Thread.cpp:49] tid 140597518427904 run
+I0118 16:57:47.722229  8701 RequestManager.cpp:33] tid=140597518427904 need /images/pencil.gif
+I0118 16:57:47.725445  8701 StaticResponseState.cpp:27] tid=140597518427904 send test-files/images/pencil.gif successed!
+I0118 16:57:47.731017  8660 Tiny.cpp:81] Connect 11
+I0118 16:57:47.731118  8690 Thread.cpp:49] tid 140597610747648 run
+I0118 16:57:47.731202  8690 RequestManager.cpp:33] tid=140597610747648 need /images/go.gif
+I0118 16:57:47.731542  8690 StaticResponseState.cpp:27] tid=140597610747648 send test-files/images/go.gif successed!
+I0118 16:57:47.760833  8681 RequestManager.cpp:33] tid=140597686281984 need /css/book.css
+I0118 16:57:47.785241  8683 RequestManager.cpp:33] tid=140597669496576 need 
+I0118 16:58:37.416982  8660 Tiny.cpp:81] Connect 17

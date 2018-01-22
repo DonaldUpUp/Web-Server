@@ -9,6 +9,7 @@
 #include "TinyError.h"
 #include "StaticResponseState.h"
 #include "DynamicResponseState.h"
+//#include <glog/logging.h>
 #include <stdexcept>
 
 Response::Response(int fd, std::string name, std::string cgiargs, bool isStc)
@@ -34,6 +35,7 @@ void Response::respond()
 	}
 	catch (TinyError& err)
 	{
+//        LOG(INFO)<<"tid "<<pthread_self()<<" send error "<<err.ErrNum<<std::endl;
 		return state->respondError(err.ErrNum, err.ShortMsg, err.LongMsg);
 	}
 	catch (std::runtime_error& err)
