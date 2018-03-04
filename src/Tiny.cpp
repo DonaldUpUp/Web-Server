@@ -49,7 +49,7 @@ void* threadRun(void *fd)
 }
 }
 
-////生产者消费者
+////单生产者单消费者
 //struct ItemRepository {
 //    int item_buffer[kItemRepositorySize]; // 产品缓冲区, 配合 read_position 和 write_position 模型环形队列.
 //    size_t read_position; // 消费者读取产品位置.
@@ -219,6 +219,8 @@ void InitItemRepository(ItemRepository *ir)
 
 
 
+
+
 int main(int argc, char **argv)
 {
 //    NetConnection connection;
@@ -285,6 +287,7 @@ int main(int argc, char **argv)
 //    thread consumer(ConsumerTask);
 //    producer.join();
 //    consumer.join();
+
     //单生产者多消费者
     InitItemRepository(&gItemRepository);
     std::thread producer(ProducerTask);
