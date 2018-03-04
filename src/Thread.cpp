@@ -11,22 +11,18 @@ bool Thread::isfree(){
 
 void Thread::add_task(Task* task){
     if(_isfree){
-        _locker.lock();
         _task=task;
         _isfree=false;
-        _locker.unlock();
     }
 }
 
 void Thread::run(){
     while(true){
         if(_task){
-            _locker.lock();
             _isfree=false;
             _task->run();
             _isfree=true;
             _task=nullptr;
-            _locker.unlock();
         }
     }
 }

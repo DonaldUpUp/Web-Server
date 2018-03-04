@@ -18,19 +18,18 @@ ThreadPool::~ThreadPool(){
 }
 
 void ThreadPool::add_task(Task *task){
-    _locker.lock();
     task_queue.push(task);
-    _locker.unlock();
 }
+
+//void ThreadPool::add_task(std::shared_ptr<Task> task){
+//    task_queue.push(&(*task));
+//}
 
 void ThreadPool::run(){
     while(true){
-        _locker.lock();
         if(task_queue.empty()){
-            _locker.unlock();
             continue;
         }
-
         for(int i=0;i<_pool.size();i++){
             if(_pool[i]->isfree()){
                 _pool[i]->add_task(task_queue.front());
@@ -38,6 +37,5 @@ void ThreadPool::run(){
                 break;
             }
         }
-        _locker.unlock();
     }
 }

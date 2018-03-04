@@ -2,7 +2,6 @@
 #include "Request.h"
 #include "RequestCreater.h"
 #include "IoReader.h"
-//#include <glog/logging.h>
 #include <iostream>
 
 namespace {
@@ -24,7 +23,7 @@ public:
 private:
     //解析请求的数据，用到了IOReader类
     void parseRequestHeaders(int fd) {
-//        LOG(INFO)<<"tid "<<pthread_self()<<" enter parseRequestHandle"<<std::endl;
+//        LOG(INFO)<<"tid= "<<pthread_self()<<" enter parseRequestHandle"<<std::endl;
         IoReader reader(fd);
         std::vector<std::string> header;
         reader.getLineSplitedByBlank(header);
@@ -62,8 +61,7 @@ void RequestManager::run(){
 
 Request* RequestManager::getRequestHandle(){
     Parser parser(fileDescriptor);
-//    std::cout<<parser.getMethodName()<<std::endl;
-//    std::cout<<parser.getUri()<<std::endl;
+
     //使用工厂类（RequestCreater），创造不同的方法实例
     return request=RequestCreater::getRequestHandler(fileDescriptor,parser.getMethodName(),parser.getUri());
 }
