@@ -39,6 +39,7 @@
 			<Add library="/usr/local/lib/libglog.a" />
 		</Linker>
 		<Unit filename="include/DynamicResponseState.h" />
+		<Unit filename="include/Epoll.h" />
 		<Unit filename="include/GetRequest.h" />
 		<Unit filename="include/IoReader.h" />
 		<Unit filename="include/IoWriter.h" />
@@ -54,9 +55,11 @@
 		<Unit filename="include/ThreadPool.h" />
 		<Unit filename="include/TinyError.h" />
 		<Unit filename="src/DynamicResponsState.cpp" />
+		<Unit filename="src/Epoll.cpp" />
 		<Unit filename="src/GetRequest.cpp" />
 		<Unit filename="src/IoReader.cpp" />
 		<Unit filename="src/IoWriter.cpp" />
+		<Unit filename="src/Main.cpp" />
 		<Unit filename="src/NetConnection.cpp" />
 		<Unit filename="src/Request.cpp" />
 		<Unit filename="src/RequestCreater.cpp" />
@@ -67,7 +70,6 @@
 		<Unit filename="src/Task.cpp" />
 		<Unit filename="src/Thread.cpp" />
 		<Unit filename="src/ThreadPool.cpp" />
-		<Unit filename="src/Tiny.cpp" />
 		<Extensions>
 			<code_completion />
 			<debugger />

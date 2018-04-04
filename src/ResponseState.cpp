@@ -74,7 +74,7 @@ const std::string ResponseState::sizeTypeToStr(std::string::size_type sizeType)
 
 const std::string ResponseState::buildRespondHeaders()
 {
-    return "HTTP/1.0 200 OK\r\n" + std::string("Server: Tiny Web Server\r\n");
+    return "HTTP/1.0 200 OK\r\n" + std::string("Server: HLC Web Server\r\n");
 	//return "HTTP/1.0 401 Authorization Required\r\n" + std::string("Server: Tiny Web Server\r\n");
 }
 
