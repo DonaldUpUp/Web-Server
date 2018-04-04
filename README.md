@@ -18,13 +18,13 @@ grammar_cjkRuby: true
  
        使用apache的ab.exe工具，在1核CPU,1GB内存的虚拟机上进行测试，并对四种方法进行了比较：
 	   
-![四种方法的效率比较](./images/微信截图_20180404172813_1.png)
+![四种方法的效率比较](https://github.com/771884434/Web-Server/blob/master/pic/1.png)
  
       以及柱状图，方便查看：
 
-![四种方法每秒可以处理的事务](./images/微信截图_20180404172844.png)
+![四种方法每秒可以处理的事务](https://github.com/771884434/Web-Server/blob/master/pic/2.png)
 
-![四种方法平均事务相应时间](./images/微信截图_20180404173050.png)
+![四种方法平均事务相应时间](https://github.com/771884434/Web-Server/blob/master/pic/3.png)
 
 
 		可以看出单线程和单生产者单消费者模式在并发数量较少时，效率比较高。单生产者比多路IO在大部分情况下效率要高，但是多路IO再处理并发数量较多时，效率要比单生产者多消费者高一些。
