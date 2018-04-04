@@ -3,6 +3,7 @@
 
 #include <string>
 #include <vector>
+#include "Epoll.h"
 //·â×°µ×²ãIO
 class IoReader
 {
@@ -16,5 +17,6 @@ class IoReader
 
     private:
 };
+extern Epoll ep;
 
 #endif // IOREADER_H

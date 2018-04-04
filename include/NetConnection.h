@@ -7,6 +7,7 @@ class NetConnection
     public:
         NetConnection();
         virtual ~NetConnection();
+        int getListenfd();
         void lisen(int port);
         int accept();
         void close();

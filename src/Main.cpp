@@ -3,11 +3,13 @@
 #include "Thread.h"
 #include "Task.h"
 #include "ThreadPool.h"
+#include "Epoll.h"
 #include <cstdlib>
 #include <iostream>
 #include <unistd.h>
 #include <stdlib.h>
 #include <pthread.h>
+#include "glog/logging.h"
 #include <memory>
 #include <mutex>
 #include <condition_variable>
@@ -220,7 +222,7 @@ void InitItemRepository(ItemRepository *ir)
 
 
 
-
+Epoll ep;
 int main(int argc, char **argv)
 {
 //    NetConnection connection;
@@ -229,9 +231,9 @@ int main(int argc, char **argv)
 //
 //    connection.lisen(getStartPort(argc, argv));
 
-//    google::InitGoogleLogging(argv[0]);
-//    FLAGS_log_dir="./myLog";
-//    FLAGS_logtostderr = false;
+    google::InitGoogleLogging(argv[0]);
+    FLAGS_log_dir="./myLog";
+    FLAGS_logtostderr = false;
 
 
     //单线程
@@ -289,18 +291,28 @@ int main(int argc, char **argv)
 //    consumer.join();
 
     //单生产者多消费者
-    InitItemRepository(&gItemRepository);
-    std::thread producer(ProducerTask);
-    std::thread consumer1(ConsumerTask);
-    std::thread consumer2(ConsumerTask);
-    std::thread consumer3(ConsumerTask);
-    std::thread consumer4(ConsumerTask);
+//    InitItemRepository(&gItemRepository);
+//    std::thread producer(ProducerTask);
+//    std::thread consumer1(ConsumerTask);
+//    std::thread consumer2(ConsumerTask);
+//    std::thread consumer3(ConsumerTask);
+//    std::thread consumer4(ConsumerTask);
+//
+//    producer.join();
+//    consumer1.join();
+//    consumer2.join();
+//    consumer3.join();
+//    consumer4.join();
 
-    producer.join();
-    consumer1.join();
-    consumer2.join();
-    consumer3.join();
-    consumer4.join();
+    //epoll
+    NetConnection listen;
+    listen.lisen(getStartPort(argc, argv));
+    ep.EpollCreate(MAX_FD);
+    ep.setListenfd(listen.getListenfd());
+    ep.EpollDo();
+    getchar();
+    getchar();
+
 
     return 1;
 }

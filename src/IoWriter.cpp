@@ -1,4 +1,5 @@
 #include "IoWriter.h"
+#include "glog/logging.h"
 #include <cstdio>
 #include <cstdlib>
 #include <unistd.h>
@@ -20,6 +21,10 @@ ssize_t rio_writen(int fd,void *usrbuf,size_t n){
     char *bufp=reinterpret_cast<char*>(usrbuf);
     while(nleft>0){
         if((nwritten=write(fd,bufp,nleft))<=0){
+            if(nwritten==-1){
+                ep.EpollDelete(fd,EPOLLIN);
+                LOG(INFO)<<fd;
+            }
             if(errno==EINTR)
                 nwritten=0;
             else
@@ -34,6 +39,7 @@ ssize_t rio_writen(int fd,void *usrbuf,size_t n){
 void Rio_writen(int fd,void *usrbuf,size_t n){
     if(rio_writen(fd,usrbuf,n)!=n)
         unix_error("Rio_writen error");
+
 }
 
 int Open(const char *pathname,int flags,mode_t mode){
@@ -92,7 +98,9 @@ void IoWriter::writeFile(const std::string& fileName,int filesSize){
     Rio_writen(fileDescriptor,srcp,filesSize);
     Munmap(srcp,filesSize);
 //    Rio_writen(fileDescriptor,(void *)srcfd,filesSize);
-//    Close(srcfd);
+    Close(fileDescriptor);
+
     std::cout<<fileName<<" send success!"<<std::endl;
+    //pthread_join(pthread_self(),NULL);
 }
 

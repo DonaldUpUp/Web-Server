@@ -104,3 +104,7 @@ void NetConnection::close(){
     cout<<"Connection Closed!"<<endl;
 }
 
+int NetConnection::getListenfd(){
+    return this->lisenfd;
+}
+

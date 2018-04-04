@@ -1,4 +1,5 @@
 #include "IoReader.h"
+#include "Epoll.h"
 #include <cstdio>
 #include <cstdlib>
 #include <unistd.h>
@@ -62,7 +63,7 @@ ssize_t rio_readlineb(rio_t *rp,void *usrbuf,size_t maxlen){
     char c,*bufp=reinterpret_cast<char*>(usrbuf);
 
     for(n=1;n<maxlen;n++){
-        //把每次读取的一个字符放入usrbuf中
+        //把每次读取的一个字节放入usrbuf中
         if((rc=rio_read(rp,&c,1))==1){
             *bufp++=c;
             if(c=='\n')
@@ -78,8 +79,11 @@ ssize_t rio_readlineb(rio_t *rp,void *usrbuf,size_t maxlen){
 
 ssize_t Rio_readlineb(rio_t *rp,void *usrbuf,size_t maxlen){
     ssize_t rc;
-    if((rc=rio_readlineb(rp,usrbuf,maxlen))<0)
+    if((rc=rio_readlineb(rp,usrbuf,maxlen))<0){
+        ep.EpollDelete(rp->rio_fd,EPOLLIN);
         unix_error("Rio_readlineb error");
+    }
+
     return rc;
 }
 
